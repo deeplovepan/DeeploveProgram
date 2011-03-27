@@ -6,11 +6,178 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		DD319E15133B9A08007F98D2 /* MyWeb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWeb.h; sourceTree = "<group>"; };
+		DD319E16133B9A08007F98D2 /* MyWeb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeb.m; sourceTree = "<group>"; };
+		DD319E1C133BAC8D007F98D2 /* DeviceEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceEx.h; sourceTree = "<group>"; };
+		DD319E1D133BAC8D007F98D2 /* DeviceEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceEx.m; sourceTree = "<group>"; };
+		DD4ABCA9133DD5DE00D855A7 /* MyXmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyXmlParser.h; sourceTree = "<group>"; };
+		DD4ABCAA133DD5DE00D855A7 /* MyXmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyXmlParser.m; sourceTree = "<group>"; };
+		DD4ABCDA133DE35900D855A7 /* MyAsnycDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAsnycDownload.h; sourceTree = "<group>"; };
+		DD4ABCDB133DE35900D855A7 /* MyAsnycDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAsnycDownload.m; sourceTree = "<group>"; };
+		DD58238B13378A8800C8FF8A /* CoreDataEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataEx.h; sourceTree = "<group>"; };
+		DD58238C13378A8800C8FF8A /* CoreDataEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataEx.m; sourceTree = "<group>"; };
+		DD58238D13378AC600C8FF8A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DD58238E13378AC600C8FF8A /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DD90063D133F7F7F00773AC6 /* MyFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
+		DD90063E133F7F7F00773AC6 /* MyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFile.m; sourceTree = "<group>"; };
+		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
+		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
+		DDA3DC6D1334A50E009BFD39 /* DeeploveTimeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeeploveTimeLib.h; sourceTree = "<group>"; };
+		DDA3DC6E1334A50E009BFD39 /* DeeploveTimeLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeeploveTimeLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
+		DD319E12133B99D5007F98D2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD319E14133B99DF007F98D2 /* lib */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		DD319E14133B99DF007F98D2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD319E15133B9A08007F98D2 /* MyWeb.h */,
+				DD319E16133B9A08007F98D2 /* MyWeb.m */,
+				DD4ABCDA133DE35900D855A7 /* MyAsnycDownload.h */,
+				DD4ABCDB133DE35900D855A7 /* MyAsnycDownload.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DD319E1A133BAC5C007F98D2 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				DD319E1B133BAC66007F98D2 /* ex */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
+		DD319E1B133BAC66007F98D2 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD319E1C133BAC8D007F98D2 /* DeviceEx.h */,
+				DD319E1D133BAC8D007F98D2 /* DeviceEx.m */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD319E55133D09D1007F98D2 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				DD319E56133D09DA007F98D2 /* lib */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		DD319E56133D09DA007F98D2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD4ABCA9133DD5DE00D855A7 /* MyXmlParser.h */,
+				DD4ABCAA133DD5DE00D855A7 /* MyXmlParser.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DD58238813378A4400C8FF8A /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				DD58238A13378A5800C8FF8A /* ex */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		DD58238A13378A5800C8FF8A /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD58238D13378AC600C8FF8A /* Person.h */,
+				DD58238E13378AC600C8FF8A /* Person.m */,
+				DD58238B13378A8800C8FF8A /* CoreDataEx.h */,
+				DD58238C13378A8800C8FF8A /* CoreDataEx.m */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD90063A133F7F4B00773AC6 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				DD90063C133F7F5600773AC6 /* lib */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		DD90063C133F7F5600773AC6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD90063D133F7F7F00773AC6 /* MyFile.h */,
+				DD90063E133F7F7F00773AC6 /* MyFile.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DD9FC1F91335011F006241C6 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */,
+				DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD9FC1FA13350128006241C6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3DC6D1334A50E009BFD39 /* DeeploveTimeLib.h */,
+				DDA3DC6E1334A50E009BFD39 /* DeeploveTimeLib.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DDA3DC691334A497009BFD39 /* iOS */,
 			);
+			sourceTree = "<group>";
+		};
+		DDA3DC691334A497009BFD39 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD90063A133F7F4B00773AC6 /* File */,
+				DD319E55133D09D1007F98D2 /* XML */,
+				DD319E1A133BAC5C007F98D2 /* Device */,
+				DD319E12133B99D5007F98D2 /* Network */,
+				DD58238813378A4400C8FF8A /* Core Data */,
+				DDA3DC6C1334A4DB009BFD39 /* Time */,
+				DDA3DC6A1334A4A0009BFD39 /* Notification */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DDA3DC6A1334A4A0009BFD39 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3DC6B1334A4B8009BFD39 /* Local Notification */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		DDA3DC6B1334A4B8009BFD39 /* Local Notification */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FC1F91335011F006241C6 /* ex */,
+			);
+			name = "Local Notification";
+			sourceTree = "<group>";
+		};
+		DDA3DC6C1334A4DB009BFD39 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FC1FA13350128006241C6 /* lib */,
+			);
+			name = Time;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
