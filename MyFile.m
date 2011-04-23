@@ -11,6 +11,13 @@
 
 @implementation MyFile
 
++(void)deleteFileUnderDocDir:(NSString*)name typeLength:(int)typeLength
+{
+    NSString *path = [MyFile filePath:name isProjectFile:NO typeLength:typeLength];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    [fileManager removeItemAtPath:path error:NULL];
+}
+
 +(NSString*)filePath:(NSString*)name isProjectFile:(BOOL)isProjectFile
           typeLength:(int)typeLength
 {

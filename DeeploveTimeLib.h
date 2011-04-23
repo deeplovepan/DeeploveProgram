@@ -14,5 +14,7 @@
 }
 +(NSDate*)getDateFromYear:(int)year month:(int)month day:(int)day
                      hour:(int)hour minute:(int)minute second:(int)second;
++(int)getGMTOffsetInHourOnDevice;
++(NSString*)getTimeStrFromDate:(NSDate*)date;
 
 @end

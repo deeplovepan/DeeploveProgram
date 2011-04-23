@@ -17,4 +17,5 @@
 +(NSData*)sendReqForUrl:(NSString*)urlString postString:(NSString*)postString;
 +(NSDictionary*)sendReqForUrlAndGetJsonDic:(NSString*)urlString 
                                 postString:(NSString*)postString;
+
 @end
