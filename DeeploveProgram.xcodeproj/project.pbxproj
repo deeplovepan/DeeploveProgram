@@ -37,6 +37,8 @@
 		DD583A831340C7A9001C9575 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		DD583A841340C7A9001C9575 /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		DD583A851340C7A9001C9575 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
+		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
 		DD90063D133F7F7F00773AC6 /* MyFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
 		DD90063E133F7F7F00773AC6 /* MyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFile.m; sourceTree = "<group>"; };
 		DD946C95135366D600CBDA7F /* MyMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMap.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		DDA9D81C13599F3D00F69503 /* MathEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathEx.m; sourceTree = "<group>"; };
 		DDAC69271362EAD200109883 /* WebEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebEx.h; sourceTree = "<group>"; };
 		DDAC69281362EAD200109883 /* WebEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebEx.m; sourceTree = "<group>"; };
+		DDB07F6A1369B704003FB1EF /* HorizontalPageScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollViewController.h; sourceTree = "<group>"; };
+		DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollViewController.m; sourceTree = "<group>"; };
 		DDD12B8B1342239C00AAE2B5 /* MyImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		DDD12B8C1342239C00AAE2B5 /* MyImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		DDD12B921342253B00AAE2B5 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
@@ -257,6 +261,7 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DDB07F661369B5E0003FB1EF /* ScrollView */,
 				DD0487F9135F4F75002554C4 /* plist */,
 				DDA9D81913599F1400F69503 /* Math */,
 				DDA9D80B1358B00B00F69503 /* Thread */,
@@ -350,6 +355,25 @@
 				DDAC69281362EAD200109883 /* WebEx.m */,
 			);
 			name = ex;
+			sourceTree = "<group>";
+		};
+		DDB07F661369B5E0003FB1EF /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DDB07F681369B5EA003FB1EF /* lib */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+		DDB07F681369B5EA003FB1EF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */,
+				DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */,
+				DDB07F6A1369B704003FB1EF /* HorizontalPageScrollViewController.h */,
+				DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 		DDD12B881342237500AAE2B5 /* Image */ = {
