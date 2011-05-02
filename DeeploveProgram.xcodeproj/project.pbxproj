@@ -76,6 +76,7 @@
 		DDF11E08136AAA9800C5A4B9 /* JavaArrayEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaArrayEx.java; sourceTree = "<group>"; };
 		DDF11E0B136AAB0F00C5A4B9 /* JavaStringEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaStringEx.java; sourceTree = "<group>"; };
 		DDF11E0E136AACA900C5A4B9 /* JavaFileAndIoEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaFileAndIoEx.java; sourceTree = "<group>"; };
+		DDF11E11136ACAA300C5A4B9 /* pythonRegularExpressionEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonRegularExpressionEx.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -636,6 +637,7 @@
 		DDF11DF6136A5E0D00C5A4B9 /* python */ = {
 			isa = PBXGroup;
 			children = (
+				DDF11E0F136ACA7600C5A4B9 /* regular expression */,
 				DDF11DF9136A662700C5A4B9 /* command line */,
 				DDF11DF7136A5E1E00C5A4B9 /* main */,
 			);
@@ -734,6 +736,22 @@
 			isa = PBXGroup;
 			children = (
 				DDF11E0E136AACA900C5A4B9 /* JavaFileAndIoEx.java */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DDF11E0F136ACA7600C5A4B9 /* regular expression */ = {
+			isa = PBXGroup;
+			children = (
+				DDF11E10136ACA8300C5A4B9 /* ex */,
+			);
+			name = "regular expression";
+			sourceTree = "<group>";
+		};
+		DDF11E10136ACA8300C5A4B9 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DDF11E11136ACAA300C5A4B9 /* pythonRegularExpressionEx.py */,
 			);
 			name = ex;
 			sourceTree = "<group>";
