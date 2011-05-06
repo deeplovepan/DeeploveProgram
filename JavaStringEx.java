@@ -1,3 +1,8 @@
 // get string length
-// ex
 str.length();
+
+// check equal
+if(str.equals("hello"))
+{
+    System.out.println("equal");
+}

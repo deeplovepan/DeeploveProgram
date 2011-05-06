@@ -37,6 +37,9 @@
 		DD583A831340C7A9001C9575 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		DD583A841340C7A9001C9575 /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		DD583A851340C7A9001C9575 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		DD699B41137254D500C5C954 /* htmlDivAndSpanEx.html */ = {isa = PBXFileReference; path = htmlDivAndSpanEx.html; sourceTree = "<group>"; };
+		DD699B4D1372805E00C5C954 /* pythonListEx.py */ = {isa = PBXFileReference; path = pythonListEx.py; sourceTree = "<group>"; };
+		DD699B4F137280DB00C5C954 /* pythonStringEx.py */ = {isa = PBXFileReference; path = pythonStringEx.py; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
 		DD90063D133F7F7F00773AC6 /* MyFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
@@ -55,6 +58,9 @@
 		DDAC69281362EAD200109883 /* WebEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebEx.m; sourceTree = "<group>"; };
 		DDB07F6A1369B704003FB1EF /* HorizontalPageScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollViewController.h; sourceTree = "<group>"; };
 		DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollViewController.m; sourceTree = "<group>"; };
+		DDB84F07137284C000BAA85D /* pythonTypeEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonTypeEx.py; sourceTree = "<group>"; };
+		DDB84F0A137391DE00BAA85D /* pythonLanguageEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonLanguageEx.py; sourceTree = "<group>"; };
+		DDB84F0E137392A000BAA85D /* pythonSyslogEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonSyslogEx.py; sourceTree = "<group>"; };
 		DDD12B8B1342239C00AAE2B5 /* MyImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		DDD12B8C1342239C00AAE2B5 /* MyImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		DDD12B921342253B00AAE2B5 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
@@ -70,7 +76,7 @@
 		DDF11DD9136813D400C5A4B9 /* TestIokitDriver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestIokitDriver-Info.plist"; sourceTree = "<group>"; };
 		DDF11DE413694AA200C5A4B9 /* javascriptStringEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptStringEx.js; sourceTree = "<group>"; };
 		DDF11DE713694DBA00C5A4B9 /* javascriptHtmlEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptHtmlEx.js; sourceTree = "<group>"; };
-		DDF11DEB13694EDA00C5A4B9 /* htmlTableEx.html */ = {isa = PBXFileReference; path = htmlTableEx.html; sourceTree = "<group>"; };
+		DDF11DEB13694EDA00C5A4B9 /* htmlTableEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlTableEx.html; sourceTree = "<group>"; };
 		DDF11DEE1369597C00C5A4B9 /* javascriptRegularExpressionEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptRegularExpressionEx.js; sourceTree = "<group>"; };
 		DDF11DF213698DB500C5A4B9 /* JavaRunCommandEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaRunCommandEx.java; sourceTree = "<group>"; };
 		DDF11DF513698E0600C5A4B9 /* JavaMainEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaMainEx.java; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 		DDF11E0B136AAB0F00C5A4B9 /* JavaStringEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaStringEx.java; sourceTree = "<group>"; };
 		DDF11E0E136AACA900C5A4B9 /* JavaFileAndIoEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaFileAndIoEx.java; sourceTree = "<group>"; };
 		DDF11E11136ACAA300C5A4B9 /* pythonRegularExpressionEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonRegularExpressionEx.py; sourceTree = "<group>"; };
+		DDF8CC76136FDB5D00E11519 /* cplusIo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cplusIo.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -219,6 +226,54 @@
 			name = JSON;
 			sourceTree = "<group>";
 		};
+		DD699B3E1372549600C5C954 /* div and span */ = {
+			isa = PBXGroup;
+			children = (
+				DD699B40137254A800C5C954 /* ex */,
+			);
+			name = "div and span";
+			sourceTree = "<group>";
+		};
+		DD699B40137254A800C5C954 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD699B41137254D500C5C954 /* htmlDivAndSpanEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD699B4A1372803D00C5C954 /* data structure */ = {
+			isa = PBXGroup;
+			children = (
+				DD699B4B1372804800C5C954 /* list */,
+			);
+			name = "data structure";
+			sourceTree = "<group>";
+		};
+		DD699B4B1372804800C5C954 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				DD699B4C1372804F00C5C954 /* ex */,
+			);
+			name = list;
+			sourceTree = "<group>";
+		};
+		DD699B4C1372804F00C5C954 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD699B4D1372805E00C5C954 /* pythonListEx.py */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD699B4E137280CD00C5C954 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				DD699B4F137280DB00C5C954 /* pythonStringEx.py */,
+			);
+			name = string;
+			sourceTree = "<group>";
+		};
 		DD90063A133F7F4B00773AC6 /* File */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +329,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DDF8CC72136FDB1E00E11519 /* c++ */,
 				DDF11DF6136A5E0D00C5A4B9 /* python */,
 				DDF11DEF13698D5900C5A4B9 /* Java */,
 				DDF11DE813694EB300C5A4B9 /* html */,
@@ -399,6 +455,62 @@
 				DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */,
 			);
 			name = lib;
+			sourceTree = "<group>";
+		};
+		DDB84F04137284AA00BAA85D /* type */ = {
+			isa = PBXGroup;
+			children = (
+				DDB84F06137284B100BAA85D /* ex */,
+			);
+			name = type;
+			sourceTree = "<group>";
+		};
+		DDB84F06137284B100BAA85D /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DDB84F07137284C000BAA85D /* pythonTypeEx.py */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DDB84F08137391BA00BAA85D /* language */ = {
+			isa = PBXGroup;
+			children = (
+				DDB84F09137391C500BAA85D /* ex */,
+			);
+			name = language;
+			sourceTree = "<group>";
+		};
+		DDB84F09137391C500BAA85D /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DDB84F0A137391DE00BAA85D /* pythonLanguageEx.py */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DDB84F0B1373927E00BAA85D /* file and io */ = {
+			isa = PBXGroup;
+			children = (
+				DDB84F0C1373928600BAA85D /* syslog */,
+			);
+			name = "file and io";
+			sourceTree = "<group>";
+		};
+		DDB84F0C1373928600BAA85D /* syslog */ = {
+			isa = PBXGroup;
+			children = (
+				DDB84F0D1373928D00BAA85D /* ex */,
+			);
+			name = syslog;
+			sourceTree = "<group>";
+		};
+		DDB84F0D1373928D00BAA85D /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DDB84F0E137392A000BAA85D /* pythonSyslogEx.py */,
+			);
+			name = ex;
 			sourceTree = "<group>";
 		};
 		DDD12B881342237500AAE2B5 /* Image */ = {
@@ -576,6 +688,7 @@
 		DDF11DE813694EB300C5A4B9 /* html */ = {
 			isa = PBXGroup;
 			children = (
+				DD699B3E1372549600C5C954 /* div and span */,
 				DDF11DE913694EBC00C5A4B9 /* table */,
 			);
 			name = html;
@@ -661,6 +774,11 @@
 		DDF11DF6136A5E0D00C5A4B9 /* python */ = {
 			isa = PBXGroup;
 			children = (
+				DDB84F0B1373927E00BAA85D /* file and io */,
+				DDB84F08137391BA00BAA85D /* language */,
+				DDB84F04137284AA00BAA85D /* type */,
+				DD699B4E137280CD00C5C954 /* string */,
+				DD699B4A1372803D00C5C954 /* data structure */,
 				DDF11E0F136ACA7600C5A4B9 /* regular expression */,
 				DDF11DF9136A662700C5A4B9 /* command line */,
 				DDF11DF7136A5E1E00C5A4B9 /* main */,
@@ -776,6 +894,30 @@
 			isa = PBXGroup;
 			children = (
 				DDF11E11136ACAA300C5A4B9 /* pythonRegularExpressionEx.py */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DDF8CC72136FDB1E00E11519 /* c++ */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8CC74136FDB2A00E11519 /* IO */,
+			);
+			name = "c++";
+			sourceTree = "<group>";
+		};
+		DDF8CC74136FDB2A00E11519 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8CC75136FDB3F00E11519 /* ex */,
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		DDF8CC75136FDB3F00E11519 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8CC76136FDB5D00E11519 /* cplusIo.cpp */,
 			);
 			name = ex;
 			sourceTree = "<group>";
