@@ -1,0 +1,4 @@
+set plist
+
+key: UIFileSharingEnabled  
+value: YES / NO
