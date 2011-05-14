@@ -49,6 +49,10 @@
 		DD699B4F137280DB00C5C954 /* pythonStringEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonStringEx.py; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
+		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
+		DD87E3C1137E5CD6006A1B39 /* iosFacebookEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosFacebookEx.m; sourceTree = "<group>"; };
+		DD87E434137E9EB6006A1B39 /* MyFacebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFacebook.h; sourceTree = "<group>"; };
+		DD87E435137E9EB6006A1B39 /* MyFacebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFacebook.m; sourceTree = "<group>"; };
 		DD90063D133F7F7F00773AC6 /* MyFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
 		DD90063E133F7F7F00773AC6 /* MyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFile.m; sourceTree = "<group>"; };
 		DD946C95135366D600CBDA7F /* MyMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMap.h; sourceTree = "<group>"; };
@@ -354,6 +358,33 @@
 			name = string;
 			sourceTree = "<group>";
 		};
+		DD87E3BD137E5C87006A1B39 /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				DD87E433137E9E9A006A1B39 /* lib */,
+				DD87E3BF137E5C9E006A1B39 /* ex */,
+			);
+			name = facebook;
+			sourceTree = "<group>";
+		};
+		DD87E3BF137E5C9E006A1B39 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */,
+				DD87E3C1137E5CD6006A1B39 /* iosFacebookEx.m */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD87E433137E9E9A006A1B39 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD87E434137E9EB6006A1B39 /* MyFacebook.h */,
+				DD87E435137E9EB6006A1B39 /* MyFacebook.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		DD90063A133F7F4B00773AC6 /* File */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,6 +456,7 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DD87E3BD137E5C87006A1B39 /* facebook */,
 				DD54D4011379936C0056DEBD /* UIActivityIndicatorView */,
 				DDB07F661369B5E0003FB1EF /* ScrollView */,
 				DD0487F9135F4F75002554C4 /* plist */,
