@@ -1,0 +1,21 @@
+/*  
+    use # for id
+    use . for class
+ */
+table.center {margin-left:auto; margin-right:auto;}
+
+/*
+    link css file in html
+*/
+<link rel="stylesheet" type="text/css" href="myCss/test.css">
+
+
+/*
+    define css in html 
+*/
+<style type="text/css">
+h1 {
+    color:#FF7643;
+}
+</style>
+
