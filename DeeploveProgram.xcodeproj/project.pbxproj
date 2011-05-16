@@ -35,6 +35,10 @@
 		DD4ABCAA133DD5DE00D855A7 /* MyXmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyXmlParser.m; sourceTree = "<group>"; };
 		DD4ABCDA133DE35900D855A7 /* MyAsnycDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAsnycDownload.h; sourceTree = "<group>"; };
 		DD4ABCDB133DE35900D855A7 /* MyAsnycDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAsnycDownload.m; sourceTree = "<group>"; };
+		DD54D404137993A10056DEBD /* UIActivityIndicatorViewEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIActivityIndicatorViewEx.h; sourceTree = "<group>"; };
+		DD54D405137993A10056DEBD /* UIActivityIndicatorViewEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIActivityIndicatorViewEx.m; sourceTree = "<group>"; };
+		DD54D40713799B1D0056DEBD /* MyActivityIndicatorViewLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyActivityIndicatorViewLib.h; sourceTree = "<group>"; };
+		DD54D40813799B1D0056DEBD /* MyActivityIndicatorViewLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyActivityIndicatorViewLib.m; sourceTree = "<group>"; };
 		DD58238B13378A8800C8FF8A /* CoreDataEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataEx.h; sourceTree = "<group>"; };
 		DD58238C13378A8800C8FF8A /* CoreDataEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataEx.m; sourceTree = "<group>"; };
 		DD58238D13378AC600C8FF8A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -57,10 +61,16 @@
 		DD699B4F137280DB00C5C954 /* pythonStringEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonStringEx.py; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
+		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
+		DD87E3C1137E5CD6006A1B39 /* iosFacebookEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosFacebookEx.m; sourceTree = "<group>"; };
+		DD87E434137E9EB6006A1B39 /* MyFacebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFacebook.h; sourceTree = "<group>"; };
+		DD87E435137E9EB6006A1B39 /* MyFacebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFacebook.m; sourceTree = "<group>"; };
 		DD90063D133F7F7F00773AC6 /* MyFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
 		DD90063E133F7F7F00773AC6 /* MyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFile.m; sourceTree = "<group>"; };
 		DD946C95135366D600CBDA7F /* MyMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMap.h; sourceTree = "<group>"; };
 		DD946C96135366D600CBDA7F /* MyMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMap.m; sourceTree = "<group>"; };
+		DD9957A2136F1426000F7962 /* MyMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
+		DD9957A3136F1426000F7962 /* MyMapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
 		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
 		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
 		DDA3DC6D1334A50E009BFD39 /* DeeploveTimeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeeploveTimeLib.h; sourceTree = "<group>"; };
@@ -430,6 +440,33 @@
 			name = lib;
 			sourceTree = "<group>";
 		};
+		DD54D4011379936C0056DEBD /* UIActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				DD54D40613799AF70056DEBD /* lib */,
+				DD54D403137993770056DEBD /* ex */,
+			);
+			name = UIActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		DD54D403137993770056DEBD /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD54D404137993A10056DEBD /* UIActivityIndicatorViewEx.h */,
+				DD54D405137993A10056DEBD /* UIActivityIndicatorViewEx.m */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD54D40613799AF70056DEBD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD54D40713799B1D0056DEBD /* MyActivityIndicatorViewLib.h */,
+				DD54D40813799B1D0056DEBD /* MyActivityIndicatorViewLib.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		DD58238813378A4400C8FF8A /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -525,6 +562,33 @@
 			name = string;
 			sourceTree = "<group>";
 		};
+		DD87E3BD137E5C87006A1B39 /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				DD87E433137E9E9A006A1B39 /* lib */,
+				DD87E3BF137E5C9E006A1B39 /* ex */,
+			);
+			name = facebook;
+			sourceTree = "<group>";
+		};
+		DD87E3BF137E5C9E006A1B39 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */,
+				DD87E3C1137E5CD6006A1B39 /* iosFacebookEx.m */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD87E433137E9E9A006A1B39 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD87E434137E9EB6006A1B39 /* MyFacebook.h */,
+				DD87E435137E9EB6006A1B39 /* MyFacebook.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		DD90063A133F7F4B00773AC6 /* File */ = {
 			isa = PBXGroup;
 			children = (
@@ -553,6 +617,8 @@
 		DD946C94135366BE00CBDA7F /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				DD9957A2136F1426000F7962 /* MyMapAnnotation.h */,
+				DD9957A3136F1426000F7962 /* MyMapAnnotation.m */,
 				DD946C95135366D600CBDA7F /* MyMap.h */,
 				DD946C96135366D600CBDA7F /* MyMap.m */,
 			);
@@ -595,6 +661,8 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DD87E3BD137E5C87006A1B39 /* facebook */,
+				DD54D4011379936C0056DEBD /* UIActivityIndicatorView */,
 				DDB07F661369B5E0003FB1EF /* ScrollView */,
 				DD0487F9135F4F75002554C4 /* plist */,
 				DDA9D81913599F1400F69503 /* Math */,

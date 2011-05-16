@@ -11,6 +11,12 @@
 
 @implementation MyWeb
 
++(void)showPage:(UIWebView*)webView withUrlStr:(NSString*)urlStr
+{
+    NSURL *url = [NSURL URLWithString:urlStr];
+    NSURLRequest *req = [[NSURLRequest alloc] initWithURL:url];
+    
+}
 
 +(NSData*)sendReqForUrl:(NSString*)urlString postString:(NSString*)postString
 {	
