@@ -16,7 +16,7 @@ str.substring(3, 5)
 search
 ex:
 var str = "hello"
-// found
+// found, return the position in the string where the match was found
 hello.search("el")
 ->
 1

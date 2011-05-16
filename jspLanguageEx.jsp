@@ -1,0 +1,1 @@
+<fmt:bundle basename='Language'><fmt:message key='test'/></fmt:bundle>

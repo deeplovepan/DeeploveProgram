@@ -11,11 +11,29 @@ table.center {margin-left:auto; margin-right:auto;}
 
 
 /*
-    define css in html 
+    define css in style tag in html 
 */
 <style type="text/css">
 h1 {
     color:#FF7643;
 }
 </style>
+
+
+/*
+    define css in style attribute in html 
+*/
+<body style="background-color:yellow;">
+<p style="font-family:arial;color:red;font-size:20px;">
+
+/*
+    combine class
+*/
+<img src="photo1.jpg" height="100" class="imgFrame floatLeft" />
+
+
+/*
+    width
+*/
+<input type="text" style="width:150px" />
 

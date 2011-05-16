@@ -1,0 +1,7 @@
+/*
+    set background-image
+*/
+$('#btn').css('background-image', 'url("../image/btn.gif")' );
+
+
+
