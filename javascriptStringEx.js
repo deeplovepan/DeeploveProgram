@@ -11,6 +11,10 @@ ex:
 str.substring(3, 5)
 3: start location 
 5: end location (not include)
+ex:
+str.substr(1)
+1: start location
+
 
 
 search

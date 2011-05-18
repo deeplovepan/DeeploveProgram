@@ -1,0 +1,6 @@
+/*
+    text alignment
+    use text-align
+    value: left, right, center
+*/
+<div style='text-align:left'>hello</div>

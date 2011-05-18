@@ -3,5 +3,25 @@
  value: what will be submitted if checked.
  checked: define whether button is checked
 -->
-<input type="radio" value="0" checked="checked"
+<input id="myBut" type="radio" value="0" checked="checked"
 onClick="clickBut()">
+
+<!--
+    select radio button
+ -->
+$('#myBut').attr('checked',true);
+    
+<!--
+    not select radio button
+-->
+$('#myBut').attr('checked', false);
+
+<!--
+    disable radio button
+-->
+$('#myBut').attr('disabled',true);
+
+<!--
+    enable radio button
+-->
+$('#myBut').attr('disabled',false);
