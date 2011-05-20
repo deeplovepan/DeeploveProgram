@@ -15,6 +15,12 @@ $('#test')
 // select element by class name
 $('.test')
 
+// select element by name
+$('input[name="rad1"]').attr('checked');  
+
+// use checked filter to find checked element's value
+$('input[name="rad1"]:checked').val(); 
+
 // modify css
 // ex
 $('#btn2').css('background', 'url("../image/btn_center_grey.gif")' );

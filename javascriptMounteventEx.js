@@ -9,3 +9,8 @@
 */
 <input type="text" id="ipDiv1"  onFocus="checkip(this.value)"/>
 <input type="text" id="ipDiv2"  onblur="checkip(this.value)"/>
+
+/*
+    click
+*/
+<input name="test" type="radio" onClick="check()">

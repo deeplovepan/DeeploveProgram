@@ -59,6 +59,9 @@
 		DD699B41137254D500C5C954 /* htmlDivAndSpanEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlDivAndSpanEx.html; sourceTree = "<group>"; };
 		DD699B4D1372805E00C5C954 /* pythonListEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonListEx.py; sourceTree = "<group>"; };
 		DD699B4F137280DB00C5C954 /* pythonStringEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonStringEx.py; sourceTree = "<group>"; };
+		DD6E85CE138537F50009B0C0 /* cssPaddingEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssPaddingEx.css; sourceTree = "<group>"; };
+		DD6E85D11385FF9A0009B0C0 /* cssMarginEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssMarginEx.css; sourceTree = "<group>"; };
+		DD6E85E0138677D90009B0C0 /* javascriptInnerTextEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptInnerTextEx.js; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
 		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
@@ -97,7 +100,6 @@
 		DDD12B9A134231B500AAE2B5 /* MyTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
 		DDDCA0481381000A0010232D /* javaLanguageEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = javaLanguageEx.java; sourceTree = "<group>"; };
 		DDDCA05913811E8E0010232D /* javascriptChangeTypeEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptChangeTypeEx.js; sourceTree = "<group>"; };
-		DDDCA05C138254470010232D /* htmlCheckBoxEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlCheckBoxEx.html; sourceTree = "<group>"; };
 		DDDCA05F138260E10010232D /* javascriptEnableDisableUiEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptEnableDisableUiEx.js; sourceTree = "<group>"; };
 		DDDCA0621382620B0010232D /* jspRequestEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspRequestEx.jsp; sourceTree = "<group>"; };
 		DDDCA065138397170010232D /* cssAlignmentEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssAlignmentEx.css; sourceTree = "<group>"; };
@@ -570,6 +572,69 @@
 			name = string;
 			sourceTree = "<group>";
 		};
+		DD6E85CB138537D80009B0C0 /* padding */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85CD138537DE0009B0C0 /* ex */,
+			);
+			name = padding;
+			sourceTree = "<group>";
+		};
+		DD6E85CD138537DE0009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85CE138537F50009B0C0 /* cssPaddingEx.css */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E85CF1385FF7D0009B0C0 /* margin */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85D01385FF840009B0C0 /* ex */,
+			);
+			name = margin;
+			sourceTree = "<group>";
+		};
+		DD6E85D01385FF840009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85D11385FF9A0009B0C0 /* cssMarginEx.css */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E85D2138648DC0009B0C0 /* array */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85D3138648E90009B0C0 /* ex */,
+			);
+			name = array;
+			sourceTree = "<group>";
+		};
+		DD6E85D3138648E90009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E85DE138677920009B0C0 /* inner text */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85DF138677AA0009B0C0 /* ex */,
+			);
+			name = "inner text";
+			sourceTree = "<group>";
+		};
+		DD6E85DF138677AA0009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85E0138677D90009B0C0 /* javascriptInnerTextEx.js */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
 		DD87E3BD137E5C87006A1B39 /* facebook */ = {
 			isa = PBXGroup;
 			children = (
@@ -861,6 +926,8 @@
 		DDB84F141373D7A400BAA85D /* css */ = {
 			isa = PBXGroup;
 			children = (
+				DD6E85CF1385FF7D0009B0C0 /* margin */,
+				DD6E85CB138537D80009B0C0 /* padding */,
 				DDDCA063138396920010232D /* alignment */,
 				DD25A22D137CC9C00003CD84 /* background */,
 				DDB84F181373E17D00BAA85D /* center */,
@@ -985,22 +1052,6 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
-		DDDCA05A138254240010232D /* check box */ = {
-			isa = PBXGroup;
-			children = (
-				DDDCA05B138254330010232D /* ex */,
-			);
-			name = "check box";
-			sourceTree = "<group>";
-		};
-		DDDCA05B138254330010232D /* ex */ = {
-			isa = PBXGroup;
-			children = (
-				DDDCA05C138254470010232D /* htmlCheckBoxEx.html */,
-			);
-			name = ex;
-			sourceTree = "<group>";
-		};
 		DDDCA05D138260BB0010232D /* enable & disable ui */ = {
 			isa = PBXGroup;
 			children = (
@@ -1068,6 +1119,8 @@
 		DDF11DA61367ACDB00C5A4B9 /* javascript */ = {
 			isa = PBXGroup;
 			children = (
+				DD6E85DE138677920009B0C0 /* inner text */,
+				DD6E85D2138648DC0009B0C0 /* array */,
 				DDDCA05D138260BB0010232D /* enable & disable ui */,
 				DDDCA05713811E0D0010232D /* change type */,
 				DD25A2391380D4DB0003CD84 /* mouseEvent */,
@@ -1197,7 +1250,6 @@
 		DDF11DE813694EB300C5A4B9 /* html */ = {
 			isa = PBXGroup;
 			children = (
-				DDDCA05A138254240010232D /* check box */,
 				DD25A23C1380D5920003CD84 /* tooltip */,
 				DD25A224137BC3360003CD84 /* text */,
 				DD25A21B137A5DFD0003CD84 /* button */,
