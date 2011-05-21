@@ -77,6 +77,7 @@
 		DDB84F111373C36100BAA85D /* pythonChangeTypeEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonChangeTypeEx.py; sourceTree = "<group>"; };
 		DDB84F171373D7DD00BAA85D /* cssBasicEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssBasicEx.css; sourceTree = "<group>"; };
 		DDB84F1A1373E19E00BAA85D /* cssCenterEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssCenterEx.css; sourceTree = "<group>"; };
+		DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeShortcut.txt; sourceTree = "<group>"; };
 		DDD12B8B1342239C00AAE2B5 /* MyImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		DDD12B8C1342239C00AAE2B5 /* MyImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		DDD12B921342253B00AAE2B5 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
@@ -456,6 +457,7 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DDBCB62D13816811004BE4CA /* Xcode */,
 				DD87E3BD137E5C87006A1B39 /* facebook */,
 				DD54D4011379936C0056DEBD /* UIActivityIndicatorView */,
 				DDB07F661369B5E0003FB1EF /* ScrollView */,
@@ -684,6 +686,22 @@
 				DDB84F1A1373E19E00BAA85D /* cssCenterEx.css */,
 			);
 			name = ex;
+			sourceTree = "<group>";
+		};
+		DDBCB62D13816811004BE4CA /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				DDBCB62F1381681F004BE4CA /* shortcut */,
+			);
+			name = Xcode;
+			sourceTree = "<group>";
+		};
+		DDBCB62F1381681F004BE4CA /* shortcut */ = {
+			isa = PBXGroup;
+			children = (
+				DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */,
+			);
+			name = shortcut;
 			sourceTree = "<group>";
 		};
 		DDD12B881342237500AAE2B5 /* Image */ = {
