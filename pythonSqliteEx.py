@@ -1,5 +1,14 @@
 import sqlite3
 
+# cursor object
+# 1. execute(sql[, parameters])
+# ex:
+# cur.execute("select name_last, age from people where name_last=? and age=?", 
+#    (who, age))
+# 2. fetchone()
+# Fetches the next row of a query result set, returning a single sequence, or None when 
+# no more data is available
+
 def createSmtpDb():
 	conn = sqlite3.connect("nasSmtp.db")
 	cursor = conn.cursor()
@@ -9,7 +18,8 @@ def createSmtpDb():
 		toAddrs text) ''' )
 	cursor.execute(''' insert into SmtpTable (id) values (1) ''')
 	cursor.close()
-	conn.commit()
+    # save change by calling commit  
+    conn.commit()
 	conn.close()
 
 def isPathShared(path):
@@ -19,7 +29,7 @@ def isPathShared(path):
 	cursor.execute(sql)
 	data=cursor.fetchone()
 	isShare = 0
-	if data is None:
+	if data == None:
 		isShare = 0
 	else:
 		isShare = 1

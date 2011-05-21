@@ -11,12 +11,16 @@ ex:
 str.substring(3, 5)
 3: start location 
 5: end location (not include)
+ex:
+str.substr(1)
+1: start location
+
 
 
 search
 ex:
 var str = "hello"
-// found
+// found, return the position in the string where the match was found
 hello.search("el")
 ->
 1

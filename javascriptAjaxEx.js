@@ -71,3 +71,14 @@ function sendAjaxPost(path, postContent)
         
     }
 }
+                          
+                          
+// use jquery to send sync ajax
+$.ajax({
+       url:'../servlet/test',
+       type:'post',
+       dataType:'json',
+       async:false,
+       success:myCallBack		
+});
+
