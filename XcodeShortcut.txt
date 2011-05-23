@@ -1,0 +1,2 @@
+reference:
+http://cloud.github.com/downloads/Machx/Xcode-Keyboard-Shortcuts/Xcode_Shortcuts.pdf
