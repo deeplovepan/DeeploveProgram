@@ -21,6 +21,9 @@ $('input[name="rad1"]').attr('checked');
 // use checked filter to find checked element's value
 $('input[name="rad1"]:checked').val(); 
 
+// select element by value
+$('input[value="allFiles"]')
+
 // modify css
 // ex
 $('#btn2').css('background', 'url("../image/btn_center_grey.gif")' );

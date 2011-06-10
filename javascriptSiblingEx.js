@@ -1,0 +1,1 @@
+$(obj).siblings().css('background-color', 'transparent');
