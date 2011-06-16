@@ -16,10 +16,21 @@
     textField.secureTextEntry = YES;
 }
 
++(void)setRoundCornerTextfield:(UITextField*)textField
+{
+    textField.borderStyle = UITextBorderStyleRoundedRect;
+
+}
+
 +(void)disableAutocapitalization:(UITextField*)textField
 {
     textField.autocapitalizationType = UITextAutocapitalizationTypeNone;
 
 }
+
+// disappear keyboard
+
+
+
 
 @end
