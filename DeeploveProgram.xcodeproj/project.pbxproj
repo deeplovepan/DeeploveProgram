@@ -109,13 +109,8 @@
 		DDB84F111373C36100BAA85D /* pythonChangeTypeEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonChangeTypeEx.py; sourceTree = "<group>"; };
 		DDB84F171373D7DD00BAA85D /* cssBasicEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssBasicEx.css; sourceTree = "<group>"; };
 		DDB84F1A1373E19E00BAA85D /* cssCenterEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssCenterEx.css; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		DDBA5674138EAF3100117169 /* PushNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationEx.h; sourceTree = "<group>"; };
 		DDBA5675138EAF3100117169 /* PushNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationEx.m; sourceTree = "<group>"; };
-=======
-		DDBC147813A1AC40008CF717 /* webTableEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webTableEx.html; sourceTree = "<group>"; };
-		DDBC148313A1F344008CF717 /* cssFontEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssFontEx.css; sourceTree = "<group>"; };
->>>>>>> 4921e19a9b4af52d999487feb622f1846b76ba44
 		DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeShortcut.txt; sourceTree = "<group>"; };
 		DDC31DD5139A81DE006DBF1D /* MicBlowEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicBlowEx.h; sourceTree = "<group>"; };
 		DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicBlowEx.m; sourceTree = "<group>"; };
@@ -1204,7 +1199,6 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		DDBA5672138EAEFC00117169 /* Push Notfication */ = {
 			isa = PBXGroup;
 			children = (
@@ -1212,38 +1206,6 @@
 				DDBA5675138EAF3100117169 /* PushNotificationEx.m */,
 			);
 			name = "Push Notfication";
-=======
-		DDBC147513A1AC24008CF717 /* table */ = {
-			isa = PBXGroup;
-			children = (
-				DDBC147713A1AC2C008CF717 /* ex */,
-			);
-			name = table;
-			sourceTree = "<group>";
-		};
-		DDBC147713A1AC2C008CF717 /* ex */ = {
-			isa = PBXGroup;
-			children = (
-				DDBC147813A1AC40008CF717 /* webTableEx.html */,
-			);
-			name = ex;
-			sourceTree = "<group>";
-		};
-		DDBC148113A1F32C008CF717 /* font */ = {
-			isa = PBXGroup;
-			children = (
-				DDBC148213A1F332008CF717 /* ex */,
-			);
-			name = font;
-			sourceTree = "<group>";
-		};
-		DDBC148213A1F332008CF717 /* ex */ = {
-			isa = PBXGroup;
-			children = (
-				DDBC148313A1F344008CF717 /* cssFontEx.css */,
-			);
-			name = ex;
->>>>>>> 4921e19a9b4af52d999487feb622f1846b76ba44
 			sourceTree = "<group>";
 		};
 		DDBCB62D13816811004BE4CA /* Xcode */ = {
