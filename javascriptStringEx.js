@@ -39,6 +39,11 @@ ex:
 // replace "aa" with "bb"
 str.replace("aa", "bb")
 
+trim leading and trailing spaces
+ex:
+trim(testStr);
+
+
 
 
 

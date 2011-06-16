@@ -10,6 +10,7 @@
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
+		DD109D5F13A72D890032FE93 /* webUseCssEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webUseCssEx.html; sourceTree = "<group>"; };
 		DD18D83A134729CE00BBC80F /* MyNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNotification.h; sourceTree = "<group>"; };
 		DD18D83B134729CE00BBC80F /* MyNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotification.m; sourceTree = "<group>"; };
 		DD25A1EC1377987C0003CD84 /* IORegistryClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IORegistryClient.h; sourceTree = "<group>"; };
@@ -61,9 +62,14 @@
 		DD699B41137254D500C5C954 /* htmlDivAndSpanEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlDivAndSpanEx.html; sourceTree = "<group>"; };
 		DD699B4D1372805E00C5C954 /* pythonListEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonListEx.py; sourceTree = "<group>"; };
 		DD699B4F137280DB00C5C954 /* pythonStringEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonStringEx.py; sourceTree = "<group>"; };
-		DD6E85CE138537F50009B0C0 /* cssPaddingEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssPaddingEx.css; sourceTree = "<group>"; };
-		DD6E85D11385FF9A0009B0C0 /* cssMarginEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssMarginEx.css; sourceTree = "<group>"; };
 		DD6E85E0138677D90009B0C0 /* javascriptInnerTextEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptInnerTextEx.js; sourceTree = "<group>"; };
+		DD6E85F01389FBCC0009B0C0 /* javascriptFloatPointEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptFloatPointEx.js; sourceTree = "<group>"; };
+		DD6E85F9138B80C30009B0C0 /* webHideEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webHideEx.html; sourceTree = "<group>"; };
+		DD6E85FC138E31610009B0C0 /* javascriptTimerEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptTimerEx.js; sourceTree = "<group>"; };
+		DD6E86051394CCC90009B0C0 /* javascriptSiblingEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptSiblingEx.js; sourceTree = "<group>"; };
+		DD6E86081395E00D0009B0C0 /* webInputEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webInputEx.html; sourceTree = "<group>"; };
+		DD6E860B139607590009B0C0 /* jspIncludePageEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspIncludePageEx.jsp; sourceTree = "<group>"; };
+		DD6E861413A09EFE0009B0C0 /* jspScripletTagEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspScripletTagEx.jsp; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
 		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 		DD87E435137E9EB6006A1B39 /* MyFacebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFacebook.m; sourceTree = "<group>"; };
 		DD90063D133F7F7F00773AC6 /* MyFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
 		DD90063E133F7F7F00773AC6 /* MyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFile.m; sourceTree = "<group>"; };
+		DD9384A613A5AF1500A3B32E /* jspJstlEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspJstlEx.jsp; sourceTree = "<group>"; };
+		DD9384A913A5B35000A3B32E /* webAlignEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webAlignEx.html; sourceTree = "<group>"; };
+		DD9384AC13A5B4A100A3B32E /* webMarginPaddinEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webMarginPaddinEx.html; sourceTree = "<group>"; };
 		DD946C95135366D600CBDA7F /* MyMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMap.h; sourceTree = "<group>"; };
 		DD946C96135366D600CBDA7F /* MyMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMap.m; sourceTree = "<group>"; };
 		DD9957A2136F1426000F7962 /* MyMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
@@ -100,8 +109,13 @@
 		DDB84F111373C36100BAA85D /* pythonChangeTypeEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonChangeTypeEx.py; sourceTree = "<group>"; };
 		DDB84F171373D7DD00BAA85D /* cssBasicEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssBasicEx.css; sourceTree = "<group>"; };
 		DDB84F1A1373E19E00BAA85D /* cssCenterEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssCenterEx.css; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		DDBA5674138EAF3100117169 /* PushNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationEx.h; sourceTree = "<group>"; };
 		DDBA5675138EAF3100117169 /* PushNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationEx.m; sourceTree = "<group>"; };
+=======
+		DDBC147813A1AC40008CF717 /* webTableEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webTableEx.html; sourceTree = "<group>"; };
+		DDBC148313A1F344008CF717 /* cssFontEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssFontEx.css; sourceTree = "<group>"; };
+>>>>>>> 4921e19a9b4af52d999487feb622f1846b76ba44
 		DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeShortcut.txt; sourceTree = "<group>"; };
 		DDC31DD5139A81DE006DBF1D /* MicBlowEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicBlowEx.h; sourceTree = "<group>"; };
 		DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicBlowEx.m; sourceTree = "<group>"; };
@@ -166,6 +180,22 @@
 			isa = PBXGroup;
 			children = (
 				DD0487FB135F4F9C002554C4 /* plistEx */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD109D5C13A72D690032FE93 /* use css */ = {
+			isa = PBXGroup;
+			children = (
+				DD109D5E13A72D760032FE93 /* ex */,
+			);
+			name = "use css";
+			sourceTree = "<group>";
+		};
+		DD109D5E13A72D760032FE93 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD109D5F13A72D890032FE93 /* webUseCssEx.html */,
 			);
 			name = ex;
 			sourceTree = "<group>";
@@ -351,6 +381,9 @@
 		DD25A233137CDD560003CD84 /* jsp */ = {
 			isa = PBXGroup;
 			children = (
+				DD9384A313A5AEF400A3B32E /* JSTL */,
+				DD6E861213A09E660009B0C0 /* Scriptlet tag  */,
+				DD6E8609139607300009B0C0 /* include page */,
 				DDDCA060138261EE0010232D /* request */,
 				DD25A234137CDD600003CD84 /* language */,
 			);
@@ -606,38 +639,6 @@
 			name = string;
 			sourceTree = "<group>";
 		};
-		DD6E85CB138537D80009B0C0 /* padding */ = {
-			isa = PBXGroup;
-			children = (
-				DD6E85CD138537DE0009B0C0 /* ex */,
-			);
-			name = padding;
-			sourceTree = "<group>";
-		};
-		DD6E85CD138537DE0009B0C0 /* ex */ = {
-			isa = PBXGroup;
-			children = (
-				DD6E85CE138537F50009B0C0 /* cssPaddingEx.css */,
-			);
-			name = ex;
-			sourceTree = "<group>";
-		};
-		DD6E85CF1385FF7D0009B0C0 /* margin */ = {
-			isa = PBXGroup;
-			children = (
-				DD6E85D01385FF840009B0C0 /* ex */,
-			);
-			name = margin;
-			sourceTree = "<group>";
-		};
-		DD6E85D01385FF840009B0C0 /* ex */ = {
-			isa = PBXGroup;
-			children = (
-				DD6E85D11385FF9A0009B0C0 /* cssMarginEx.css */,
-			);
-			name = ex;
-			sourceTree = "<group>";
-		};
 		DD6E85D2138648DC0009B0C0 /* array */ = {
 			isa = PBXGroup;
 			children = (
@@ -665,6 +666,146 @@
 			isa = PBXGroup;
 			children = (
 				DD6E85E0138677D90009B0C0 /* javascriptInnerTextEx.js */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E85ED1389FBB00009B0C0 /* float point */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85EF1389FBB80009B0C0 /* ex */,
+			);
+			name = "float point";
+			sourceTree = "<group>";
+		};
+		DD6E85EF1389FBB80009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85F01389FBCC0009B0C0 /* javascriptFloatPointEx.js */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E85F4138B7EDC0009B0C0 /* select */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85F5138B7EEB0009B0C0 /* ex */,
+			);
+			name = select;
+			sourceTree = "<group>";
+		};
+		DD6E85F5138B7EEB0009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E85F6138B80910009B0C0 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				DD109D5C13A72D690032FE93 /* use css */,
+				DD9384AA13A5B48600A3B32E /* margin & padding */,
+				DD9384A713A5B33300A3B32E /* align */,
+				DDBC147513A1AC24008CF717 /* table */,
+				DD6E86061395DFE80009B0C0 /* input */,
+				DD6E85F7138B80980009B0C0 /* hide */,
+			);
+			name = web;
+			sourceTree = "<group>";
+		};
+		DD6E85F7138B80980009B0C0 /* hide */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85F8138B80B20009B0C0 /* ex */,
+			);
+			name = hide;
+			sourceTree = "<group>";
+		};
+		DD6E85F8138B80B20009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85F9138B80C30009B0C0 /* webHideEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E85FA138E31370009B0C0 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85FB138E31430009B0C0 /* ex */,
+			);
+			name = timer;
+			sourceTree = "<group>";
+		};
+		DD6E85FB138E31430009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E85FC138E31610009B0C0 /* javascriptTimerEx.js */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E86031394CC9A0009B0C0 /* sibling */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E86041394CCA50009B0C0 /* ex */,
+			);
+			name = sibling;
+			sourceTree = "<group>";
+		};
+		DD6E86041394CCA50009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E86051394CCC90009B0C0 /* javascriptSiblingEx.js */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E86061395DFE80009B0C0 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E86071395DFF00009B0C0 /* ex */,
+			);
+			name = input;
+			sourceTree = "<group>";
+		};
+		DD6E86071395DFF00009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E86081395E00D0009B0C0 /* webInputEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E8609139607300009B0C0 /* include page */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E860A139607410009B0C0 /* ex */,
+			);
+			name = "include page";
+			sourceTree = "<group>";
+		};
+		DD6E860A139607410009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E860B139607590009B0C0 /* jspIncludePageEx.jsp */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD6E861213A09E660009B0C0 /* Scriptlet tag  */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E861313A09E6C0009B0C0 /* ex */,
+			);
+			name = "Scriptlet tag ";
+			sourceTree = "<group>";
+		};
+		DD6E861313A09E6C0009B0C0 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E861413A09EFE0009B0C0 /* jspScripletTagEx.jsp */,
 			);
 			name = ex;
 			sourceTree = "<group>";
@@ -714,6 +855,54 @@
 			name = lib;
 			sourceTree = "<group>";
 		};
+		DD9384A313A5AEF400A3B32E /* JSTL */ = {
+			isa = PBXGroup;
+			children = (
+				DD9384A513A5AEFC00A3B32E /* ex */,
+			);
+			name = JSTL;
+			sourceTree = "<group>";
+		};
+		DD9384A513A5AEFC00A3B32E /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD9384A613A5AF1500A3B32E /* jspJstlEx.jsp */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD9384A713A5B33300A3B32E /* align */ = {
+			isa = PBXGroup;
+			children = (
+				DD9384A813A5B33F00A3B32E /* ex */,
+			);
+			name = align;
+			sourceTree = "<group>";
+		};
+		DD9384A813A5B33F00A3B32E /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD9384A913A5B35000A3B32E /* webAlignEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD9384AA13A5B48600A3B32E /* margin & padding */ = {
+			isa = PBXGroup;
+			children = (
+				DD9384AB13A5B49100A3B32E /* ex */,
+			);
+			name = "margin & padding";
+			sourceTree = "<group>";
+		};
+		DD9384AB13A5B49100A3B32E /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD9384AC13A5B4A100A3B32E /* webMarginPaddinEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
 		DD946C8C1353669000CBDA7F /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -754,6 +943,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DD6E85F6138B80910009B0C0 /* web */,
 				DD25A233137CDD560003CD84 /* jsp */,
 				DDB84F141373D7A400BAA85D /* css */,
 				DDF8CC72136FDB1E00E11519 /* c++ */,
@@ -973,8 +1163,7 @@
 		DDB84F141373D7A400BAA85D /* css */ = {
 			isa = PBXGroup;
 			children = (
-				DD6E85CF1385FF7D0009B0C0 /* margin */,
-				DD6E85CB138537D80009B0C0 /* padding */,
+				DDBC148113A1F32C008CF717 /* font */,
 				DDDCA063138396920010232D /* alignment */,
 				DD25A22D137CC9C00003CD84 /* background */,
 				DDB84F181373E17D00BAA85D /* center */,
@@ -1015,6 +1204,7 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		DDBA5672138EAEFC00117169 /* Push Notfication */ = {
 			isa = PBXGroup;
 			children = (
@@ -1022,6 +1212,38 @@
 				DDBA5675138EAF3100117169 /* PushNotificationEx.m */,
 			);
 			name = "Push Notfication";
+=======
+		DDBC147513A1AC24008CF717 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC147713A1AC2C008CF717 /* ex */,
+			);
+			name = table;
+			sourceTree = "<group>";
+		};
+		DDBC147713A1AC2C008CF717 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC147813A1AC40008CF717 /* webTableEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DDBC148113A1F32C008CF717 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC148213A1F332008CF717 /* ex */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		DDBC148213A1F332008CF717 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC148313A1F344008CF717 /* cssFontEx.css */,
+			);
+			name = ex;
+>>>>>>> 4921e19a9b4af52d999487feb622f1846b76ba44
 			sourceTree = "<group>";
 		};
 		DDBCB62D13816811004BE4CA /* Xcode */ = {
@@ -1257,6 +1479,9 @@
 		DDF11DA61367ACDB00C5A4B9 /* javascript */ = {
 			isa = PBXGroup;
 			children = (
+				DD6E86031394CC9A0009B0C0 /* sibling */,
+				DD6E85FA138E31370009B0C0 /* timer */,
+				DD6E85ED1389FBB00009B0C0 /* float point */,
 				DD6E85DE138677920009B0C0 /* inner text */,
 				DD6E85D2138648DC0009B0C0 /* array */,
 				DDDCA05D138260BB0010232D /* enable & disable ui */,
@@ -1388,6 +1613,7 @@
 		DDF11DE813694EB300C5A4B9 /* html */ = {
 			isa = PBXGroup;
 			children = (
+				DD6E85F4138B7EDC0009B0C0 /* select */,
 				DD25A23C1380D5920003CD84 /* tooltip */,
 				DD25A224137BC3360003CD84 /* text */,
 				DD25A21B137A5DFD0003CD84 /* button */,

@@ -6,3 +6,6 @@ if(str.equals("hello"))
 {
     System.out.println("equal");
 }
+
+// search string
+
