@@ -12,7 +12,7 @@
 @interface MyWeb : NSObject {
 
 }
-
++(void)loadLocalHtmlFile:(NSString*)fileName webView:(UIWebView*)webView;
 +(NSData*)sendReqForUrl:(NSString*)urlString body:(NSData*)body;
 +(NSData*)sendReqForUrl:(NSString*)urlString postString:(NSString*)postString;
 +(NSDictionary*)sendReqForUrlAndGetJsonDic:(NSString*)urlString 

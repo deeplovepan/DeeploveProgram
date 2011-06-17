@@ -11,6 +11,13 @@
 
 @implementation MyWeb
 
++(void)loadLocalHtmlFile:(NSString*)fileName webView:(UIWebView*)webView 
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:@"html"];
+    NSURL *url = [NSURL fileURLWithPath:path isDirectory:NO];
+    [webView loadRequest:[NSURLRequest requestWithURL:url]];
+    
+}
 +(void)showPage:(UIWebView*)webView withUrlStr:(NSString*)urlStr
 {
     NSURL *url = [NSURL URLWithString:urlStr];
