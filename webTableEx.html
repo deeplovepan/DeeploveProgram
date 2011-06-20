@@ -1,11 +1,29 @@
-<TD COLSPAN=2>Raha Mutisya</TD> 
+<!--
+show tooltip on table cell
+use title 
+ -->
+<td title="peter">hello</td> 
+
 
 <!-- 
-use jquery to access table
+ define table
 -->
-$("#myTable tr td").each(
-    function() 
-    { 
+<table border="1">
+    <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 2</td>
+    </tr>
+</table>               
 
-    {
+
+<!--  highlight table row on hover with jQuery -->
+$("tr").not(':first').hover(
+    // mouse enters
+    function () {
+        $(this).css("background","yellow");
+    }, 
+    // mouse leaves
+    function () {
+        $(this).css("background","");
+    }
 );
