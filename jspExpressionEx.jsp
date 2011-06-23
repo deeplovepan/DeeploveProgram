@@ -1,0 +1,2 @@
+<% use <%=  and %>
+<%= Counter.getCount() %>

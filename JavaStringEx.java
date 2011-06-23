@@ -7,5 +7,7 @@ if(str.equals("hello"))
     System.out.println("equal");
 }
 
-// search string
-
+// substring
+// 0: start index
+// 4: end index, not include
+test.substring(0,4); 
