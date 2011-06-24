@@ -1,3 +1,7 @@
+JSP Standard Tag Library 
+
+
+
 <c:forEach var="netInfo" items="${netInfo}">
     <c:choose>
         <c:when test="${netInfo.type == 'IPv4'}">

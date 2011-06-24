@@ -17,6 +17,9 @@
 		DD21EBCA13B1D0FA00A0F01F /* jspDirectiveEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspDirectiveEx.jsp; sourceTree = "<group>"; };
 		DD21EBCD13B1EE2000A0F01F /* jspExpressionEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspExpressionEx.jsp; sourceTree = "<group>"; };
 		DD21EBD013B1F16E00A0F01F /* jspDeclarationEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspDeclarationEx.jsp; sourceTree = "<group>"; };
+		DD21EBD313B2ECD800A0F01F /* webCacheEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webCacheEx.html; sourceTree = "<group>"; };
+		DD21EBD613B30D5300A0F01F /* jspElEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspElEx.jsp; sourceTree = "<group>"; };
+		DD21EBD913B30E4100A0F01F /* jspActionEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspActionEx.jsp; sourceTree = "<group>"; };
 		DD25A1EC1377987C0003CD84 /* IORegistryClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IORegistryClient.h; sourceTree = "<group>"; };
 		DD25A1ED1377987C0003CD84 /* IORegistryClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IORegistryClient.m; sourceTree = "<group>"; };
 		DD25A2091378E6740003CD84 /* pythonSqliteEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonSqliteEx.py; sourceTree = "<group>"; };
@@ -274,6 +277,54 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DD21EBD113B2EC9A00A0F01F /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EBD213B2ECAC00A0F01F /* ex */,
+			);
+			name = cache;
+			sourceTree = "<group>";
+		};
+		DD21EBD213B2ECAC00A0F01F /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EBD313B2ECD800A0F01F /* webCacheEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD21EBD413B30D3100A0F01F /* EL */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EBD513B30D3700A0F01F /* ex */,
+			);
+			name = EL;
+			sourceTree = "<group>";
+		};
+		DD21EBD513B30D3700A0F01F /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EBD613B30D5300A0F01F /* jspElEx.jsp */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD21EBD713B30E2D00A0F01F /* action */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EBD813B30E3300A0F01F /* ex */,
+			);
+			name = action;
+			sourceTree = "<group>";
+		};
+		DD21EBD813B30E3300A0F01F /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EBD913B30E4100A0F01F /* jspActionEx.jsp */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
 		DD25A1E8137798440003CD84 /* IORegistry */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,11 +497,13 @@
 		DD25A233137CDD560003CD84 /* jsp */ = {
 			isa = PBXGroup;
 			children = (
+				DD21EBD713B30E2D00A0F01F /* action */,
+				DD21EBD413B30D3100A0F01F /* EL */,
 				DD21EBCE13B1F14200A0F01F /* declaration */,
 				DD21EBCB13B1EE0500A0F01F /* expression */,
 				DD21EBC813B1D0DD00A0F01F /* directive */,
 				DD9384A313A5AEF400A3B32E /* JSTL */,
-				DD6E861213A09E660009B0C0 /* Scriptlet tag  */,
+				DD6E861213A09E660009B0C0 /* Scriptlet  */,
 				DD6E8609139607300009B0C0 /* include page */,
 				DDDCA060138261EE0010232D /* request */,
 				DD25A234137CDD600003CD84 /* language */,
@@ -772,6 +825,7 @@
 		DD6E85F6138B80910009B0C0 /* web */ = {
 			isa = PBXGroup;
 			children = (
+				DD21EBD113B2EC9A00A0F01F /* cache */,
 				DDF11DE913694EBC00C5A4B9 /* table */,
 				DDCEA63C13A9E08E00F0C41C /* select tag */,
 				DDCEA62213A75FF800F0C41C /* use javascript */,
@@ -864,12 +918,12 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
-		DD6E861213A09E660009B0C0 /* Scriptlet tag  */ = {
+		DD6E861213A09E660009B0C0 /* Scriptlet  */ = {
 			isa = PBXGroup;
 			children = (
 				DD6E861313A09E6C0009B0C0 /* ex */,
 			);
-			name = "Scriptlet tag ";
+			name = "Scriptlet ";
 			sourceTree = "<group>";
 		};
 		DD6E861313A09E6C0009B0C0 /* ex */ = {

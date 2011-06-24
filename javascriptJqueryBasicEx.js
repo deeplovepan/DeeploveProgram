@@ -49,6 +49,13 @@ $(‘li:last-child’)
 // selects all elements matched by <li> that are NOT the first child of their parent
 $('li:not(:first-child)') 
 
+// parent selector
+$('td').parent();
+
+// parents selector
+// search through the ancestors of these elements in the DOM tree and construct a new jQuery object from the matching elements ordered from immediate parent on up; the elements are returned in order from the closest parent to the outer ones
+$('td').parents();
+
 // Contains selector 
 // selects all elements matched by <li> that contains the text "three"
 $('li:contains(three)') 
