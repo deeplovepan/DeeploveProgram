@@ -20,6 +20,7 @@
 		DD21EBD313B2ECD800A0F01F /* webCacheEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webCacheEx.html; sourceTree = "<group>"; };
 		DD21EBD613B30D5300A0F01F /* jspElEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspElEx.jsp; sourceTree = "<group>"; };
 		DD21EBD913B30E4100A0F01F /* jspActionEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspActionEx.jsp; sourceTree = "<group>"; };
+		DD21EBE413B9A37200A0F01F /* cssBorderEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssBorderEx.css; sourceTree = "<group>"; };
 		DD25A1EC1377987C0003CD84 /* IORegistryClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IORegistryClient.h; sourceTree = "<group>"; };
 		DD25A1ED1377987C0003CD84 /* IORegistryClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IORegistryClient.m; sourceTree = "<group>"; };
 		DD25A2091378E6740003CD84 /* pythonSqliteEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonSqliteEx.py; sourceTree = "<group>"; };
@@ -321,6 +322,22 @@
 			isa = PBXGroup;
 			children = (
 				DD21EBD913B30E4100A0F01F /* jspActionEx.jsp */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD21EBE113B9A34000A0F01F /* border */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EBE313B9A34C00A0F01F /* ex */,
+			);
+			name = border;
+			sourceTree = "<group>";
+		};
+		DD21EBE313B9A34C00A0F01F /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EBE413B9A37200A0F01F /* cssBorderEx.css */,
 			);
 			name = ex;
 			sourceTree = "<group>";
@@ -1287,6 +1304,7 @@
 		DDB84F141373D7A400BAA85D /* css */ = {
 			isa = PBXGroup;
 			children = (
+				DD21EBE113B9A34000A0F01F /* border */,
 				DDDCA063138396920010232D /* alignment */,
 				DD25A22D137CC9C00003CD84 /* background */,
 				DDB84F181373E17D00BAA85D /* center */,
