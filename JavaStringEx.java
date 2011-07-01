@@ -11,3 +11,6 @@ if(str.equals("hello"))
 // 0: start index
 // 4: end index, not include
 test.substring(0,4); 
+
+// split 
+String[] names = splitString.split(":");
