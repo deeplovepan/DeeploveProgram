@@ -13,8 +13,8 @@
 
 +(void)removeUIActivityIndicatorView:(UIActivityIndicatorView*)activityIndicatorView
 {
+    // stopAnimating will remove activityIndicatorView
     [activityIndicatorView stopAnimating];
-    [activityIndicatorView removeFromSuperview];
 }
 
 +(void)showUIActivityIndicatorView:(UIView*)view
