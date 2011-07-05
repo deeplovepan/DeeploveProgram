@@ -1,0 +1,8 @@
+$.fn.enable = function() {
+         return this.each( function() {
+                 this.onclick = this.clickFn;
+                 $(this).text("enable");
+         });
+}
+
+$('#testBut').enable();

@@ -25,3 +25,12 @@ catch(Exception ex)
 {
 
 }
+
+// delete file
+String path = "/tmp/file.txt";
+File f = new File(path);
+if (f.exists())
+{
+    boolean success = f.delete();
+}
+

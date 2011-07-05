@@ -4,6 +4,17 @@
 //ex:
 $('tr')
 
+// second argument in $() limit selection range
+// find div in #block 
+$('div', '#black').css('background-color', 'green');
+
+// match tag a with id testId and class testClass
+$('a#testId.testClass')
+
+// do action on matched elements
+// hide all div with class notLongForThisWorld
+$("div.notLongForThisWorld" ).hide( ) ; 
+
 // select all elements matched by “B” that are child, grandchild, great-grandchild, great-great-grandchild..(any levels deep) of a “A” element.
 $("#a div").css("border", "2px solid red");
 
@@ -33,8 +44,35 @@ $('#idTag1')[0].tagName;
 ->
 'DIV'
 
+// select all even p 
+$( "p:even" )
+
+// select all odd p 
+$( "p:odd" )
+
+// select first a 
+$('p:first')
+
+// select last a 
+$('p:last')
+
+// useful filter
+:checkbox
+:disabled
+:enabled
+:file
+:hidden
+
+// select elements contain text enable
+$('div:contains("enable")')
+
+$('div:has("br")')
+
+$('div:not("#test")')
+
 // child selector 
 // selects all elements matched by <tr> that are the third child of their parent.
+// start from 1
 $(‘tr:nth-child(3)’) 
 // selects all elements matched by <tr> that are every third child of their parent.
 $(‘tr:nth-child(3n)’) 
@@ -60,11 +98,25 @@ $('td').parents();
 // selects all elements matched by <li> that contains the text "three"
 $('li:contains(three)') 
 
-// select element by tag attribute
+// select element by tag that has speific attribute
+// select tag a that has rel attribute
 $('a[rel]')
 
 // select element by name
 $('input[name="rad1"]').attr('checked');  
+
+// use ^ to select tag a that href starts with http://
+a[href^='http://' ]
+
+// use $ to select tag a that href ends with .pdf
+a[href$='.pdf' ]
+
+// use $ to select tag a that href does not equal .pdf
+a[href!='.pdf' ]
+
+
+// use * to select tag a that href contains jquery.com
+a[href*='jquery.com' ]
 
 // use checked filter to find checked element's value
 $('input[name="rad1"]:checked').val(); 
@@ -85,7 +137,14 @@ $('input:radio');
 $("div").size()
 
 // get specific element 
+// start from 0
 $('#test').eq(0);
+
+// match elements after 3th matching element ( not include 3th element)
+$('#test').gt(3);
+
+// match elements before 3th matching element ( not include 3th element)
+$('#test').lt(3);
 
 // find
 // search through all the descendants(child, grandchild, great-grandchild…any levels deep) of the matched element.
@@ -149,6 +208,7 @@ $('.prettyBox').before("<div class='newPrettybox'>Iron man</div>");
 // after() and insertAfter() 
 // add a text or html content after the matched elements
 $('.greyBox').after("<div class='redBox'>Iron man</div>");
+$("<div class='redBox'>Iron man</div>" ).insertAfter( ".greyBox" ) ;
 
 // prepend() and prependTo() 
 // add a text or html content before the content of the matched elements
