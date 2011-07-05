@@ -11,6 +11,9 @@
 
 @implementation iosTableEx
 
+// UITableViewController
+// (1) self.view = self.tableView
+
 // disable table selection
 -(void)disableTableSelection
 {
