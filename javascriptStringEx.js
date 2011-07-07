@@ -45,7 +45,8 @@ trim(testStr);
 ex:
 var str = $.trim(testStr);
 
-
+split
+var test = buffer.split("/");
 
 
 

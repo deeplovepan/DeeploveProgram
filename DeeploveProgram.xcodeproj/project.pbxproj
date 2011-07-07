@@ -27,6 +27,7 @@
 		DD21EBF313BD738900A0F01F /* cssBoxModel.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = cssBoxModel.html; sourceTree = "<group>"; };
 		DD21EBF413BD740500A0F01F /* cssBoxModel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cssBoxModel.png; sourceTree = "<group>"; };
 		DD21EBFE13BDB29700A0F01F /* jqueryExtentEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = jqueryExtentEx.html; sourceTree = "<group>"; };
+		DD21EC1913C57CA800A0F01F /* webBrowserEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webBrowserEx.html; sourceTree = "<group>"; };
 		DD25A1EC1377987C0003CD84 /* IORegistryClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IORegistryClient.h; sourceTree = "<group>"; };
 		DD25A1ED1377987C0003CD84 /* IORegistryClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IORegistryClient.m; sourceTree = "<group>"; };
 		DD25A2091378E6740003CD84 /* pythonSqliteEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonSqliteEx.py; sourceTree = "<group>"; };
@@ -427,6 +428,22 @@
 			isa = PBXGroup;
 			children = (
 				DD21EBFE13BDB29700A0F01F /* jqueryExtentEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD21EC1613C57C7B00A0F01F /* browser */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EC1813C57C8500A0F01F /* ex */,
+			);
+			name = browser;
+			sourceTree = "<group>";
+		};
+		DD21EC1813C57C8500A0F01F /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EC1913C57CA800A0F01F /* webBrowserEx.html */,
 			);
 			name = ex;
 			sourceTree = "<group>";
@@ -948,6 +965,7 @@
 		DD6E85F6138B80910009B0C0 /* web */ = {
 			isa = PBXGroup;
 			children = (
+				DD21EC1613C57C7B00A0F01F /* browser */,
 				DD25A2391380D4DB0003CD84 /* mouseEvent */,
 				DD21EBD113B2EC9A00A0F01F /* cache */,
 				DDF11DE913694EBC00C5A4B9 /* table */,
