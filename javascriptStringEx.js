@@ -42,7 +42,11 @@ str.replace("aa", "bb")
 trim leading and trailing spaces
 ex:
 trim(testStr);
+ex:
+var str = $.trim(testStr);
 
+split
+var test = buffer.split("/");
 
 
 

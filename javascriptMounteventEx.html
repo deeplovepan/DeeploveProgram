@@ -1,12 +1,26 @@
-/*
+<!--
+   not define behavior in the html body
+   move it into html head section
+-->
+<head>
+    <script type="text/javascript" >
+    window.onload = function() {
+        document.getElementById('testButton').onclick = function() {
+            document.getElementById( 'xyz' ).style.color = 'red' ;
+        } ;
+    } ;
+    </script>
+</head>
+    
+<!--
     onmouseout & onmouseover
-*/
+-->
 <img src="image_w3default.gif" onmouseout="alert('mouse out')" onmouseover="alert('mouse over')" />  
 
 
-/*
+<!--
     get fochs & lose focus
-*/
+-->
 <input type="text" id="ipDiv1"  onFocus="checkip(this.value)"/>
 <input type="text" id="ipDiv2"  onblur="checkip(this.value)"/>
 
@@ -14,9 +28,9 @@ $("input").blur(function () {
 	//do something
 });
 
-/*
+<!--
     click
-*/
+-->
 <input name="test" type="radio" onClick="check()">
 $("#removeButton").click(function () {
 
