@@ -1,0 +1,8 @@
+get address from lat & lng
+ex:
+http://maps.google.com/maps/api/geocode/json?latlng=25.006384,121.476858&sensor=true&language=zh-TW
+
+language code:
+zh-TW: CHINESE (TRADITIONAL)
+zh-CN: CHINESE (SIMPLIFIED)
+en:	ENGLISH
