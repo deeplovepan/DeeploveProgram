@@ -28,6 +28,11 @@
 		DD21EBF413BD740500A0F01F /* cssBoxModel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cssBoxModel.png; sourceTree = "<group>"; };
 		DD21EBFE13BDB29700A0F01F /* jqueryExtentEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = jqueryExtentEx.html; sourceTree = "<group>"; };
 		DD21EC1913C57CA800A0F01F /* webBrowserEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webBrowserEx.html; sourceTree = "<group>"; };
+		DD21EC1C13CD3D7900A0F01F /* cssColor.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = cssColor.html; sourceTree = "<group>"; };
+		DD21EC2013CD686900A0F01F /* cNumberLib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cNumberLib.c; sourceTree = "<group>"; };
+		DD21EC2113CD686900A0F01F /* cNumberLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cNumberLib.h; sourceTree = "<group>"; };
+		DD21EC2313CD691800A0F01F /* cNumberEx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cNumberEx.c; sourceTree = "<group>"; };
+		DD21EC2413CD691800A0F01F /* cNumberEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cNumberEx.h; sourceTree = "<group>"; };
 		DD25A1EC1377987C0003CD84 /* IORegistryClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IORegistryClient.h; sourceTree = "<group>"; };
 		DD25A1ED1377987C0003CD84 /* IORegistryClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IORegistryClient.m; sourceTree = "<group>"; };
 		DD25A2091378E6740003CD84 /* pythonSqliteEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonSqliteEx.py; sourceTree = "<group>"; };
@@ -444,6 +449,57 @@
 			isa = PBXGroup;
 			children = (
 				DD21EC1913C57CA800A0F01F /* webBrowserEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD21EC1A13CD3D5600A0F01F /* color */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EC1B13CD3D6000A0F01F /* ex */,
+			);
+			name = color;
+			sourceTree = "<group>";
+		};
+		DD21EC1B13CD3D6000A0F01F /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EC1C13CD3D7900A0F01F /* cssColor.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD21EC1D13CD683500A0F01F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EC1E13CD684200A0F01F /* number */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		DD21EC1E13CD684200A0F01F /* number */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EC2213CD690100A0F01F /* ex */,
+				DD21EC1F13CD685000A0F01F /* lib */,
+			);
+			name = number;
+			sourceTree = "<group>";
+		};
+		DD21EC1F13CD685000A0F01F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EC2013CD686900A0F01F /* cNumberLib.c */,
+				DD21EC2113CD686900A0F01F /* cNumberLib.h */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DD21EC2213CD690100A0F01F /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD21EC2313CD691800A0F01F /* cNumberEx.c */,
+				DD21EC2413CD691800A0F01F /* cNumberEx.h */,
 			);
 			name = ex;
 			sourceTree = "<group>";
@@ -1209,6 +1265,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DD21EC1D13CD683500A0F01F /* C */,
 				DD6E85F6138B80910009B0C0 /* web */,
 				DD25A233137CDD560003CD84 /* jsp */,
 				DDB84F141373D7A400BAA85D /* css */,
@@ -1430,6 +1487,7 @@
 		DDB84F141373D7A400BAA85D /* css */ = {
 			isa = PBXGroup;
 			children = (
+				DD21EC1A13CD3D5600A0F01F /* color */,
 				DD21EBF113BD736A00A0F01F /* boxModel */,
 				DD21EBEE13BD67F300A0F01F /* position */,
 				DD21EBEB13BC5FD600A0F01F /* cursor */,
