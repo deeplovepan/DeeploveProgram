@@ -81,6 +81,8 @@
 		DD583A831340C7A9001C9575 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		DD583A841340C7A9001C9575 /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		DD583A851340C7A9001C9575 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		DD66FC9D13BE022F003521AF /* googleMapEx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = googleMapEx.txt; sourceTree = "<group>"; };
+		DD66FCA113BEFE00003521AF /* iosStatusBarEx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosStatusBarEx.txt; sourceTree = "<group>"; };
 		DD699B41137254D500C5C954 /* htmlDivAndSpanEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlDivAndSpanEx.html; sourceTree = "<group>"; };
 		DD699B4D1372805E00C5C954 /* pythonListEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonListEx.py; sourceTree = "<group>"; };
 		DD699B4F137280DB00C5C954 /* pythonStringEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonStringEx.py; sourceTree = "<group>"; };
@@ -908,6 +910,53 @@
 			name = JSON;
 			sourceTree = "<group>";
 		};
+		DD66FC9813BE01E0003521AF /* ex */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD66FC9A13BE0204003521AF /* googleApi */ = {
+			isa = PBXGroup;
+			children = (
+				DD66FC9B13BE020C003521AF /* google map */,
+			);
+			name = googleApi;
+			sourceTree = "<group>";
+		};
+		DD66FC9B13BE020C003521AF /* google map */ = {
+			isa = PBXGroup;
+			children = (
+				DD66FC9C13BE021A003521AF /* ex */,
+			);
+			name = "google map";
+			sourceTree = "<group>";
+		};
+		DD66FC9C13BE021A003521AF /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD66FC9D13BE022F003521AF /* googleMapEx.txt */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD66FC9F13BEFDC7003521AF /* status bar */ = {
+			isa = PBXGroup;
+			children = (
+				DD66FCA013BEFDD1003521AF /* ex */,
+			);
+			name = "status bar";
+			sourceTree = "<group>";
+		};
+		DD66FCA013BEFDD1003521AF /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD66FCA113BEFE00003521AF /* iosStatusBarEx.txt */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
 		DD699B3E1372549600C5C954 /* div and span */ = {
 			isa = PBXGroup;
 			children = (
@@ -1228,6 +1277,7 @@
 		DD946C8C1353669000CBDA7F /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				DD66FC9813BE01E0003521AF /* ex */,
 				DD946C94135366BE00CBDA7F /* lib */,
 			);
 			name = Map;
@@ -1266,6 +1316,7 @@
 			isa = PBXGroup;
 			children = (
 				DD21EC1D13CD683500A0F01F /* C */,
+				DD66FC9A13BE0204003521AF /* googleApi */,
 				DD6E85F6138B80910009B0C0 /* web */,
 				DD25A233137CDD560003CD84 /* jsp */,
 				DDB84F141373D7A400BAA85D /* css */,
@@ -1612,6 +1663,7 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				DD66FC9F13BEFDC7003521AF /* status bar */,
 				DDD12B881342237500AAE2B5 /* Image */,
 				DDD12B901342251E00AAE2B5 /* Button */,
 				DDD12B971342317100AAE2B5 /* TextField */,

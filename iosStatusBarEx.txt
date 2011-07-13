@@ -1,0 +1,6 @@
+when tap on status bar, tablew view or scroll view will scroll to top
+/*
+this is for the scroll to top gesture. by default, a single scroll visible scroll view with this flag set will get the call. if there is more than one visible with this
+flag set or the delegeat method returns NO, the view isn't scrolled 
+*/
+@property(nonatomic) BOOL  scrollsToTop;          // default is YES. if set, special gesture will scroll to top of view after consulting delegaten 
