@@ -13,6 +13,9 @@
 		DD109D5F13A72D890032FE93 /* webUseCssEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webUseCssEx.html; sourceTree = "<group>"; };
 		DD18D83A134729CE00BBC80F /* MyNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNotification.h; sourceTree = "<group>"; };
 		DD18D83B134729CE00BBC80F /* MyNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotification.m; sourceTree = "<group>"; };
+		DD1C36D213D66A40006F7FB1 /* webScreenResolution.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webScreenResolution.html; sourceTree = "<group>"; };
+		DD1C36D513D6BCFD006F7FB1 /* webUrlEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webUrlEx.html; sourceTree = "<group>"; };
+		DD1C371413D7C20A006F7FB1 /* cStaticEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = cStaticEx; sourceTree = "<group>"; };
 		DD21EBBD13B06DD700A0F01F /* javaNumberFormat.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = javaNumberFormat.java; sourceTree = "<group>"; };
 		DD21EBCA13B1D0FA00A0F01F /* jspDirectiveEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspDirectiveEx.jsp; sourceTree = "<group>"; };
 		DD21EBCD13B1EE2000A0F01F /* jspExpressionEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspExpressionEx.jsp; sourceTree = "<group>"; };
@@ -128,6 +131,7 @@
 		DDACA6A613AA483B009A7BC6 /* FacebookLikeEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookLikeEx.m; sourceTree = "<group>"; };
 		DDB07F6A1369B704003FB1EF /* HorizontalPageScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollViewController.h; sourceTree = "<group>"; };
 		DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollViewController.m; sourceTree = "<group>"; };
+		DDB56EED13D83178000DBD49 /* dummy.conf */ = {isa = PBXFileReference; path = dummy.conf; sourceTree = "<group>"; };
 		DDB84F07137284C000BAA85D /* pythonTypeEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonTypeEx.py; sourceTree = "<group>"; };
 		DDB84F0A137391DE00BAA85D /* pythonLanguageEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonLanguageEx.py; sourceTree = "<group>"; };
 		DDB84F0E137392A000BAA85D /* pythonSyslogEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonSyslogEx.py; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 		DDBA5674138EAF3100117169 /* PushNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationEx.h; sourceTree = "<group>"; };
 		DDBA5675138EAF3100117169 /* PushNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationEx.m; sourceTree = "<group>"; };
 		DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeShortcut.txt; sourceTree = "<group>"; };
+		DDBD0DED13D80E92005AFA95 /* dummy.c */ = {isa = PBXFileReference; path = dummy.c; sourceTree = "<group>"; };
 		DDC31DD5139A81DE006DBF1D /* MicBlowEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicBlowEx.h; sourceTree = "<group>"; };
 		DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicBlowEx.m; sourceTree = "<group>"; };
 		DDC762701388DF25001AAB10 /* UILabelEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelEx.h; sourceTree = "<group>"; };
@@ -229,6 +234,54 @@
 				DD18D83B134729CE00BBC80F /* MyNotification.m */,
 			);
 			name = lib;
+			sourceTree = "<group>";
+		};
+		DD1C36CF13D66A1B006F7FB1 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C36D113D66A22006F7FB1 /* ex */,
+			);
+			name = screen;
+			sourceTree = "<group>";
+		};
+		DD1C36D113D66A22006F7FB1 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C36D213D66A40006F7FB1 /* webScreenResolution.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD1C36D313D6BCE9006F7FB1 /* url */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C36D413D6BCEF006F7FB1 /* ex */,
+			);
+			name = url;
+			sourceTree = "<group>";
+		};
+		DD1C36D413D6BCEF006F7FB1 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C36D513D6BCFD006F7FB1 /* webUrlEx.html */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD1C371213D7C1E9006F7FB1 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C371313D7C1F5006F7FB1 /* ex */,
+			);
+			name = static;
+			sourceTree = "<group>";
+		};
+		DD1C371313D7C1F5006F7FB1 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C371413D7C20A006F7FB1 /* cStaticEx */,
+			);
+			name = ex;
 			sourceTree = "<group>";
 		};
 		DD21EBBA13B06DAD00A0F01F /* number format */ = {
@@ -475,6 +528,7 @@
 		DD21EC1D13CD683500A0F01F /* C */ = {
 			isa = PBXGroup;
 			children = (
+				DD1C371213D7C1E9006F7FB1 /* static */,
 				DD21EC1E13CD684200A0F01F /* number */,
 			);
 			name = C;
@@ -1087,6 +1141,8 @@
 		DD6E85F6138B80910009B0C0 /* web */ = {
 			isa = PBXGroup;
 			children = (
+				DD1C36D313D6BCE9006F7FB1 /* url */,
+				DD1C36CF13D66A1B006F7FB1 /* screen */,
 				DD21EC2B13CEF3AF00A0F01F /* center */,
 				DD21EC1613C57C7B00A0F01F /* browser */,
 				DD25A2391380D4DB0003CD84 /* mouseEvent */,
@@ -1333,6 +1389,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DDBD0DEA13D80E61005AFA95 /* solaris driver */,
 				DD21EC1D13CD683500A0F01F /* C */,
 				DD66FC9A13BE0204003521AF /* googleApi */,
 				DD6E85F6138B80910009B0C0 /* web */,
@@ -1625,6 +1682,23 @@
 				DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */,
 			);
 			name = shortcut;
+			sourceTree = "<group>";
+		};
+		DDBD0DEA13D80E61005AFA95 /* solaris driver */ = {
+			isa = PBXGroup;
+			children = (
+				DDBD0DEC13D80E71005AFA95 /* basic */,
+			);
+			name = "solaris driver";
+			sourceTree = "<group>";
+		};
+		DDBD0DEC13D80E71005AFA95 /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				DDBD0DED13D80E92005AFA95 /* dummy.c */,
+				DDB56EED13D83178000DBD49 /* dummy.conf */,
+			);
+			name = basic;
 			sourceTree = "<group>";
 		};
 		DDC31DD2139A81A0006DBF1D /* blow */ = {
