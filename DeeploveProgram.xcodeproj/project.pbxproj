@@ -132,6 +132,9 @@
 		DDB07F6A1369B704003FB1EF /* HorizontalPageScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollViewController.h; sourceTree = "<group>"; };
 		DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollViewController.m; sourceTree = "<group>"; };
 		DDB56EED13D83178000DBD49 /* dummy.conf */ = {isa = PBXFileReference; path = dummy.conf; sourceTree = "<group>"; };
+		DDB56FCD13E2B2C4000DBD49 /* allfrom.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = allfrom.d; sourceTree = "<group>"; };
+		DDB56FCE13E2B30A000DBD49 /* allFromBasic.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = allFromBasic.d; sourceTree = "<group>"; };
+		DDB56FCF13E2B34E000DBD49 /* traceCallFlow */ = {isa = PBXFileReference; lastKnownFileType = text; path = traceCallFlow; sourceTree = "<group>"; };
 		DDB84F07137284C000BAA85D /* pythonTypeEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonTypeEx.py; sourceTree = "<group>"; };
 		DDB84F0A137391DE00BAA85D /* pythonLanguageEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonLanguageEx.py; sourceTree = "<group>"; };
 		DDB84F0E137392A000BAA85D /* pythonSyslogEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonSyslogEx.py; sourceTree = "<group>"; };
@@ -1389,6 +1392,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DDB56FCB13E2B273000DBD49 /* dtrace */,
 				DDBD0DEA13D80E61005AFA95 /* solaris driver */,
 				DD21EC1D13CD683500A0F01F /* C */,
 				DD66FC9A13BE0204003521AF /* googleApi */,
@@ -1536,6 +1540,16 @@
 				DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */,
 			);
 			name = lib;
+			sourceTree = "<group>";
+		};
+		DDB56FCB13E2B273000DBD49 /* dtrace */ = {
+			isa = PBXGroup;
+			children = (
+				DDB56FCE13E2B30A000DBD49 /* allFromBasic.d */,
+				DDB56FCD13E2B2C4000DBD49 /* allfrom.d */,
+				DDB56FCF13E2B34E000DBD49 /* traceCallFlow */,
+			);
+			name = dtrace;
 			sourceTree = "<group>";
 		};
 		DDB84F04137284AA00BAA85D /* type */ = {

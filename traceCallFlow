@@ -1,0 +1,5 @@
+process id 26053, test function
+dtrace -s  allfrom.d test 26053
+
+process id 26053, function name is defined in allFromBasic.d
+dtrace -p 26053 -s allFromBasic.d
