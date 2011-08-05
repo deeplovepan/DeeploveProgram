@@ -113,6 +113,7 @@
 		DD946C96135366D600CBDA7F /* MyMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMap.m; sourceTree = "<group>"; };
 		DD9957A2136F1426000F7962 /* MyMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
 		DD9957A3136F1426000F7962 /* MyMapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
+		DD9962F513E676710035D842 /* traceProgram.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = traceProgram.d; sourceTree = "<group>"; };
 		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
 		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
 		DDA3DC6D1334A50E009BFD39 /* DeeploveTimeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeeploveTimeLib.h; sourceTree = "<group>"; };
@@ -131,7 +132,7 @@
 		DDACA6A613AA483B009A7BC6 /* FacebookLikeEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookLikeEx.m; sourceTree = "<group>"; };
 		DDB07F6A1369B704003FB1EF /* HorizontalPageScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollViewController.h; sourceTree = "<group>"; };
 		DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollViewController.m; sourceTree = "<group>"; };
-		DDB56EED13D83178000DBD49 /* dummy.conf */ = {isa = PBXFileReference; path = dummy.conf; sourceTree = "<group>"; };
+		DDB56EED13D83178000DBD49 /* dummy.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = dummy.conf; sourceTree = "<group>"; };
 		DDB56FCD13E2B2C4000DBD49 /* allfrom.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = allfrom.d; sourceTree = "<group>"; };
 		DDB56FCE13E2B30A000DBD49 /* allFromBasic.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = allFromBasic.d; sourceTree = "<group>"; };
 		DDB56FCF13E2B34E000DBD49 /* traceCallFlow */ = {isa = PBXFileReference; lastKnownFileType = text; path = traceCallFlow; sourceTree = "<group>"; };
@@ -144,7 +145,7 @@
 		DDBA5674138EAF3100117169 /* PushNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationEx.h; sourceTree = "<group>"; };
 		DDBA5675138EAF3100117169 /* PushNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationEx.m; sourceTree = "<group>"; };
 		DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeShortcut.txt; sourceTree = "<group>"; };
-		DDBD0DED13D80E92005AFA95 /* dummy.c */ = {isa = PBXFileReference; path = dummy.c; sourceTree = "<group>"; };
+		DDBD0DED13D80E92005AFA95 /* dummy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dummy.c; sourceTree = "<group>"; };
 		DDC31DD5139A81DE006DBF1D /* MicBlowEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicBlowEx.h; sourceTree = "<group>"; };
 		DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicBlowEx.m; sourceTree = "<group>"; };
 		DDC762701388DF25001AAB10 /* UILabelEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelEx.h; sourceTree = "<group>"; };
@@ -1545,6 +1546,7 @@
 		DDB56FCB13E2B273000DBD49 /* dtrace */ = {
 			isa = PBXGroup;
 			children = (
+				DD9962F513E676710035D842 /* traceProgram.d */,
 				DDB56FCE13E2B30A000DBD49 /* allFromBasic.d */,
 				DDB56FCD13E2B2C4000DBD49 /* allfrom.d */,
 				DDB56FCF13E2B34E000DBD49 /* traceCallFlow */,
