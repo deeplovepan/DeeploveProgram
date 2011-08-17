@@ -24,7 +24,6 @@
 #include <sys/conf.h>    /* used by dev_ops and cb_ops */
 #include <sys/modctl.h>  /* used by modlinkage, modldrv, _init, _info, */
 /* and _fini */
-#include <sys/types.h>   /* used by open, close, read, write, prop_op, */
 /* and ddi_prop_op */
 #include <sys/file.h>    /* used by open, close */
 #include <sys/errno.h>   /* used by open, close, read, write */
