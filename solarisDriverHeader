@@ -1,0 +1,7 @@
+solaris driver header
+
+define int type, such as uint16_t, uint64_t:
+    /usr/include/sys/int_types.h
+    use in driver:
+        #include <sys/int_types.h>
+

@@ -114,11 +114,15 @@
 		DD9957A2136F1426000F7962 /* MyMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
 		DD9957A3136F1426000F7962 /* MyMapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
 		DD9962F513E676710035D842 /* traceProgram.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = traceProgram.d; sourceTree = "<group>"; };
+		DD9A127613FB683E00F25D6C /* solarisDriverHeader */ = {isa = PBXFileReference; lastKnownFileType = text; path = solarisDriverHeader; sourceTree = "<group>"; };
+		DD9A128013FBCD5A00F25D6C /* pciBasic */ = {isa = PBXFileReference; lastKnownFileType = text; path = pciBasic; sourceTree = "<group>"; };
+		DD9A128113FBCE7B00F25D6C /* PCI_PCI_ExpressConfigurationSpaceMemoryMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PCI_PCI_ExpressConfigurationSpaceMemoryMap.png; sourceTree = "<group>"; };
+		DD9A128613FCFF1F00F25D6C /* taskletNote */ = {isa = PBXFileReference; lastKnownFileType = text; path = taskletNote; sourceTree = "<group>"; };
 		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
 		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
 		DDA3DC6D1334A50E009BFD39 /* DeeploveTimeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeeploveTimeLib.h; sourceTree = "<group>"; };
 		DDA3DC6E1334A50E009BFD39 /* DeeploveTimeLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeeploveTimeLib.m; sourceTree = "<group>"; };
-		DDA4649613F3D79800530284 /* nftw.c */ = {isa = PBXFileReference; path = nftw.c; sourceTree = "<group>"; };
+		DDA4649613F3D79800530284 /* nftw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nftw.c; sourceTree = "<group>"; };
 		DDA9D80E1358B03500F69503 /* ThreadEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadEx.h; sourceTree = "<group>"; };
 		DDA9D80F1358B03500F69503 /* ThreadEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadEx.m; sourceTree = "<group>"; };
 		DDA9D81B13599F3D00F69503 /* MathEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathEx.h; sourceTree = "<group>"; };
@@ -1374,6 +1378,39 @@
 			name = lib;
 			sourceTree = "<group>";
 		};
+		DD9A127413FB680600F25D6C /* header */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A127613FB683E00F25D6C /* solarisDriverHeader */,
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		DD9A127F13FBCD2300F25D6C /* PCI */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A128113FBCE7B00F25D6C /* PCI_PCI_ExpressConfigurationSpaceMemoryMap.png */,
+				DD9A128013FBCD5A00F25D6C /* pciBasic */,
+			);
+			name = PCI;
+			sourceTree = "<group>";
+		};
+		DD9A128413FCFED200F25D6C /* linux driver */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A128513FCFEDD00F25D6C /* tasklet */,
+			);
+			name = "linux driver";
+			sourceTree = "<group>";
+		};
+		DD9A128513FCFEDD00F25D6C /* tasklet */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A128613FCFF1F00F25D6C /* taskletNote */,
+			);
+			name = tasklet;
+			sourceTree = "<group>";
+		};
 		DD9FC1F91335011F006241C6 /* ex */ = {
 			isa = PBXGroup;
 			children = (
@@ -1395,6 +1432,8 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DD9A128413FCFED200F25D6C /* linux driver */,
+				DD9A127F13FBCD2300F25D6C /* PCI */,
 				DDB56FCB13E2B273000DBD49 /* dtrace */,
 				DDBD0DEA13D80E61005AFA95 /* solaris driver */,
 				DD21EC1D13CD683500A0F01F /* C */,
@@ -1721,6 +1760,7 @@
 		DDBD0DEA13D80E61005AFA95 /* solaris driver */ = {
 			isa = PBXGroup;
 			children = (
+				DD9A127413FB680600F25D6C /* header */,
 				DDBD0DEC13D80E71005AFA95 /* basic */,
 			);
 			name = "solaris driver";
