@@ -1,0 +1,33 @@
+driver API compare
+
+
+memory
+    1. allocate memory
+        linux: void *kzalloc(size_t size, gfp_t flags)
+        solaris: void *kmem_zalloc(size_t size, int flag)
+
+    2. free memory
+        linux: void kfree (void *ptr)
+        solaris: void kmem_free(void*buf, size_t size)
+
+lock
+    1. type
+        linux: spinlock_t
+        solaris: kmutex_t
+    
+    2. init lock
+        linux: spin_lock_init
+        solaris: mutex_init
+
+    3. lock
+        linux: spin_lock_irqsave
+        solaris: mutex_enter
+
+    4. unlock
+        linux: spin_unlock_irqrestore
+        solaris: mutex_exit
+
+busy wait
+    linux: mdelay 
+    solaris: void drv_usecwait(clock_t microsecs);
+

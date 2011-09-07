@@ -101,6 +101,7 @@
 		DD7D44C9140B43BE007D4E8A /* typedef */ = {isa = PBXFileReference; lastKnownFileType = text; path = typedef; sourceTree = "<group>"; };
 		DD7D482E140F52DA007D4E8A /* linuxMemory */ = {isa = PBXFileReference; lastKnownFileType = text; path = linuxMemory; sourceTree = "<group>"; };
 		DD7D4831140F5754007D4E8A /* zoneOnX86_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoneOnX86_32.png; sourceTree = "<group>"; };
+		DD7D484014173C33007D4E8A /* driverApiCompare */ = {isa = PBXFileReference; lastKnownFileType = text; path = driverApiCompare; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
 		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
@@ -1286,6 +1287,22 @@
 			name = memory;
 			sourceTree = "<group>";
 		};
+		DD7D483E14173BFE007D4E8A /* compare */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D483F14173C07007D4E8A /* driverApiCompare */,
+			);
+			name = compare;
+			sourceTree = "<group>";
+		};
+		DD7D483F14173C07007D4E8A /* driverApiCompare */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D484014173C33007D4E8A /* driverApiCompare */,
+			);
+			name = driverApiCompare;
+			sourceTree = "<group>";
+		};
 		DD87E3BD137E5C87006A1B39 /* facebook */ = {
 			isa = PBXGroup;
 			children = (
@@ -1454,6 +1471,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DD7D483E14173BFE007D4E8A /* compare */,
 				DD9A128413FCFED200F25D6C /* linux driver */,
 				DD9A127F13FBCD2300F25D6C /* PCI */,
 				DDB56FCB13E2B273000DBD49 /* dtrace */,
