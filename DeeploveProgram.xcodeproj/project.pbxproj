@@ -98,6 +98,9 @@
 		DD6E86081395E00D0009B0C0 /* webInputEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webInputEx.html; sourceTree = "<group>"; };
 		DD6E860B139607590009B0C0 /* jspIncludePageEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspIncludePageEx.jsp; sourceTree = "<group>"; };
 		DD6E861413A09EFE0009B0C0 /* jspScripletTagEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspScripletTagEx.jsp; sourceTree = "<group>"; };
+		DD7D44C9140B43BE007D4E8A /* typedef */ = {isa = PBXFileReference; lastKnownFileType = text; path = typedef; sourceTree = "<group>"; };
+		DD7D482E140F52DA007D4E8A /* linuxMemory */ = {isa = PBXFileReference; lastKnownFileType = text; path = linuxMemory; sourceTree = "<group>"; };
+		DD7D4831140F5754007D4E8A /* zoneOnX86_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoneOnX86_32.png; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
 		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
@@ -537,6 +540,7 @@
 		DD21EC1D13CD683500A0F01F /* C */ = {
 			isa = PBXGroup;
 			children = (
+				DD7D44C7140B43AD007D4E8A /* syntax */,
 				DDA4649313F3D72100530284 /* traverseFileTree */,
 				DD1C371213D7C1E9006F7FB1 /* static */,
 				DD21EC1E13CD684200A0F01F /* number */,
@@ -1265,6 +1269,23 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DD7D44C7140B43AD007D4E8A /* syntax */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D44C9140B43BE007D4E8A /* typedef */,
+			);
+			name = syntax;
+			sourceTree = "<group>";
+		};
+		DD7D482D140F52A4007D4E8A /* memory */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D4831140F5754007D4E8A /* zoneOnX86_32.png */,
+				DD7D482E140F52DA007D4E8A /* linuxMemory */,
+			);
+			name = memory;
+			sourceTree = "<group>";
+		};
 		DD87E3BD137E5C87006A1B39 /* facebook */ = {
 			isa = PBXGroup;
 			children = (
@@ -1398,6 +1419,7 @@
 		DD9A128413FCFED200F25D6C /* linux driver */ = {
 			isa = PBXGroup;
 			children = (
+				DD7D482D140F52A4007D4E8A /* memory */,
 				DD9A128513FCFEDD00F25D6C /* tasklet */,
 			);
 			name = "linux driver";

@@ -5,3 +5,26 @@ Tasklet和timer類似(基本上都是運作在Softirqs上面)，但是不同於t
 tasklet會在下一次interrupt來臨時執行。
 
 宣告後，還必須呼叫tasklet_schedule(task)才會被執行
+
+Two different tasklets can run concurrently on different processors,but two of the same type of 
+tasklet cannot run simultaneously
+
+struct tasklet_struct {
+    struct tasklet_struct *next;  /* next tasklet in the list */
+    unsigned long state;          /* state of the tasklet */
+    atomic_t count;               /* reference counter */
+    void (*func)(unsigned long);  /* tasklet handler function */
+    unsigned long data;           /* argument to the tasklet function */
+};
+--------------------------------------------------------------------------------------------------------
+create tasklet:
+ex:
+tasklet_init(t, tasklet_handler, dev); 
+--------------------------------------------------------------------------------------------------------
+tasklet restriction:
+(1) can not sleep
+(2) can not use semaphore
+--------------------------------------------------------------------------------------------------------
+schedule a tasklet for execution
+ex:
+    tasklet_schedule(&my_tasklet);  
