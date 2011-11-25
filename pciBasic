@@ -1,0 +1,9 @@
+PCI basic
+
+PCI devices have a set of registers referred to as ‘Configuration Space’ 
+PCI Express introduces Extended Configuration Space for devices. 
+
+Configuration space registers are mapped to memory locations.
+
+Device drivers and diagnostic software must access the configuration spaces and
+operating systems have APIs to allow access to device configuration space

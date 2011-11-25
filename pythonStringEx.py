@@ -10,5 +10,8 @@ str.split()
 ->
 ['a', 'b', 'c']
 
+# remove leading & trailing space
+test.strip();
+
 
 

@@ -1,0 +1,60 @@
+linux memory
+
+the basic unit of memory management: physical page
+
+page size: 
+    32-bit: 4kB
+    64-bit: 8kB
+
+struct page:
+    allocated for each physical page in the system
+    ex:
+    if size of struct page is 40bytes,
+    page size is 8kB,
+    system has 4GB memory
+    -> 524288 struct page, occupy 20MB
+
+kernel divides pages into different zones
+    1. ZONE_DMA: 
+       can undergo DMA
+    2. ZONE_DMA32
+    3. ZONE_NORMAL: 
+       This zone contains normal,regularly mapped,pages.
+    4. ZONE_HIGHMEM: 
+       This zone contains “high memory,”which are pages not 
+       permanently mapped into the kernel’s address space
+
+    x86-32 v.s x86-64:
+        x86-32:
+            ZONE_DMA: < 16MB
+            ZONE_NORMAL: 16MB ~ 896MB
+            ZONE_HIGHMEM: > 896MB
+        x86-64:
+            ZONE_DMA: < 16MB
+            ZONE_NORMAL: >= 16MB
+
+get page:
+    struct page * alloc_pages(gfp_t gfp_mask, unsigned int order)
+        allocate 2**order contiguous physical pages 
+        returns a pointer to the first page’s pages tructure
+
+    void * page_address(struct page *page)
+        returns a pointer to the logical address where the given physical page
+        currently resides
+
+    unsigned long __get_free_pages(gfp_t gfp_mask, unsigned int order)
+        same as alloc_pages(), except that it directly returns the
+        logical address of the first requested page
+
+free page:
+    void __free_pages(struct page *page, unsigned int order)
+    void free_pages(unsigned long addr, unsigned int order)
+
+kmalloc v.s vmalloc
+    kmalloc allocates physically contiguous memory, memory which
+    pages are laid consecutively in physical RAM. 
+    vmalloc allocates memory which is contiguous in kernel virtual memory space (that
+    means pages allocated that way are not contiguous in RAM, but the kernel
+    sees them as one block).
+
+
