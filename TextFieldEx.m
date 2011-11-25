@@ -11,6 +11,18 @@
 
 @implementation TextFieldEx
 
++(void)disappearKeyboardWhenEnterPressed:(UITextField*)textField
+target:(id)target action:(SEL)action
+{
+     [textField addTarget:target action:action forControlEvents:UIControlEventEditingDidEndOnExit];
+}
+
++(void)disappearKeyboard:(UITextField*)textField
+{
+    [textField resignFirstResponder];
+
+}
+
 +(void)setPasswordTextfield:(UITextField*)textField
 {
     textField.secureTextEntry = YES;

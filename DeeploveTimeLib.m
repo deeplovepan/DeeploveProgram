@@ -42,4 +42,22 @@
     return [currentTimeZone secondsFromGMT];
 }
 
++(int)getHour:(NSDate*)date 
+{
+    NSDate *now = date;
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *components = [calendar components:NSHourCalendarUnit fromDate:now];
+    
+    return [components hour];
+}
+
++(int)getMin:(NSDate*)date 
+{
+    NSDate *now = date;
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *components = [calendar components:kCFCalendarUnitMinute fromDate:now];
+    
+    return [components minute];
+}
+
 @end

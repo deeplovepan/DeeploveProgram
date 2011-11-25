@@ -1,0 +1,24 @@
+resize
+
+
+Horizontally:
+
+    UIViewAutoresizingFlexibleWidth:
+        Resize keeping fixed left/right margins
+    UIViewAutoresizingFlexibleRightMargin:
+        Keep size and same distance from the left
+    UIViewAutoresizingFlexibleRightMargin:
+        Keep size, stay centered: UIViewAutoresizingFlexibleLeftMargin  
+    UIViewAutoresizingFlexibleLeftMargin:
+        Keep size and same distance from the right
+        
+Vertically:
+
+    UIViewAutoresizingFlexibleHeight:
+        Resize keeping fixed top/bottom margins 
+    UIViewAutoresizingFlexibleBottomMargin:
+        Keep size and same distance from the top
+    UIViewAutoresizingFlexibleBottomMargin:
+        Keep size, stay centered: UIViewAutoresizingFlexibleTopMargin 
+    UIViewAutoresizingFlexibleTopMargin:
+        Keep size and same distance from the bottom

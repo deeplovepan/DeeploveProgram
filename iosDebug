@@ -1,0 +1,7 @@
+ios debug
+
+print stack trace:
+NSLog(@"%@", [NSThread callStackSymbols]);
+
+
+

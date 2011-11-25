@@ -16,5 +16,7 @@
                      hour:(int)hour minute:(int)minute second:(int)second;
 +(int)getGMTOffsetInHourOnDevice;
 +(NSString*)getTimeStrFromDate:(NSDate*)date;
++(int)getHour:(NSDate*)date;
++(int)getMin:(NSDate*)date;
 
 @end

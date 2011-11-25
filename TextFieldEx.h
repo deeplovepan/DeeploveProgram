@@ -14,6 +14,11 @@
 }
 
 +(void)setPasswordTextfield:(UITextField*)textField;
++(void)setRoundCornerTextfield:(UITextField*)textField;
 +(void)disableAutocapitalization:(UITextField*)textField;
++(void)disappearKeyboard:(UITextField*)textField;
++(void)disappearKeyboardWhenEnterPressed:(UITextField*)textField
+                target:(id)target action:(SEL)action;
+
 
 @end

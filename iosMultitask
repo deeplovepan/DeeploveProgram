@@ -1,0 +1,22 @@
+the operation restriction in the backgroun:
+1. a set amount of time to finish a task
+2. specific serice: 
+   (1)location tracking
+   (2)audio playback,
+   (3)voice over IP
+
+
+UIBackgroundModes:
+1. Audio
+2. Location
+3. VoIP
+
+applicationDidEnterBackground: 
+6s
+
+applicationWillResignActive: -> applicationDidEnterBackground:
+
+applicationWillEnterForeground: -> applicationDidBecomeActive:
+
+turn off multitask:
+UIApplicationExitsOnSuspend -> YES

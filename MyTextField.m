@@ -17,7 +17,7 @@
     UITextField *textField = [[UITextField alloc] initWithFrame:
                               frame];
     [view addSubview:textField];
-    [textField addTarget:self action:action forControlEvents:UIControlEventEditingDidEndOnExit];
+    [textField addTarget:target action:action forControlEvents:UIControlEventEditingDidEndOnExit];
     [textField release];
     
     return textField;

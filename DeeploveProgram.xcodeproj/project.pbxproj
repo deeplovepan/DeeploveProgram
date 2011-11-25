@@ -55,6 +55,8 @@
 		DD4ABCAA133DD5DE00D855A7 /* MyXmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyXmlParser.m; sourceTree = "<group>"; };
 		DD4ABCDA133DE35900D855A7 /* MyAsnycDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAsnycDownload.h; sourceTree = "<group>"; };
 		DD4ABCDB133DE35900D855A7 /* MyAsnycDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAsnycDownload.m; sourceTree = "<group>"; };
+		DD50DA6013C9EBA3005610AF /* iosProperyEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosProperyEx.h; sourceTree = "<group>"; };
+		DD50DA6113C9EBA3005610AF /* iosProperyEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosProperyEx.m; sourceTree = "<group>"; };
 		DD54D404137993A10056DEBD /* UIActivityIndicatorViewEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIActivityIndicatorViewEx.h; sourceTree = "<group>"; };
 		DD54D405137993A10056DEBD /* UIActivityIndicatorViewEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIActivityIndicatorViewEx.m; sourceTree = "<group>"; };
 		DD54D40713799B1D0056DEBD /* MyActivityIndicatorViewLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyActivityIndicatorViewLib.h; sourceTree = "<group>"; };
@@ -76,6 +78,8 @@
 		DD583A831340C7A9001C9575 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		DD583A841340C7A9001C9575 /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		DD583A851340C7A9001C9575 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		DD5A512713CC0E76009705E1 /* DetectTapScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetectTapScrollView.h; sourceTree = "<group>"; };
+		DD5A512813CC0E76009705E1 /* DetectTapScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetectTapScrollView.m; sourceTree = "<group>"; };
 		DD66FC9D13BE022F003521AF /* googleMapEx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = googleMapEx.txt; sourceTree = "<group>"; };
 		DD66FCA113BEFE00003521AF /* iosStatusBarEx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosStatusBarEx.txt; sourceTree = "<group>"; };
 		DD699B41137254D500C5C954 /* htmlDivAndSpanEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlDivAndSpanEx.html; sourceTree = "<group>"; };
@@ -89,6 +93,12 @@
 		DD6E86081395E00D0009B0C0 /* webInputEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webInputEx.html; sourceTree = "<group>"; };
 		DD6E860B139607590009B0C0 /* jspIncludePageEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspIncludePageEx.jsp; sourceTree = "<group>"; };
 		DD6E861413A09EFE0009B0C0 /* jspScripletTagEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspScripletTagEx.jsp; sourceTree = "<group>"; };
+		DD702C741477F67E0091E40D /* LockScreenInfoEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockScreenInfoEx.h; sourceTree = "<group>"; };
+		DD702C751477F67E0091E40D /* LockScreenInfoEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockScreenInfoEx.m; sourceTree = "<group>"; };
+		DD702CD614796BAA0091E40D /* adhocStep3.tiff */ = {isa = PBXFileReference; path = adhocStep3.tiff; sourceTree = "<group>"; };
+		DD702CD714796BAA0091E40D /* adhocStep1.tiff */ = {isa = PBXFileReference; path = adhocStep1.tiff; sourceTree = "<group>"; };
+		DD702CD814796BAA0091E40D /* adhocStep2.tiff */ = {isa = PBXFileReference; path = adhocStep2.tiff; sourceTree = "<group>"; };
+		DD70C15B13DDB27500E4A0DC /* iosMultitask */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosMultitask; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
 		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
@@ -104,6 +114,10 @@
 		DD946C96135366D600CBDA7F /* MyMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMap.m; sourceTree = "<group>"; };
 		DD9957A2136F1426000F7962 /* MyMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
 		DD9957A3136F1426000F7962 /* MyMapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
+		DD99F83F13CC943A0004BB72 /* MyInAppPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInAppPurchase.h; sourceTree = "<group>"; };
+		DD99F84013CC943A0004BB72 /* MyInAppPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInAppPurchase.m; sourceTree = "<group>"; };
+		DD99F84213CC9E7E0004BB72 /* iosInAppPurchase.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosInAppPurchase.txt; sourceTree = "<group>"; };
+		DD9B020214714FBA00C88DC6 /* arcNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = arcNote.txt; sourceTree = "<group>"; };
 		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
 		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
 		DDA3DC6D1334A50E009BFD39 /* DeeploveTimeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeeploveTimeLib.h; sourceTree = "<group>"; };
@@ -131,6 +145,7 @@
 		DDBA5674138EAF3100117169 /* PushNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationEx.h; sourceTree = "<group>"; };
 		DDBA5675138EAF3100117169 /* PushNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationEx.m; sourceTree = "<group>"; };
 		DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeShortcut.txt; sourceTree = "<group>"; };
+		DDC0F376147018670036F576 /* resizeNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = resizeNote.txt; sourceTree = "<group>"; };
 		DDC31DD5139A81DE006DBF1D /* MicBlowEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicBlowEx.h; sourceTree = "<group>"; };
 		DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicBlowEx.m; sourceTree = "<group>"; };
 		DDC762701388DF25001AAB10 /* UILabelEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelEx.h; sourceTree = "<group>"; };
@@ -151,6 +166,10 @@
 		DDDCA0621382620B0010232D /* jspRequestEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspRequestEx.jsp; sourceTree = "<group>"; };
 		DDDCA065138397170010232D /* cssAlignmentEx.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cssAlignmentEx.css; sourceTree = "<group>"; };
 		DDDCA0691383A60E0010232D /* javaSessionEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = javaSessionEx.java; sourceTree = "<group>"; };
+		DDDCEB7113FF99E1003FD5BC /* iosDebug */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosDebug; sourceTree = "<group>"; };
+		DDDFDFBA13D2CA0500C80C55 /* AnimationUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationUtil.h; sourceTree = "<group>"; };
+		DDDFDFBB13D2CA0500C80C55 /* AnimationUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationUtil.m; sourceTree = "<group>"; };
+		DDE5551D146CF703008BF8DE /* uploadAppNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = uploadAppNote.txt; sourceTree = "<group>"; };
 		DDF11DAA1367AD4000C5A4B9 /* javascriptAjaxEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptAjaxEx.js; sourceTree = "<group>"; };
 		DDF11DAD1367C5EE00C5A4B9 /* javascriptTimeEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptTimeEx.js; sourceTree = "<group>"; };
 		DDF11DB013680C1400C5A4B9 /* macDriverWorkloopEx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = macDriverWorkloopEx.cpp; sourceTree = "<group>"; };
@@ -172,6 +191,8 @@
 		DDF11E0E136AACA900C5A4B9 /* JavaFileAndIoEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaFileAndIoEx.java; sourceTree = "<group>"; };
 		DDF11E11136ACAA300C5A4B9 /* pythonRegularExpressionEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonRegularExpressionEx.py; sourceTree = "<group>"; };
 		DDF8CC76136FDB5D00E11519 /* cplusIo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cplusIo.cpp; sourceTree = "<group>"; };
+		DDFE96EE13E2FC3D00F9A246 /* iosAnimationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosAnimationEx.h; sourceTree = "<group>"; };
+		DDFE96EF13E2FC3D00F9A246 /* iosAnimationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosAnimationEx.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -780,6 +801,31 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DD50DA5D13C9EB81005610AF /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				DD50DA5F13C9EB8A005610AF /* propery */,
+			);
+			name = "Objective-C";
+			sourceTree = "<group>";
+		};
+		DD50DA5F13C9EB8A005610AF /* propery */ = {
+			isa = PBXGroup;
+			children = (
+				DD50DA6213C9EBA6005610AF /* ex */,
+				DD50DA6013C9EBA3005610AF /* iosProperyEx.h */,
+				DD50DA6113C9EBA3005610AF /* iosProperyEx.m */,
+			);
+			name = propery;
+			sourceTree = "<group>";
+		};
+		DD50DA6213C9EBA6005610AF /* ex */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
 		DD54D4011379936C0056DEBD /* UIActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1125,6 +1171,33 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DD702C721477F6510091E40D /* Lock Screen Info */ = {
+			isa = PBXGroup;
+			children = (
+				DD702C741477F67E0091E40D /* LockScreenInfoEx.h */,
+				DD702C751477F67E0091E40D /* LockScreenInfoEx.m */,
+			);
+			name = "Lock Screen Info";
+			sourceTree = "<group>";
+		};
+		DD702CD414796B990091E40D /* adhoc */ = {
+			isa = PBXGroup;
+			children = (
+				DD702CD714796BAA0091E40D /* adhocStep1.tiff */,
+				DD702CD814796BAA0091E40D /* adhocStep2.tiff */,
+				DD702CD614796BAA0091E40D /* adhocStep3.tiff */,
+			);
+			name = adhoc;
+			sourceTree = "<group>";
+		};
+		DD70C15813DDB22100E4A0DC /* multitask */ = {
+			isa = PBXGroup;
+			children = (
+				DD70C15B13DDB27500E4A0DC /* iosMultitask */,
+			);
+			name = multitask;
+			sourceTree = "<group>";
+		};
 		DD87E3BD137E5C87006A1B39 /* facebook */ = {
 			isa = PBXGroup;
 			children = (
@@ -1238,6 +1311,40 @@
 			name = lib;
 			sourceTree = "<group>";
 		};
+		DD99F83C13CC93F00004BB72 /* in app purchase */ = {
+			isa = PBXGroup;
+			children = (
+				DD99F84113CC9E610004BB72 /* ex */,
+				DD99F83E13CC942E0004BB72 /* lib */,
+			);
+			name = "in app purchase";
+			sourceTree = "<group>";
+		};
+		DD99F83E13CC942E0004BB72 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD99F83F13CC943A0004BB72 /* MyInAppPurchase.h */,
+				DD99F84013CC943A0004BB72 /* MyInAppPurchase.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DD99F84113CC9E610004BB72 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DD99F84213CC9E7E0004BB72 /* iosInAppPurchase.txt */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
+		DD9B020014714F2800C88DC6 /* ARC */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B020214714FBA00C88DC6 /* arcNote.txt */,
+			);
+			name = ARC;
+			sourceTree = "<group>";
+		};
 		DD9FC1F91335011F006241C6 /* ex */ = {
 			isa = PBXGroup;
 			children = (
@@ -1276,6 +1383,15 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DD702CD414796B990091E40D /* adhoc */,
+				DD702C721477F6510091E40D /* Lock Screen Info */,
+				DD9B020014714F2800C88DC6 /* ARC */,
+				DDE5551A146CF681008BF8DE /* Upload App */,
+				DDDCEB6E13FF993D003FD5BC /* debug */,
+				DD70C15813DDB22100E4A0DC /* multitask */,
+				DDDFDFB713D2C9EE00C80C55 /* animation */,
+				DD99F83C13CC93F00004BB72 /* in app purchase */,
+				DD50DA5D13C9EB81005610AF /* Objective-C */,
 				DD279C9913B6EE6A00B68049 /* String */,
 				DDC31DD2139A81A0006DBF1D /* blow */,
 				DDCC17A513893496004A9E8D /* UI */,
@@ -1398,6 +1514,8 @@
 		DDB07F681369B5EA003FB1EF /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				DD5A512713CC0E76009705E1 /* DetectTapScrollView.h */,
+				DD5A512813CC0E76009705E1 /* DetectTapScrollView.m */,
 				DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */,
 				DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */,
 				DDB07F6A1369B704003FB1EF /* HorizontalPageScrollViewController.h */,
@@ -1551,6 +1669,14 @@
 			name = shortcut;
 			sourceTree = "<group>";
 		};
+		DDC0F374147017E20036F576 /* resize */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0F376147018670036F576 /* resizeNote.txt */,
+			);
+			name = resize;
+			sourceTree = "<group>";
+		};
 		DDC31DD2139A81A0006DBF1D /* blow */ = {
 			isa = PBXGroup;
 			children = (
@@ -1605,6 +1731,7 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				DDC0F374147017E20036F576 /* resize */,
 				DD66FC9F13BEFDC7003521AF /* status bar */,
 				DDD12B881342237500AAE2B5 /* Image */,
 				DDD12B901342251E00AAE2B5 /* Button */,
@@ -1796,6 +1923,40 @@
 				DDDCA0691383A60E0010232D /* javaSessionEx.java */,
 			);
 			name = ex;
+			sourceTree = "<group>";
+		};
+		DDDCEB6E13FF993D003FD5BC /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				DDDCEB7113FF99E1003FD5BC /* iosDebug */,
+			);
+			name = debug;
+			sourceTree = "<group>";
+		};
+		DDDFDFB713D2C9EE00C80C55 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE96EC13E2FC0E00F9A246 /* ex */,
+				DDDFDFB913D2C9F500C80C55 /* lib */,
+			);
+			name = animation;
+			sourceTree = "<group>";
+		};
+		DDDFDFB913D2C9F500C80C55 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DDDFDFBA13D2CA0500C80C55 /* AnimationUtil.h */,
+				DDDFDFBB13D2CA0500C80C55 /* AnimationUtil.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DDE5551A146CF681008BF8DE /* Upload App */ = {
+			isa = PBXGroup;
+			children = (
+				DDE5551D146CF703008BF8DE /* uploadAppNote.txt */,
+			);
+			name = "Upload App";
 			sourceTree = "<group>";
 		};
 		DDF11DA61367ACDB00C5A4B9 /* javascript */ = {
@@ -2178,11 +2339,23 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DDFE96EC13E2FC0E00F9A246 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE96EE13E2FC3D00F9A246 /* iosAnimationEx.h */,
+				DDFE96EF13E2FC3D00F9A246 /* iosAnimationEx.m */,
+			);
+			name = ex;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
 		DDA3DC621334A490009BFD39 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = DDA3DC651334A490009BFD39 /* Build configuration list for PBXProject "DeeploveProgram" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;

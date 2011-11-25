@@ -1,0 +1,6 @@
+problem:
+transaction.error -> Cannot connect to iTunes Store
+
+solution:
+1. Settings -> General -> reset  -> reset all settings
+2. login in test account in App, not from Setting's store page
