@@ -95,10 +95,11 @@
 		DD6E861413A09EFE0009B0C0 /* jspScripletTagEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspScripletTagEx.jsp; sourceTree = "<group>"; };
 		DD702C741477F67E0091E40D /* LockScreenInfoEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockScreenInfoEx.h; sourceTree = "<group>"; };
 		DD702C751477F67E0091E40D /* LockScreenInfoEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockScreenInfoEx.m; sourceTree = "<group>"; };
-		DD702CD614796BAA0091E40D /* adhocStep3.tiff */ = {isa = PBXFileReference; path = adhocStep3.tiff; sourceTree = "<group>"; };
-		DD702CD714796BAA0091E40D /* adhocStep1.tiff */ = {isa = PBXFileReference; path = adhocStep1.tiff; sourceTree = "<group>"; };
-		DD702CD814796BAA0091E40D /* adhocStep2.tiff */ = {isa = PBXFileReference; path = adhocStep2.tiff; sourceTree = "<group>"; };
+		DD702CD614796BAA0091E40D /* adhocStep3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = adhocStep3.tiff; sourceTree = "<group>"; };
+		DD702CD714796BAA0091E40D /* adhocStep1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = adhocStep1.tiff; sourceTree = "<group>"; };
+		DD702CD814796BAA0091E40D /* adhocStep2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = adhocStep2.tiff; sourceTree = "<group>"; };
 		DD70C15B13DDB27500E4A0DC /* iosMultitask */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosMultitask; sourceTree = "<group>"; };
+		DD713626148FC97700D000F3 /* iosAudioNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosAudioNote.txt; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
 		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
@@ -117,6 +118,8 @@
 		DD99F83F13CC943A0004BB72 /* MyInAppPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInAppPurchase.h; sourceTree = "<group>"; };
 		DD99F84013CC943A0004BB72 /* MyInAppPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInAppPurchase.m; sourceTree = "<group>"; };
 		DD99F84213CC9E7E0004BB72 /* iosInAppPurchase.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosInAppPurchase.txt; sourceTree = "<group>"; };
+		DD9A77F2148BAEB20035C179 /* iosDefaultSize.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosDefaultSize.txt; sourceTree = "<group>"; };
+		DD9A784E148C6CD70035C179 /* copyScreen.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = copyScreen.tiff; sourceTree = "<group>"; };
 		DD9B020214714FBA00C88DC6 /* arcNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = arcNote.txt; sourceTree = "<group>"; };
 		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
 		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 		DDACA6A613AA483B009A7BC6 /* FacebookLikeEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookLikeEx.m; sourceTree = "<group>"; };
 		DDB07F6A1369B704003FB1EF /* HorizontalPageScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollViewController.h; sourceTree = "<group>"; };
 		DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollViewController.m; sourceTree = "<group>"; };
+		DDB148A7148B8B3100DB2D96 /* MyTabBarControllerEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarControllerEx.h; sourceTree = "<group>"; };
+		DDB148A8148B8B3100DB2D96 /* MyTabBarControllerEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarControllerEx.m; sourceTree = "<group>"; };
 		DDB84F07137284C000BAA85D /* pythonTypeEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonTypeEx.py; sourceTree = "<group>"; };
 		DDB84F0A137391DE00BAA85D /* pythonLanguageEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonLanguageEx.py; sourceTree = "<group>"; };
 		DDB84F0E137392A000BAA85D /* pythonSyslogEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonSyslogEx.py; sourceTree = "<group>"; };
@@ -145,6 +150,9 @@
 		DDBA5674138EAF3100117169 /* PushNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationEx.h; sourceTree = "<group>"; };
 		DDBA5675138EAF3100117169 /* PushNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationEx.m; sourceTree = "<group>"; };
 		DDBCB6301381683A004BE4CA /* XcodeShortcut.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = XcodeShortcut.txt; sourceTree = "<group>"; };
+		DDBFD7AD147F97BE002014EE /* MyPdfLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPdfLib.h; sourceTree = "<group>"; };
+		DDBFD7AE147F97BE002014EE /* MyPdfLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPdfLib.m; sourceTree = "<group>"; };
+		DDBFD7C71480CCAA002014EE /* kvcAndKvo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = kvcAndKvo.txt; sourceTree = "<group>"; };
 		DDC0F376147018670036F576 /* resizeNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = resizeNote.txt; sourceTree = "<group>"; };
 		DDC31DD5139A81DE006DBF1D /* MicBlowEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicBlowEx.h; sourceTree = "<group>"; };
 		DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicBlowEx.m; sourceTree = "<group>"; };
@@ -1198,6 +1206,14 @@
 			name = multitask;
 			sourceTree = "<group>";
 		};
+		DD713624148FC90C00D000F3 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				DD713626148FC97700D000F3 /* iosAudioNote.txt */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
 		DD87E3BD137E5C87006A1B39 /* facebook */ = {
 			isa = PBXGroup;
 			children = (
@@ -1337,6 +1353,14 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DD9A77F0148BADFE0035C179 /* defaultSize */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A77F2148BAEB20035C179 /* iosDefaultSize.txt */,
+			);
+			name = defaultSize;
+			sourceTree = "<group>";
+		};
 		DD9B020014714F2800C88DC6 /* ARC */ = {
 			isa = PBXGroup;
 			children = (
@@ -1383,6 +1407,9 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DD713624148FC90C00D000F3 /* audio */,
+				DDBFD7C61480CC70002014EE /* KVC and KVO */,
+				DDBFD7AB147F979F002014EE /* pdf */,
 				DD702CD414796B990091E40D /* adhoc */,
 				DD702C721477F6510091E40D /* Lock Screen Info */,
 				DD9B020014714F2800C88DC6 /* ARC */,
@@ -1522,6 +1549,15 @@
 				DDB07F6B1369B704003FB1EF /* HorizontalPageScrollViewController.m */,
 			);
 			name = lib;
+			sourceTree = "<group>";
+		};
+		DDB148A5148B8AED00DB2D96 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DDB148A7148B8B3100DB2D96 /* MyTabBarControllerEx.h */,
+				DDB148A8148B8B3100DB2D96 /* MyTabBarControllerEx.m */,
+			);
+			name = tabBar;
 			sourceTree = "<group>";
 		};
 		DDB84F04137284AA00BAA85D /* type */ = {
@@ -1669,6 +1705,23 @@
 			name = shortcut;
 			sourceTree = "<group>";
 		};
+		DDBFD7AB147F979F002014EE /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFD7AD147F97BE002014EE /* MyPdfLib.h */,
+				DDBFD7AE147F97BE002014EE /* MyPdfLib.m */,
+			);
+			name = pdf;
+			sourceTree = "<group>";
+		};
+		DDBFD7C61480CC70002014EE /* KVC and KVO */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFD7C71480CCAA002014EE /* kvcAndKvo.txt */,
+			);
+			name = "KVC and KVO";
+			sourceTree = "<group>";
+		};
 		DDC0F374147017E20036F576 /* resize */ = {
 			isa = PBXGroup;
 			children = (
@@ -1731,6 +1784,8 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				DD9A77F0148BADFE0035C179 /* defaultSize */,
+				DDB148A5148B8AED00DB2D96 /* tabBar */,
 				DDC0F374147017E20036F576 /* resize */,
 				DD66FC9F13BEFDC7003521AF /* status bar */,
 				DDD12B881342237500AAE2B5 /* Image */,
@@ -1955,6 +2010,7 @@
 			isa = PBXGroup;
 			children = (
 				DDE5551D146CF703008BF8DE /* uploadAppNote.txt */,
+				DD9A784E148C6CD70035C179 /* copyScreen.tiff */,
 			);
 			name = "Upload App";
 			sourceTree = "<group>";

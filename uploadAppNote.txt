@@ -3,5 +3,9 @@ Upload App
 Large Icon:
    Must Use RGB, not CMYK
    
+screenShot from simulator:
+    Edit -> Copy Screen
+    this will copy to clipboard 
+   
    
    

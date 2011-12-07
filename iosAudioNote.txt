@@ -1,0 +1,5 @@
+ios audio 
+
+convert wav to caf
+	afconvert -f caff -d LEI16@22050 thunder.wav thunder.caf
+

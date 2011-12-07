@@ -1,0 +1,15 @@
+KVC and KVO
+
+KVC:
+    Key-Value Coding
+    
+    Use valueForKey: & setValue:forKey:
+    
+    ex:
+    [myObj setValue:@"Test" forKey:@"name"];
+        call accessor method. if accessor method does not exist, 
+        instance variable is accessed directly
+    
+    
+    
+    
