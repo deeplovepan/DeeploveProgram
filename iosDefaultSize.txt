@@ -6,3 +6,5 @@ ios default size
     UITabBar - 320x49
     UISearchBar - 320x44
     UIToolBar - 320x49, 480*49
+    
+    cell height - 44

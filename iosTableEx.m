@@ -14,6 +14,19 @@
 // UITableViewController
 // (1) self.view = self.tableView
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"CELL";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+    }
+    
+    return cell;
+}
+
+
 // delete cell
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView 
 		   editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath

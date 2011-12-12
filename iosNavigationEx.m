@@ -11,6 +11,13 @@
 
 @implementation iosNavigationEx
 
+-(void)addLeftArrowButtonOnNavBar
+{
+    UIBarButtonItem* backItem = [[UIBarButtonItem alloc] initWithCustomView:arrowView];
+    self.navigationItem.rightBarButtonItem = backItem;
+    [backItem release];
+}
+
 // set title of UINavigationBar
 -(void)setNavigationBarTitle
 {

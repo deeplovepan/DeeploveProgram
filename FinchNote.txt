@@ -1,0 +1,11 @@
+Finch
+
+1. init engine
+   soundEngine = [[Finch alloc] init];
+
+2. create sound
+   NSString *testSoundPath = [[NSBundle mainBundle] pathForResource:@"test.caf" ofType:nil];
+   Sound *testSound = [[Sound alloc] testSoundPath];
+
+3. play
+   [testSound play];

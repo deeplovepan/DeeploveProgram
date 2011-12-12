@@ -11,6 +11,8 @@
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
 		DD109D5F13A72D890032FE93 /* webUseCssEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webUseCssEx.html; sourceTree = "<group>"; };
+		DD11799814933EBD0077F608 /* IosCameraAndPhotoEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosCameraAndPhotoEx.h; sourceTree = "<group>"; };
+		DD11799914933EBD0077F608 /* IosCameraAndPhotoEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosCameraAndPhotoEx.m; sourceTree = "<group>"; };
 		DD18D83A134729CE00BBC80F /* MyNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNotification.h; sourceTree = "<group>"; };
 		DD18D83B134729CE00BBC80F /* MyNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotification.m; sourceTree = "<group>"; };
 		DD21EBBD13B06DD700A0F01F /* javaNumberFormat.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = javaNumberFormat.java; sourceTree = "<group>"; };
@@ -108,6 +110,21 @@
 		DD87E435137E9EB6006A1B39 /* MyFacebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFacebook.m; sourceTree = "<group>"; };
 		DD90063D133F7F7F00773AC6 /* MyFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
 		DD90063E133F7F7F00773AC6 /* MyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFile.m; sourceTree = "<group>"; };
+		DD91F4761490B95D00875D3D /* PCMDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCMDecoder.h; sourceTree = "<group>"; };
+		DD91F4771490B95D00875D3D /* PCMDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCMDecoder.m; sourceTree = "<group>"; };
+		DD91F4781490B95D00875D3D /* Reporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reporter.h; sourceTree = "<group>"; };
+		DD91F4791490B95D00875D3D /* Reporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reporter.m; sourceTree = "<group>"; };
+		DD91F47A1490B95D00875D3D /* Sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sample.h; sourceTree = "<group>"; };
+		DD91F47B1490B95D00875D3D /* Sample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample.m; sourceTree = "<group>"; };
+		DD91F47C1490B95D00875D3D /* Decoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		DD91F47D1490B95D00875D3D /* Decoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decoder.m; sourceTree = "<group>"; };
+		DD91F47E1490B95D00875D3D /* Sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		DD91F47F1490B95D00875D3D /* Sound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		DD91F4801490B95D00875D3D /* RevolverSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevolverSound.h; sourceTree = "<group>"; };
+		DD91F4811490B95D00875D3D /* RevolverSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevolverSound.m; sourceTree = "<group>"; };
+		DD91F4821490B95D00875D3D /* Finch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Finch.h; sourceTree = "<group>"; };
+		DD91F4831490B95D00875D3D /* Finch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finch.m; sourceTree = "<group>"; };
+		DD91F4841490B9A500875D3D /* FinchNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinchNote.txt; sourceTree = "<group>"; };
 		DD9384A613A5AF1500A3B32E /* jspJstlEx.jsp */ = {isa = PBXFileReference; lastKnownFileType = text.html.other; path = jspJstlEx.jsp; sourceTree = "<group>"; };
 		DD9384A913A5B35000A3B32E /* webAlignEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webAlignEx.html; sourceTree = "<group>"; };
 		DD9384AC13A5B4A100A3B32E /* webMarginPaddinEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webMarginPaddinEx.html; sourceTree = "<group>"; };
@@ -168,6 +185,10 @@
 		DDD12B931342253B00AAE2B5 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 		DDD12B99134231B500AAE2B5 /* MyTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
 		DDD12B9A134231B500AAE2B5 /* MyTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
+		DDD9D0091495F04C00AEC594 /* ZoomInImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomInImageViewController.h; sourceTree = "<group>"; };
+		DDD9D00A1495F04C00AEC594 /* ZoomInImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomInImageViewController.m; sourceTree = "<group>"; };
+		DDD9D00E1495FD5300AEC594 /* FullImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullImageView.h; sourceTree = "<group>"; };
+		DDD9D00F1495FD5300AEC594 /* FullImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullImageView.m; sourceTree = "<group>"; };
 		DDDCA0481381000A0010232D /* javaLanguageEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = javaLanguageEx.java; sourceTree = "<group>"; };
 		DDDCA05913811E8E0010232D /* javascriptChangeTypeEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptChangeTypeEx.js; sourceTree = "<group>"; };
 		DDDCA05F138260E10010232D /* javascriptEnableDisableUiEx.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = javascriptEnableDisableUiEx.js; sourceTree = "<group>"; };
@@ -243,6 +264,15 @@
 				DD109D5F13A72D890032FE93 /* webUseCssEx.html */,
 			);
 			name = ex;
+			sourceTree = "<group>";
+		};
+		DD11799614933E860077F608 /* camera and photo */ = {
+			isa = PBXGroup;
+			children = (
+				DD11799814933EBD0077F608 /* IosCameraAndPhotoEx.h */,
+				DD11799914933EBD0077F608 /* IosCameraAndPhotoEx.m */,
+			);
+			name = "camera and photo";
 			sourceTree = "<group>";
 		};
 		DD18D8381347291500BBC80F /* lib */ = {
@@ -1210,6 +1240,7 @@
 			isa = PBXGroup;
 			children = (
 				DD713626148FC97700D000F3 /* iosAudioNote.txt */,
+				DD91F4731490B93900875D3D /* Finch Library */,
 			);
 			name = audio;
 			sourceTree = "<group>";
@@ -1257,6 +1288,36 @@
 				DD90063E133F7F7F00773AC6 /* MyFile.m */,
 			);
 			name = lib;
+			sourceTree = "<group>";
+		};
+		DD91F4731490B93900875D3D /* Finch Library */ = {
+			isa = PBXGroup;
+			children = (
+				DD91F4841490B9A500875D3D /* FinchNote.txt */,
+				DD91F4751490B94E00875D3D /* Finch */,
+			);
+			name = "Finch Library";
+			sourceTree = "<group>";
+		};
+		DD91F4751490B94E00875D3D /* Finch */ = {
+			isa = PBXGroup;
+			children = (
+				DD91F4761490B95D00875D3D /* PCMDecoder.h */,
+				DD91F4771490B95D00875D3D /* PCMDecoder.m */,
+				DD91F4781490B95D00875D3D /* Reporter.h */,
+				DD91F4791490B95D00875D3D /* Reporter.m */,
+				DD91F47A1490B95D00875D3D /* Sample.h */,
+				DD91F47B1490B95D00875D3D /* Sample.m */,
+				DD91F47C1490B95D00875D3D /* Decoder.h */,
+				DD91F47D1490B95D00875D3D /* Decoder.m */,
+				DD91F47E1490B95D00875D3D /* Sound.h */,
+				DD91F47F1490B95D00875D3D /* Sound.m */,
+				DD91F4801490B95D00875D3D /* RevolverSound.h */,
+				DD91F4811490B95D00875D3D /* RevolverSound.m */,
+				DD91F4821490B95D00875D3D /* Finch.h */,
+				DD91F4831490B95D00875D3D /* Finch.m */,
+			);
+			name = Finch;
 			sourceTree = "<group>";
 		};
 		DD9384A313A5AEF400A3B32E /* JSTL */ = {
@@ -1407,6 +1468,7 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DD11799614933E860077F608 /* camera and photo */,
 				DD713624148FC90C00D000F3 /* audio */,
 				DDBFD7C61480CC70002014EE /* KVC and KVO */,
 				DDBFD7AB147F979F002014EE /* pdf */,
@@ -1784,6 +1846,7 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
 				DD9A77F0148BADFE0035C179 /* defaultSize */,
 				DDB148A5148B8AED00DB2D96 /* tabBar */,
 				DDC0F374147017E20036F576 /* resize */,
@@ -1882,6 +1945,17 @@
 				DDD12B9A134231B500AAE2B5 /* MyTextField.m */,
 			);
 			name = lib;
+			sourceTree = "<group>";
+		};
+		DDD9D0071495F02A00AEC594 /* ZoomInImageView */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9D00E1495FD5300AEC594 /* FullImageView.h */,
+				DDD9D00F1495FD5300AEC594 /* FullImageView.m */,
+				DDD9D0091495F04C00AEC594 /* ZoomInImageViewController.h */,
+				DDD9D00A1495F04C00AEC594 /* ZoomInImageViewController.m */,
+			);
+			name = ZoomInImageView;
 			sourceTree = "<group>";
 		};
 		DDDCA0451380FFEA0010232D /* language */ = {
