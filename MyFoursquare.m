@@ -38,6 +38,8 @@
         locInfo.name = [dic objectForKey:@"name"];
         locInfo.address = [[dic objectForKey:@"location"] objectForKey:@"address"];
         [placeArray addObject:locInfo];
+        [locInfo release];
+
     }
     return placeArray;
     
