@@ -12,6 +12,6 @@
 @interface MyActivityIndicatorViewLib : NSObject {
     
 }
-+(UIView*)showUIActivityIndicatorView:(UIView*)view size:(CGSize)size;
++(UIView*)showUIActivityIndicatorOnView:(UIView*)view frame:(CGRect)frame text:(NSString*)text;
 
 @end

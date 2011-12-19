@@ -8,3 +8,4 @@ ios default size
     UIToolBar - 320x49, 480*49
     
     cell height - 44
+    UISwitch - 95*27

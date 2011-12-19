@@ -1,0 +1,4 @@
+ios memory
+
+
+- (void)performSelectorOnMainThread:(SEL)aSelector withObject:(id)arg waitUntilDone:(BOOL)wait will add arg's retainCount

@@ -7,14 +7,13 @@
 //
 
 #import "MyActivityIndicatorViewLib.h"
-
+#import <QuartzCore/QuartzCore.h>
 
 @implementation MyActivityIndicatorViewLib
 
-+(UIView*)showUIActivityIndicatorView:(UIView*)view size:(CGSize)size
++(UIView*)showUIActivityIndicatorOnView:(UIView*)view frame:(CGRect)frame text:(NSString*)text
 {
-    UIView *blackView = [[UIView alloc] initWithFrame:
-                         CGRectMake(0, 0, size.width, size.height)];
+    UIView *blackView = [[UIView alloc] initWithFrame:frame];
 	blackView.backgroundColor = [UIColor colorWithWhite:0.0
                                                   alpha:0.8];
 	blackView.clipsToBounds = YES;
@@ -32,6 +31,20 @@
     
     [blackView addSubview:activityIndicatorView];
     [activityIndicatorView release];
+    
+    if(text != nil)
+    {
+        UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, 30)];
+        textLabel.center = CGPointMake(blackView.frame.size.width/2, 
+                                       blackView.frame.size.height-15);
+        textLabel.backgroundColor = [UIColor clearColor];
+        textLabel.text = text;
+        textLabel.textAlignment = UITextAlignmentCenter;
+        textLabel.textColor = [UIColor whiteColor];
+        [blackView addSubview:textLabel];
+        [textLabel release];
+    }
+    
     [activityIndicatorView startAnimating];
     
     return blackView;

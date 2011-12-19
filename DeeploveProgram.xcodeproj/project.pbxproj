@@ -84,6 +84,7 @@
 		DD5A512813CC0E76009705E1 /* DetectTapScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetectTapScrollView.m; sourceTree = "<group>"; };
 		DD66FC9D13BE022F003521AF /* googleMapEx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = googleMapEx.txt; sourceTree = "<group>"; };
 		DD66FCA113BEFE00003521AF /* iosStatusBarEx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosStatusBarEx.txt; sourceTree = "<group>"; };
+		DD66FD87149E55F8006884C3 /* iosMemory.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosMemory.txt; sourceTree = "<group>"; };
 		DD699B41137254D500C5C954 /* htmlDivAndSpanEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlDivAndSpanEx.html; sourceTree = "<group>"; };
 		DD699B4D1372805E00C5C954 /* pythonListEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonListEx.py; sourceTree = "<group>"; };
 		DD699B4F137280DB00C5C954 /* pythonStringEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonStringEx.py; sourceTree = "<group>"; };
@@ -173,6 +174,8 @@
 		DDC0F376147018670036F576 /* resizeNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = resizeNote.txt; sourceTree = "<group>"; };
 		DDC31DD5139A81DE006DBF1D /* MicBlowEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicBlowEx.h; sourceTree = "<group>"; };
 		DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicBlowEx.m; sourceTree = "<group>"; };
+		DDC55F42149F27150039A38C /* MyLanguageLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLanguageLib.h; sourceTree = "<group>"; };
+		DDC55F43149F27150039A38C /* MyLanguageLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLanguageLib.m; sourceTree = "<group>"; };
 		DDC762701388DF25001AAB10 /* UILabelEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelEx.h; sourceTree = "<group>"; };
 		DDC762711388DF25001AAB10 /* UILabelEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelEx.m; sourceTree = "<group>"; };
 		DDC762741388E13B001AAB10 /* iosTableEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosTableEx.h; sourceTree = "<group>"; };
@@ -985,6 +988,14 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DD66FD85149E5536006884C3 /* memory */ = {
+			isa = PBXGroup;
+			children = (
+				DD66FD87149E55F8006884C3 /* iosMemory.txt */,
+			);
+			name = memory;
+			sourceTree = "<group>";
+		};
 		DD699B3E1372549600C5C954 /* div and span */ = {
 			isa = PBXGroup;
 			children = (
@@ -1468,36 +1479,38 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD11799614933E860077F608 /* camera and photo */,
-				DD713624148FC90C00D000F3 /* audio */,
-				DDBFD7C61480CC70002014EE /* KVC and KVO */,
-				DDBFD7AB147F979F002014EE /* pdf */,
 				DD702CD414796B990091E40D /* adhoc */,
-				DD702C721477F6510091E40D /* Lock Screen Info */,
-				DD9B020014714F2800C88DC6 /* ARC */,
-				DDE5551A146CF681008BF8DE /* Upload App */,
-				DDDCEB6E13FF993D003FD5BC /* debug */,
-				DD70C15813DDB22100E4A0DC /* multitask */,
 				DDDFDFB713D2C9EE00C80C55 /* animation */,
-				DD99F83C13CC93F00004BB72 /* in app purchase */,
-				DD50DA5D13C9EB81005610AF /* Objective-C */,
-				DD279C9913B6EE6A00B68049 /* String */,
+				DD9B020014714F2800C88DC6 /* ARC */,
+				DD713624148FC90C00D000F3 /* audio */,
 				DDC31DD2139A81A0006DBF1D /* blow */,
-				DDCC17A513893496004A9E8D /* UI */,
-				DDBCB62D13816811004BE4CA /* Xcode */,
-				DD87E3BD137E5C87006A1B39 /* facebook */,
-				DD0487F9135F4F75002554C4 /* plist */,
-				DDA9D81913599F1400F69503 /* Math */,
-				DDA9D80B1358B00B00F69503 /* Thread */,
-				DD946C8C1353669000CBDA7F /* Map */,
-				DD583A761340C767001C9575 /* OhterLib */,
-				DD90063A133F7F4B00773AC6 /* File */,
-				DD319E55133D09D1007F98D2 /* XML */,
-				DD319E1A133BAC5C007F98D2 /* Device */,
-				DD319E12133B99D5007F98D2 /* Network */,
+				DD11799614933E860077F608 /* camera and photo */,
 				DD58238813378A4400C8FF8A /* Core Data */,
-				DDA3DC6C1334A4DB009BFD39 /* Time */,
+				DDDCEB6E13FF993D003FD5BC /* debug */,
+				DD319E1A133BAC5C007F98D2 /* Device */,
+				DD87E3BD137E5C87006A1B39 /* facebook */,
+				DD90063A133F7F4B00773AC6 /* File */,
+				DD99F83C13CC93F00004BB72 /* in app purchase */,
+				DDBFD7C61480CC70002014EE /* KVC and KVO */,
+				DDC55F40149F26CF0039A38C /* language */,
+				DD702C721477F6510091E40D /* Lock Screen Info */,
+				DD946C8C1353669000CBDA7F /* Map */,
+				DDA9D81913599F1400F69503 /* Math */,
+				DD66FD85149E5536006884C3 /* memory */,
+				DD70C15813DDB22100E4A0DC /* multitask */,
+				DD319E12133B99D5007F98D2 /* Network */,
 				DDA3DC6A1334A4A0009BFD39 /* Notification */,
+				DD50DA5D13C9EB81005610AF /* Objective-C */,
+				DD583A761340C767001C9575 /* OhterLib */,
+				DDBFD7AB147F979F002014EE /* pdf */,
+				DD0487F9135F4F75002554C4 /* plist */,
+				DD279C9913B6EE6A00B68049 /* String */,
+				DDA9D80B1358B00B00F69503 /* Thread */,
+				DDA3DC6C1334A4DB009BFD39 /* Time */,
+				DDCC17A513893496004A9E8D /* UI */,
+				DDE5551A146CF681008BF8DE /* Upload App */,
+				DDBCB62D13816811004BE4CA /* Xcode */,
+				DD319E55133D09D1007F98D2 /* XML */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -1807,6 +1820,15 @@
 				DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */,
 			);
 			name = ex;
+			sourceTree = "<group>";
+		};
+		DDC55F40149F26CF0039A38C /* language */ = {
+			isa = PBXGroup;
+			children = (
+				DDC55F42149F27150039A38C /* MyLanguageLib.h */,
+				DDC55F43149F27150039A38C /* MyLanguageLib.m */,
+			);
+			name = language;
 			sourceTree = "<group>";
 		};
 		DDC7626D1388DF04001AAB10 /* Label */ = {

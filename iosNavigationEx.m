@@ -11,6 +11,17 @@
 
 @implementation iosNavigationEx
 
+// (1) if controller A is navigation controller's top controller,
+// and A call setBackButtonTitle to set back title
+// (2) Then when navigation controller push controller B
+// the back Button to A's title is the title set in step (1)
+-(void)setBackButtonTitle:(NSString*)backTitle
+{
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:backTitle style:UIBarButtonItemStylePlain target:self action:nil];
+    self.navigationItem.backBarButtonItem = backItem;
+    [backItem release];
+}
+
 -(void)addLeftArrowButtonOnNavBar
 {
     UIBarButtonItem* backItem = [[UIBarButtonItem alloc] initWithCustomView:arrowView];
