@@ -12,7 +12,7 @@
 @interface TextFieldEx : NSObject {
     
 }
-
++(void)showKeyboard:(UITextField*)textField;
 +(void)setPasswordTextfield:(UITextField*)textField;
 +(void)setRoundCornerTextfield:(UITextField*)textField;
 +(void)disableAutocapitalization:(UITextField*)textField;

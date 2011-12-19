@@ -11,6 +11,11 @@
 
 @implementation TextFieldEx
 
++(void)showKeyboard:(UITextField*)textField 
+{
+    [textView becomeFirstResponder];
+}
+
 +(void)disappearKeyboardWhenEnterPressed:(UITextField*)textField
 target:(id)target action:(SEL)action
 {

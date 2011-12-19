@@ -55,6 +55,8 @@
 		DD39704D1387ADF400D92584 /* iosNavigationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosNavigationEx.m; sourceTree = "<group>"; };
 		DD48F616149F87A5000D0FFD /* MyFoursquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFoursquare.h; sourceTree = "<group>"; };
 		DD48F617149F87A5000D0FFD /* MyFoursquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFoursquare.m; sourceTree = "<group>"; };
+		DD48F61D149F9265000D0FFD /* PhotoGalleryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoGalleryTableViewController.h; sourceTree = "<group>"; };
+		DD48F61E149F9265000D0FFD /* PhotoGalleryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoGalleryTableViewController.m; sourceTree = "<group>"; };
 		DD4ABCA9133DD5DE00D855A7 /* MyXmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyXmlParser.h; sourceTree = "<group>"; };
 		DD4ABCAA133DD5DE00D855A7 /* MyXmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyXmlParser.m; sourceTree = "<group>"; };
 		DD4ABCDA133DE35900D855A7 /* MyAsnycDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAsnycDownload.h; sourceTree = "<group>"; };
@@ -853,6 +855,15 @@
 			name = foursquare;
 			sourceTree = "<group>";
 		};
+		DD48F61C149F923B000D0FFD /* photo gallery */ = {
+			isa = PBXGroup;
+			children = (
+				DD48F61D149F9265000D0FFD /* PhotoGalleryTableViewController.h */,
+				DD48F61E149F9265000D0FFD /* PhotoGalleryTableViewController.m */,
+			);
+			name = "photo gallery";
+			sourceTree = "<group>";
+		};
 		DD50DA5D13C9EB81005610AF /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
@@ -1516,6 +1527,7 @@
 				DD50DA5D13C9EB81005610AF /* Objective-C */,
 				DD583A761340C767001C9575 /* OhterLib */,
 				DDBFD7AB147F979F002014EE /* pdf */,
+				DD48F61C149F923B000D0FFD /* photo gallery */,
 				DD0487F9135F4F75002554C4 /* plist */,
 				DD279C9913B6EE6A00B68049 /* String */,
 				DDA9D80B1358B00B00F69503 /* Thread */,
