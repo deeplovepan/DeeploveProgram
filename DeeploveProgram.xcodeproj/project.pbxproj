@@ -1490,6 +1490,7 @@
 				DD319E1A133BAC5C007F98D2 /* Device */,
 				DD87E3BD137E5C87006A1B39 /* facebook */,
 				DD90063A133F7F4B00773AC6 /* File */,
+				DDC55F51149F33A40039A38C /* gesture */,
 				DD99F83C13CC93F00004BB72 /* in app purchase */,
 				DDBFD7C61480CC70002014EE /* KVC and KVO */,
 				DDC55F40149F26CF0039A38C /* language */,
@@ -1829,6 +1830,13 @@
 				DDC55F43149F27150039A38C /* MyLanguageLib.m */,
 			);
 			name = language;
+			sourceTree = "<group>";
+		};
+		DDC55F51149F33A40039A38C /* gesture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = gesture;
 			sourceTree = "<group>";
 		};
 		DDC7626D1388DF04001AAB10 /* Label */ = {
