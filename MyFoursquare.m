@@ -9,14 +9,16 @@
 #import "MyFoursquare.h"
 #import "MyWeb.h"
 
-#define FOURSQUARE_SECRET @"HHGDT0ESKO030HZOIIJL2GKV2YZWTKXHQJPE52I2H5W32TGR"
-#define FOURSQUARE_CLIENT_ID @"11CTXEX2NW1U45NBJ1FNVJYTEXAHEB0ZRBWLGNULTNSWJMTM"
+#define FOURSQUARE_SECRET @"AAAAA"
+#define FOURSQUARE_CLIENT_ID @"BBBBB"
 
 @implementation MyFoursquare
 
 @synthesize name;
 @synthesize address;
 
+// reference:
+// https://developer.foursquare.com/overview/versioning
 // if no v parameter, the response will contain errorType deprecated
 +(NSMutableArray*)getNearbyPlaceByCoordinate:(CLLocationCoordinate2D)coordinate
 {
