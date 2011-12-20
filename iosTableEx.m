@@ -11,8 +11,14 @@
 
 @implementation iosTableEx
 
-// UITableViewController
-// (1) self.view = self.tableView
+
++(void)setHeight:(UITableView*)tableView
+{
+    tableView.rowHeight = 10;
+    tableView.sectionHeaderHeight = 10;
+    tableView.sectionFooterHeight = 10;
+
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {

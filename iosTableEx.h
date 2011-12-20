@@ -13,4 +13,6 @@
     
 }
 
++(void)setHeight:(UITableView*)tableView;
+
 @end
