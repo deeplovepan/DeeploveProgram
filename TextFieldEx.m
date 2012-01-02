@@ -11,6 +11,11 @@
 
 @implementation TextFieldEx
 
++(void)verticalCenter:(UITextField*)textField
+{
+     textField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+}
+
 +(void)showKeyboard:(UITextField*)textField 
 {
     [textView becomeFirstResponder];

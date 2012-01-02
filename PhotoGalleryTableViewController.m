@@ -67,7 +67,8 @@
     self.view.frame = CGRectMake(0, 0, 320, 480-20);
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.rowHeight = ROW_HEIGHT;
-    
+    self.tableView.allowsSelection = NO;
+
     
 }
 

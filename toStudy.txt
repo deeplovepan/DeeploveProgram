@@ -1,0 +1,7 @@
+to study
+
+1. shortcut for app delegate 
+
+2. network cache duration
+
+3. is activity indicator auto stop and remove when its superview is removed

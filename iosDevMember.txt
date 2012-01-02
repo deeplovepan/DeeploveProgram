@@ -1,0 +1,14 @@
+ios dev member
+
+enroll from following page:
+    http://developer.apple.com/programs/ios/
+    
+company account:
+   1. 於Enter your organization頁面:
+        
+       (1) Legal Entity Name:
+           填入公司登記的english name 
+       (2) address:
+           填入營利事業登記證上的地址
+           
+        2.  傳真時前面加002

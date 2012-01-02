@@ -1,0 +1,7 @@
+ios compile error
+
+1. warning: no rule to process file '$(PROJECT_DIR)/JeFretCalc/Facebook.h' of type sourcecode.c.h for architecture armv7
+
+   solution:
+        Navigate to your target's "Build Phases" tab
+        remove .h files in the "Compile Sources" section.

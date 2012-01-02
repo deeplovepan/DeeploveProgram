@@ -11,6 +11,11 @@
 
 @implementation WebEx
 
+/* problem: create UIWebView in viewDidLoad or viewWillAppear will slow view appear     
+            speed 
+   solution: create UIWebVie in viewDidAppear
+*/
+
 +(void)setWebviewTransparent:(UIWebView*)webView
 {
     webView.opaque = NO;
