@@ -6,10 +6,17 @@
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
-#import "DeeploveTimeLib.h"
+#import "MyTimeLib.h"
 
+// date format
+/*
+    HH: show hour , unit 24 hour 
+    hh: show hour , unit 12 hour 
+    MM: show month number, ex 01, 02
+    M: show month number, ex 1, 2
+ */
 
-@implementation DeeploveTimeLib
+@implementation MyTimeLib
 
 +(NSString*)getTimeStrFromDate:(NSDate*)date
 {
@@ -18,6 +25,18 @@
     NSString *timeStr = [dateFormatter stringFromDate:date];
     [dateFormatter release];
     return timeStr;
+}
+
++(NSString*)getRFC1123TimeStrFromDate:(NSDate*)date
+{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setTimeZone: [NSTimeZone timeZoneWithName: @"GMT"]];
+    formatter.locale = [[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease];  
+    [formatter setDateFormat: @"EEE, dd MMM yyyy HH:mm:ss"];
+    NSString *dateString = [[formatter stringFromDate: date] stringByAppendingString:@" GMT"];
+    [formatter release];
+    return dateString;
+
 }
 
 +(NSDate*)getDateFromYear:(int)year month:(int)month day:(int)day

@@ -11,6 +11,12 @@
 
 @implementation WebEx
 
+// if json contain null value
+/*
+        ex: "deadline":null
+        compare it with [NSNull null]
+*/
+
 +(void)setWebviewTransparent:(UIWebView*)webView
 {
     webView.opaque = NO;

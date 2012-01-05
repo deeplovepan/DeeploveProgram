@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		A628A5EC14B2ED82007A9573 /* MyTimeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTimeLib.h; sourceTree = "<group>"; };
+		A628A5ED14B2ED82007A9573 /* MyTimeLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTimeLib.m; sourceTree = "<group>"; };
+		A628A62514B546ED007A9573 /* MyUiUtilityEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUiUtilityEx.h; sourceTree = "<group>"; };
+		A628A62614B546ED007A9573 /* MyUiUtilityEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUiUtilityEx.m; sourceTree = "<group>"; };
+		A628A62714B56EB3007A9573 /* font_autoshrink.png */ = {isa = PBXFileReference; path = font_autoshrink.png; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -146,8 +151,6 @@
 		DD9B020214714FBA00C88DC6 /* arcNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = arcNote.txt; sourceTree = "<group>"; };
 		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
 		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
-		DDA3DC6D1334A50E009BFD39 /* DeeploveTimeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeeploveTimeLib.h; sourceTree = "<group>"; };
-		DDA3DC6E1334A50E009BFD39 /* DeeploveTimeLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeeploveTimeLib.m; sourceTree = "<group>"; };
 		DDA9D80E1358B03500F69503 /* ThreadEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadEx.h; sourceTree = "<group>"; };
 		DDA9D80F1358B03500F69503 /* ThreadEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadEx.m; sourceTree = "<group>"; };
 		DDA9D81B13599F3D00F69503 /* MathEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathEx.h; sourceTree = "<group>"; };
@@ -233,6 +236,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		A628A62214B54589007A9573 /* MyUiUtility */ = {
+			isa = PBXGroup;
+			children = (
+				A628A62514B546ED007A9573 /* MyUiUtilityEx.h */,
+				A628A62614B546ED007A9573 /* MyUiUtilityEx.m */,
+			);
+			name = MyUiUtility;
+			sourceTree = "<group>";
+		};
 		DD0487F5135F30A8002554C4 /* ex */ = {
 			isa = PBXGroup;
 			children = (
@@ -1477,8 +1489,8 @@
 		DD9FC1FA13350128006241C6 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				DDA3DC6D1334A50E009BFD39 /* DeeploveTimeLib.h */,
-				DDA3DC6E1334A50E009BFD39 /* DeeploveTimeLib.m */,
+				A628A5EC14B2ED82007A9573 /* MyTimeLib.h */,
+				A628A5ED14B2ED82007A9573 /* MyTimeLib.m */,
 			);
 			name = lib;
 			sourceTree = "<group>";
@@ -1868,6 +1880,7 @@
 		DDC7626D1388DF04001AAB10 /* Label */ = {
 			isa = PBXGroup;
 			children = (
+				A628A62714B56EB3007A9573 /* font_autoshrink.png */,
 				DDC7626F1388DF0E001AAB10 /* ex */,
 			);
 			name = Label;
@@ -1902,6 +1915,7 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A628A62214B54589007A9573 /* MyUiUtility */,
 				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
 				DD9A77F0148BADFE0035C179 /* defaultSize */,
 				DDB148A5148B8AED00DB2D96 /* tabBar */,

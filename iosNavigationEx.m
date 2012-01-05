@@ -11,6 +11,14 @@
 
 @implementation iosNavigationEx
 
+// - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated;
+/*
+    if controller A push controller B in method test
+    after call pushViewController:animated:, 
+    controller B's viewDidLoad & viewWillAppear will be called
+    then code in method test after push is executed ( before controller B's viewDidAppear is called )
+*/
+
 // (1) if controller A is navigation controller's top controller,
 // and A call setBackButtonTitle to set back title
 // (2) Then when navigation controller push controller B

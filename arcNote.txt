@@ -2,4 +2,4 @@ ARC
 
 set file not to use ARC
 1. Go to your project settings, under Build Phases > Compile Sources
-2. Select the files you want ARC disabled and add -fno-objc-arc compiler flags. You can set flags for multiple files in one shot by selecting the files then hitting "Enter" key.
+2. Select the files you want ARC disabled and add ` compiler flags. You can set flags for multiple files in one shot by selecting the files then hitting "Enter" key.
