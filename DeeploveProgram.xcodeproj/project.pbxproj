@@ -11,7 +11,12 @@
 		A628A5ED14B2ED82007A9573 /* MyTimeLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTimeLib.m; sourceTree = "<group>"; };
 		A628A62514B546ED007A9573 /* MyUiUtilityEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUiUtilityEx.h; sourceTree = "<group>"; };
 		A628A62614B546ED007A9573 /* MyUiUtilityEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUiUtilityEx.m; sourceTree = "<group>"; };
-		A628A62714B56EB3007A9573 /* font_autoshrink.png */ = {isa = PBXFileReference; path = font_autoshrink.png; sourceTree = "<group>"; };
+		A628A62714B56EB3007A9573 /* font_autoshrink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_autoshrink.png; sourceTree = "<group>"; };
+		A628A66D14B58A8C007A9573 /* iOS_guide.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOS_guide.txt; sourceTree = "<group>"; };
+		A64D2FB014B6A4F300B81680 /* ImageRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageRecord.h; sourceTree = "<group>"; };
+		A64D2FB114B6A4F300B81680 /* ImageRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRecord.m; sourceTree = "<group>"; };
+		A64D2FB214B6A4F300B81680 /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		A64D2FB314B6A4F300B81680 /* ImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -243,6 +248,14 @@
 				A628A62614B546ED007A9573 /* MyUiUtilityEx.m */,
 			);
 			name = MyUiUtility;
+			sourceTree = "<group>";
+		};
+		A628A66C14B58A51007A9573 /* guide */ = {
+			isa = PBXGroup;
+			children = (
+				A628A66D14B58A8C007A9573 /* iOS_guide.txt */,
+			);
+			name = guide;
 			sourceTree = "<group>";
 		};
 		DD0487F5135F30A8002554C4 /* ex */ = {
@@ -800,6 +813,10 @@
 		DD319E14133B99DF007F98D2 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				A64D2FB014B6A4F300B81680 /* ImageRecord.h */,
+				A64D2FB114B6A4F300B81680 /* ImageRecord.m */,
+				A64D2FB214B6A4F300B81680 /* ImageDownloader.h */,
+				A64D2FB314B6A4F300B81680 /* ImageDownloader.m */,
 				DD319E15133B9A08007F98D2 /* MyWeb.h */,
 				DD319E16133B9A08007F98D2 /* MyWeb.m */,
 				DD4ABCDA133DE35900D855A7 /* MyAsnycDownload.h */,
@@ -1528,6 +1545,7 @@
 				DD90063A133F7F4B00773AC6 /* File */,
 				DD48F614149F8780000D0FFD /* foursquare */,
 				DDC55F51149F33A40039A38C /* gesture */,
+				A628A66C14B58A51007A9573 /* guide */,
 				DD99F83C13CC93F00004BB72 /* in app purchase */,
 				DDBFD7C61480CC70002014EE /* KVC and KVO */,
 				DDC55F40149F26CF0039A38C /* language */,
