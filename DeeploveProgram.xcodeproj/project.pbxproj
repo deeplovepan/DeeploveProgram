@@ -20,6 +20,10 @@
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
+		DD0CAD7814B1EE8E00EC6E6A /* AlignmentEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlignmentEx.h; sourceTree = "<group>"; };
+		DD0CAD7914B1EE8E00EC6E6A /* AlignmentEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlignmentEx.m; sourceTree = "<group>"; };
+		DD0CAD8F14B2186B00EC6E6A /* storyboardNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = storyboardNote.txt; sourceTree = "<group>"; };
+		DD0CAD9014B2188200EC6E6A /* embedIn.tiff */ = {isa = PBXFileReference; path = embedIn.tiff; sourceTree = "<group>"; };
 		DD109D5F13A72D890032FE93 /* webUseCssEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webUseCssEx.html; sourceTree = "<group>"; };
 		DD11799814933EBD0077F608 /* IosCameraAndPhotoEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosCameraAndPhotoEx.h; sourceTree = "<group>"; };
 		DD11799914933EBD0077F608 /* IosCameraAndPhotoEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosCameraAndPhotoEx.m; sourceTree = "<group>"; };
@@ -63,6 +67,7 @@
 		DD319E1D133BAC8D007F98D2 /* DeviceEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceEx.m; sourceTree = "<group>"; };
 		DD39704C1387ADF400D92584 /* iosNavigationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosNavigationEx.h; sourceTree = "<group>"; };
 		DD39704D1387ADF400D92584 /* iosNavigationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosNavigationEx.m; sourceTree = "<group>"; };
+		DD43C14B14A309DE0078450F /* groupTableCell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groupTableCell.jpg; sourceTree = "<group>"; };
 		DD48F616149F87A5000D0FFD /* MyFoursquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFoursquare.h; sourceTree = "<group>"; };
 		DD48F617149F87A5000D0FFD /* MyFoursquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFoursquare.m; sourceTree = "<group>"; };
 		DD48F61D149F9265000D0FFD /* PhotoGalleryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoGalleryTableViewController.h; sourceTree = "<group>"; };
@@ -118,8 +123,13 @@
 		DD702CD814796BAA0091E40D /* adhocStep2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = adhocStep2.tiff; sourceTree = "<group>"; };
 		DD70C15B13DDB27500E4A0DC /* iosMultitask */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosMultitask; sourceTree = "<group>"; };
 		DD713626148FC97700D000F3 /* iosAudioNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosAudioNote.txt; sourceTree = "<group>"; };
+		DD7218AE14B0C80700B9AA63 /* createApp.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = createApp.txt; sourceTree = "<group>"; };
 		DD7F25B8136B0F73008C72D2 /* HorizontalPageScrollContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalPageScrollContentViewController.h; sourceTree = "<group>"; };
 		DD7F25B9136B0F73008C72D2 /* HorizontalPageScrollContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalPageScrollContentViewController.m; sourceTree = "<group>"; };
+		DD8693EA14ADAA40006DBB97 /* iosDevMember.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosDevMember.txt; sourceTree = "<group>"; };
+		DD8693F114ADAFDC006DBB97 /* gmail.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = gmail.txt; sourceTree = "<group>"; };
+		DD8693F314ADC4F7006DBB97 /* MyKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyKeyboard.h; sourceTree = "<group>"; };
+		DD8693F414ADC4F7006DBB97 /* MyKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKeyboard.m; sourceTree = "<group>"; };
 		DD87E3C0137E5CD6006A1B39 /* iosFacebookEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosFacebookEx.h; sourceTree = "<group>"; };
 		DD87E3C1137E5CD6006A1B39 /* iosFacebookEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosFacebookEx.m; sourceTree = "<group>"; };
 		DD87E434137E9EB6006A1B39 /* MyFacebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFacebook.h; sourceTree = "<group>"; };
@@ -201,6 +211,7 @@
 		DDD12B931342253B00AAE2B5 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 		DDD12B99134231B500AAE2B5 /* MyTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
 		DDD12B9A134231B500AAE2B5 /* MyTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
+		DDD6C87114A462A5004DBE2C /* iosCompileError.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosCompileError.txt; sourceTree = "<group>"; };
 		DDD9D0091495F04C00AEC594 /* ZoomInImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomInImageViewController.h; sourceTree = "<group>"; };
 		DDD9D00A1495F04C00AEC594 /* ZoomInImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomInImageViewController.m; sourceTree = "<group>"; };
 		DDD9D00E1495FD5300AEC594 /* FullImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullImageView.h; sourceTree = "<group>"; };
@@ -235,6 +246,7 @@
 		DDF11E0B136AAB0F00C5A4B9 /* JavaStringEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaStringEx.java; sourceTree = "<group>"; };
 		DDF11E0E136AACA900C5A4B9 /* JavaFileAndIoEx.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = JavaFileAndIoEx.java; sourceTree = "<group>"; };
 		DDF11E11136ACAA300C5A4B9 /* pythonRegularExpressionEx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonRegularExpressionEx.py; sourceTree = "<group>"; };
+		DDF13D9014AC9C3100AE0B13 /* toStudy.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = toStudy.txt; sourceTree = "<group>"; };
 		DDF8CC76136FDB5D00E11519 /* cplusIo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cplusIo.cpp; sourceTree = "<group>"; };
 		DDFE96EE13E2FC3D00F9A246 /* iosAnimationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosAnimationEx.h; sourceTree = "<group>"; };
 		DDFE96EF13E2FC3D00F9A246 /* iosAnimationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosAnimationEx.m; sourceTree = "<group>"; };
@@ -281,6 +293,24 @@
 				DD0487FB135F4F9C002554C4 /* plistEx */,
 			);
 			name = ex;
+			sourceTree = "<group>";
+		};
+		DD0CAD7614B1EE6400EC6E6A /* alignment */ = {
+			isa = PBXGroup;
+			children = (
+				DD0CAD7814B1EE8E00EC6E6A /* AlignmentEx.h */,
+				DD0CAD7914B1EE8E00EC6E6A /* AlignmentEx.m */,
+			);
+			name = alignment;
+			sourceTree = "<group>";
+		};
+		DD0CAD8E14B2182700EC6E6A /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD0CAD9014B2188200EC6E6A /* embedIn.tiff */,
+				DD0CAD8F14B2186B00EC6E6A /* storyboardNote.txt */,
+			);
+			name = storyboard;
 			sourceTree = "<group>";
 		};
 		DD109D5C13A72D690032FE93 /* css */ = {
@@ -876,6 +906,14 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DD43C14114A2FBED0078450F /* ios dev member */ = {
+			isa = PBXGroup;
+			children = (
+				DD8693EA14ADAA40006DBB97 /* iosDevMember.txt */,
+			);
+			name = "ios dev member";
+			sourceTree = "<group>";
+		};
 		DD48F614149F8780000D0FFD /* foursquare */ = {
 			isa = PBXGroup;
 			children = (
@@ -1308,6 +1346,31 @@
 			name = audio;
 			sourceTree = "<group>";
 		};
+		DD7218AD14B0C7B100B9AA63 /* create app */ = {
+			isa = PBXGroup;
+			children = (
+				DD7218AE14B0C80700B9AA63 /* createApp.txt */,
+			);
+			name = "create app";
+			sourceTree = "<group>";
+		};
+		DD8693EF14ADAFA7006DBB97 /* gmail */ = {
+			isa = PBXGroup;
+			children = (
+				DD8693F114ADAFDC006DBB97 /* gmail.txt */,
+			);
+			name = gmail;
+			sourceTree = "<group>";
+		};
+		DD8693F214ADC4C2006DBB97 /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD8693F314ADC4F7006DBB97 /* MyKeyboard.h */,
+				DD8693F414ADC4F7006DBB97 /* MyKeyboard.m */,
+			);
+			name = keyboard;
+			sourceTree = "<group>";
+		};
 		DD87E3BD137E5C87006A1B39 /* facebook */ = {
 			isa = PBXGroup;
 			children = (
@@ -1480,6 +1543,7 @@
 		DD9A77F0148BADFE0035C179 /* defaultSize */ = {
 			isa = PBXGroup;
 			children = (
+				DD43C14B14A309DE0078450F /* groupTableCell.jpg */,
 				DD9A77F2148BAEB20035C179 /* iosDefaultSize.txt */,
 				DD48F66514A0326C000D0FFD /* IosDefaultUi.h */,
 			);
@@ -1515,6 +1579,8 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DD8693EF14ADAFA7006DBB97 /* gmail */,
+				DDF13D8E14AC9BF000AE0B13 /* to study */,
 				DD66FC9A13BE0204003521AF /* googleApi */,
 				DD6E85F6138B80910009B0C0 /* web */,
 				DD25A233137CDD560003CD84 /* jsp */,
@@ -1538,7 +1604,9 @@
 				DD713624148FC90C00D000F3 /* audio */,
 				DDC31DD2139A81A0006DBF1D /* blow */,
 				DD11799614933E860077F608 /* camera and photo */,
+				DDD6C87014A46255004DBE2C /* compileError */,
 				DD58238813378A4400C8FF8A /* Core Data */,
+				DD7218AD14B0C7B100B9AA63 /* create app */,
 				DDDCEB6E13FF993D003FD5BC /* debug */,
 				DD319E1A133BAC5C007F98D2 /* Device */,
 				DD87E3BD137E5C87006A1B39 /* facebook */,
@@ -1547,6 +1615,7 @@
 				DDC55F51149F33A40039A38C /* gesture */,
 				A628A66C14B58A51007A9573 /* guide */,
 				DD99F83C13CC93F00004BB72 /* in app purchase */,
+				DD43C14114A2FBED0078450F /* ios dev member */,
 				DDBFD7C61480CC70002014EE /* KVC and KVO */,
 				DDC55F40149F26CF0039A38C /* language */,
 				DD702C721477F6510091E40D /* Lock Screen Info */,
@@ -1935,18 +2004,22 @@
 			children = (
 				A628A62214B54589007A9573 /* MyUiUtility */,
 				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
-				DD9A77F0148BADFE0035C179 /* defaultSize */,
-				DDB148A5148B8AED00DB2D96 /* tabBar */,
-				DDC0F374147017E20036F576 /* resize */,
-				DD66FC9F13BEFDC7003521AF /* status bar */,
-				DDD12B881342237500AAE2B5 /* Image */,
+				DD0CAD8E14B2182700EC6E6A /* storyboard */,
+				DD0CAD7614B1EE6400EC6E6A /* alignment */,
 				DDD12B901342251E00AAE2B5 /* Button */,
+				DD9A77F0148BADFE0035C179 /* defaultSize */,
+				DDD12B881342237500AAE2B5 /* Image */,
+				DD8693F214ADC4C2006DBB97 /* keyboard */,
+				DDC7626D1388DF04001AAB10 /* Label */,
+				DD3970461387ACF500D92584 /* navigation */,
+				DDC0F374147017E20036F576 /* resize */,
+				DDB07F661369B5E0003FB1EF /* ScrollView */,
+				DD66FC9F13BEFDC7003521AF /* status bar */,
+				DDB148A5148B8AED00DB2D96 /* tabBar */,
+				DDC762721388E11E001AAB10 /* Table */,
 				DDD12B971342317100AAE2B5 /* TextField */,
 				DD54D4011379936C0056DEBD /* UIActivityIndicatorView */,
-				DDB07F661369B5E0003FB1EF /* ScrollView */,
-				DD3970461387ACF500D92584 /* navigation */,
-				DDC7626D1388DF04001AAB10 /* Label */,
-				DDC762721388E11E001AAB10 /* Table */,
+				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -2033,6 +2106,14 @@
 				DDD12B9A134231B500AAE2B5 /* MyTextField.m */,
 			);
 			name = lib;
+			sourceTree = "<group>";
+		};
+		DDD6C87014A46255004DBE2C /* compileError */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6C87114A462A5004DBE2C /* iosCompileError.txt */,
+			);
+			name = compileError;
 			sourceTree = "<group>";
 		};
 		DDD9D0071495F02A00AEC594 /* ZoomInImageView */ = {
@@ -2531,6 +2612,14 @@
 				DDF11E11136ACAA300C5A4B9 /* pythonRegularExpressionEx.py */,
 			);
 			name = ex;
+			sourceTree = "<group>";
+		};
+		DDF13D8E14AC9BF000AE0B13 /* to study */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13D9014AC9C3100AE0B13 /* toStudy.txt */,
+			);
+			name = "to study";
 			sourceTree = "<group>";
 		};
 		DDF8CC72136FDB1E00E11519 /* c++ */ = {

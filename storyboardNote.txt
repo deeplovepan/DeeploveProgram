@@ -1,0 +1,4 @@
+storyboard
+
+embed controller in another navigation controller
+    Editor -> Embed in -> Navigation Controller 

@@ -8,4 +8,18 @@ ios default size
     UIToolBar - 320x49, 480*49
     
     cell height - 44
-    UISwitch - 95*27
+    
+    grouped table cell - 300 * 44 
+                         left margin: 10 
+                         right margin: 10 
+    
+    Portrait Keyboard height	 216 
+    Landscape Keyboard height	 162
+ 
+    UISwitch size: fixed 79 * 27
+    
+if there is a status bar, navBar and tabBar
+view controller's view 
+    viewDidLoad : (0 20; 320 460)
+    viewWillAppear: (0 0; 320 367)
+    viewDidAppear: (0 0; 320 367)

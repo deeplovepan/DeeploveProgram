@@ -11,6 +11,8 @@
 #import "ccMacros.h"
 //#import "MyDebug.h"
 
+
+
 @implementation MyInAppPurchase
 
 @synthesize productArray;

@@ -1,0 +1,6 @@
+create app
+
+ad hoc:
+  remember to set Release's Code Sign profile
+  If only choose Ad Hoc profile in share,
+  the app can not installed on iPhone

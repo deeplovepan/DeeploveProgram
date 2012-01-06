@@ -11,6 +11,26 @@
 
 @implementation iosTableEx
 
+// grouped table default background color:
+// kCGColorSpaceModelPattern
+
+// set grouped table background color and cell color
+// tableView.backgroundColor = [UIColor clearColor];
+// cell.backgroundColor = [UIColor whiteColor];
+
+    
+
+
+
+// disable cell select
+// (1)  cell.selectionStyle = UITableViewCellSelectionStyleNone;
+// (2)  not do anything in - (void)tableView:(UITableView *)tableView  
+//      didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+
+
+// table index
+// implement - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView; 
+
 
 +(void)setHeight:(UITableView*)tableView
 {

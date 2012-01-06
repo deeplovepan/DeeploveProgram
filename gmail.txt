@@ -1,0 +1,5 @@
+gmail
+
+problem: forward enmail to multiple email
+solution: 建立篩選器
+
