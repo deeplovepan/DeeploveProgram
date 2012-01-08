@@ -11,6 +11,11 @@
 
 @implementation WebEx
 
+// if json contain null value
+/*
+        ex: "deadline":null
+        compare it with [NSNull null]
+
 /* problem: create UIWebView in viewDidLoad or viewWillAppear will slow view appear     
             speed 
    solution: create UIWebVie in viewDidAppear
