@@ -1,7 +1,8 @@
 ios debug
 
 print stack trace:
-NSLog(@"%@", [NSThread callStackSymbols]);
+    NSLog(@"%@", [NSThread callStackSymbols]);
 
-
+add exception point
+    find crash line for some exception bug, such as access empty arrray
 

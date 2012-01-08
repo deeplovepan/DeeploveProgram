@@ -13,10 +13,12 @@
 		DD0CAD7814B1EE8E00EC6E6A /* AlignmentEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlignmentEx.h; sourceTree = "<group>"; };
 		DD0CAD7914B1EE8E00EC6E6A /* AlignmentEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlignmentEx.m; sourceTree = "<group>"; };
 		DD0CAD8F14B2186B00EC6E6A /* storyboardNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = storyboardNote.txt; sourceTree = "<group>"; };
-		DD0CAD9014B2188200EC6E6A /* embedIn.tiff */ = {isa = PBXFileReference; path = embedIn.tiff; sourceTree = "<group>"; };
+		DD0CAD9014B2188200EC6E6A /* embedIn.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = embedIn.tiff; sourceTree = "<group>"; };
 		DD109D5F13A72D890032FE93 /* webUseCssEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webUseCssEx.html; sourceTree = "<group>"; };
 		DD11799814933EBD0077F608 /* IosCameraAndPhotoEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosCameraAndPhotoEx.h; sourceTree = "<group>"; };
 		DD11799914933EBD0077F608 /* IosCameraAndPhotoEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosCameraAndPhotoEx.m; sourceTree = "<group>"; };
+		DD11A29B14BA122E00C5FCE9 /* breakpoint1.tiff */ = {isa = PBXFileReference; path = breakpoint1.tiff; sourceTree = "<group>"; };
+		DD11A29C14BA122E00C5FCE9 /* breakpoint2.tiff */ = {isa = PBXFileReference; path = breakpoint2.tiff; sourceTree = "<group>"; };
 		DD18D83A134729CE00BBC80F /* MyNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNotification.h; sourceTree = "<group>"; };
 		DD18D83B134729CE00BBC80F /* MyNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotification.m; sourceTree = "<group>"; };
 		DD21EBBD13B06DD700A0F01F /* javaNumberFormat.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = javaNumberFormat.java; sourceTree = "<group>"; };
@@ -2193,6 +2195,8 @@
 		DDDCEB6E13FF993D003FD5BC /* debug */ = {
 			isa = PBXGroup;
 			children = (
+				DD11A29B14BA122E00C5FCE9 /* breakpoint1.tiff */,
+				DD11A29C14BA122E00C5FCE9 /* breakpoint2.tiff */,
 				DDDCEB7113FF99E1003FD5BC /* iosDebug */,
 			);
 			name = debug;
