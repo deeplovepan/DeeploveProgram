@@ -11,6 +11,19 @@
 
 @implementation iosTableEx
 
+
+/*  remove cell select after back to table
+    
+    -(void)viewWillAppear:(BOOL)animated
+    {
+        [super viewWillAppear:animated];
+ 
+        NSIndexPath *indexPath = [self.table indexPathForSelectedRow];
+        [self.table deselectRowAtIndexPath:indexPath animated:YES];
+    }
+
+*/
+
 /*
     cell in storyboard
  
