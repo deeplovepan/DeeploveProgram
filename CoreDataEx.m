@@ -6,6 +6,15 @@
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
+
+/*
+    1. define core data modal xcdatamodeld
+ 
+    2. create NSManagementedObject file from xcdatamodeld
+ 
+ 
+*/
+
 #import "CoreDataEx.h"
 #import "Person.h"
 

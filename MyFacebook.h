@@ -20,6 +20,5 @@
 -(void)publish:(NSString*)msg picLink:(NSString*)picLink;
 -(void)logout;
 -(BOOL)isUserLogin;
--(void)like:(NSString*)objId;
 
 @end

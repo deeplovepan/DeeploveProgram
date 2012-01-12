@@ -2,3 +2,16 @@ storyboard
 
 embed controller in another navigation controller
     Editor -> Embed in -> Navigation Controller 
+    
+pass data between controller
+
+    if controller A push controller B, 
+    A's following method will be called when A push B
+        - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
+    
+    pass data to B ex:
+        - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+        {
+            WebViewController *controller = (WebViewController*)[segue destinationViewController];
+            controller.urlStr = @"http://www.apple.com";
+        }

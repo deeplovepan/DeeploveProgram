@@ -15,7 +15,7 @@
 // http://developers.facebook.com/docs/reference/api/post/
 
 // 1. create facebook app
-//    go to http://www.facebook.com/developers/
+//    go to https://developers.facebook.com/apps
 // 2. git clone git://github.com/facebook/facebook-ios-sdk.git
 // 3. copy facebook-ios-sdk/src into project
 // 4. #import "FBConnect.h"

@@ -49,16 +49,6 @@
     }
 }
 
-/*
--(void)like:(NSString*)objId
-{
-   
-    NSString *path = [NSString stringWithFormat:@"%@/likes", objId];
-    NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
-    [facebook requestWithGraphPath:path andParams:dic andHttpMethod:@"POST" andDelegate:self];
-    [dic release];
-}
-*/
 
 -(void)login
 {

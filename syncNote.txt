@@ -1,0 +1,7 @@
+sync note
+
+evernote sync:
+    http://www.evernote.com/about/developer/api/edam-sync.pdf
+    
+quickconnectfamily
+    http://www.quickconnectfamily.org/qcdbsync/

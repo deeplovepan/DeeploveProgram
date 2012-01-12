@@ -13,6 +13,11 @@
 		A628A62614B546ED007A9573 /* MyUiUtilityEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUiUtilityEx.m; sourceTree = "<group>"; };
 		A628A62714B56EB3007A9573 /* font_autoshrink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_autoshrink.png; sourceTree = "<group>"; };
 		A628A66D14B58A8C007A9573 /* iOS_guide.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOS_guide.txt; sourceTree = "<group>"; };
+		A62990E114BD9BE700F77DDD /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		A62990E414BD9F2B00F77DDD /* PullDownToRefreshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullDownToRefreshViewController.h; sourceTree = "<group>"; };
+		A62990E514BD9F2B00F77DDD /* PullDownToRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownToRefreshViewController.m; sourceTree = "<group>"; };
+		A629914C14BEC22800F77DDD /* syncNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = syncNote.txt; sourceTree = "<group>"; };
+		A629914D14BEC25500F77DDD /* edam-sync.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "edam-sync.pdf"; sourceTree = "<group>"; };
 		A64D2FB014B6A4F300B81680 /* ImageRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageRecord.h; sourceTree = "<group>"; };
 		A64D2FB114B6A4F300B81680 /* ImageRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRecord.m; sourceTree = "<group>"; };
 		A64D2FB214B6A4F300B81680 /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
@@ -27,8 +32,8 @@
 		DD109D5F13A72D890032FE93 /* webUseCssEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webUseCssEx.html; sourceTree = "<group>"; };
 		DD11799814933EBD0077F608 /* IosCameraAndPhotoEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosCameraAndPhotoEx.h; sourceTree = "<group>"; };
 		DD11799914933EBD0077F608 /* IosCameraAndPhotoEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosCameraAndPhotoEx.m; sourceTree = "<group>"; };
-		DD11A29B14BA122E00C5FCE9 /* breakpoint1.tiff */ = {isa = PBXFileReference; path = breakpoint1.tiff; sourceTree = "<group>"; };
-		DD11A29C14BA122E00C5FCE9 /* breakpoint2.tiff */ = {isa = PBXFileReference; path = breakpoint2.tiff; sourceTree = "<group>"; };
+		DD11A29B14BA122E00C5FCE9 /* breakpoint1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = breakpoint1.tiff; sourceTree = "<group>"; };
+		DD11A29C14BA122E00C5FCE9 /* breakpoint2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = breakpoint2.tiff; sourceTree = "<group>"; };
 		DD18D83A134729CE00BBC80F /* MyNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNotification.h; sourceTree = "<group>"; };
 		DD18D83B134729CE00BBC80F /* MyNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotification.m; sourceTree = "<group>"; };
 		DD21EBBD13B06DD700A0F01F /* javaNumberFormat.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = javaNumberFormat.java; sourceTree = "<group>"; };
@@ -270,6 +275,32 @@
 				A628A66D14B58A8C007A9573 /* iOS_guide.txt */,
 			);
 			name = guide;
+			sourceTree = "<group>";
+		};
+		A62990DF14BD9BD200F77DDD /* pull down to refresh table */ = {
+			isa = PBXGroup;
+			children = (
+				A62990E114BD9BE700F77DDD /* arrow.png */,
+				A62990E414BD9F2B00F77DDD /* PullDownToRefreshViewController.h */,
+				A62990E514BD9F2B00F77DDD /* PullDownToRefreshViewController.m */,
+			);
+			name = "pull down to refresh table";
+			sourceTree = "<group>";
+		};
+		A629910314BE869C00F77DDD /* xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		A629914B14BEC1F800F77DDD /* sync */ = {
+			isa = PBXGroup;
+			children = (
+				A629914D14BEC25500F77DDD /* edam-sync.pdf */,
+				A629914C14BEC22800F77DDD /* syncNote.txt */,
+			);
+			name = sync;
 			sourceTree = "<group>";
 		};
 		DD0487F5135F30A8002554C4 /* ex */ = {
@@ -1633,6 +1664,7 @@
 				DD48F61C149F923B000D0FFD /* photo gallery */,
 				DD0487F9135F4F75002554C4 /* plist */,
 				DD279C9913B6EE6A00B68049 /* String */,
+				A629914B14BEC1F800F77DDD /* sync */,
 				DDA9D80B1358B00B00F69503 /* Thread */,
 				DDA3DC6C1334A4DB009BFD39 /* Time */,
 				DDCC17A513893496004A9E8D /* UI */,
@@ -1987,6 +2019,7 @@
 		DDC762721388E11E001AAB10 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				A62990DF14BD9BD200F77DDD /* pull down to refresh table */,
 				DDC762731388E125001AAB10 /* ex */,
 			);
 			name = Table;
@@ -2004,23 +2037,24 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A628A62214B54589007A9573 /* MyUiUtility */,
-				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
-				DD0CAD8E14B2182700EC6E6A /* storyboard */,
 				DD0CAD7614B1EE6400EC6E6A /* alignment */,
 				DDD12B901342251E00AAE2B5 /* Button */,
 				DD9A77F0148BADFE0035C179 /* defaultSize */,
 				DDD12B881342237500AAE2B5 /* Image */,
 				DD8693F214ADC4C2006DBB97 /* keyboard */,
 				DDC7626D1388DF04001AAB10 /* Label */,
+				A628A62214B54589007A9573 /* MyUiUtility */,
 				DD3970461387ACF500D92584 /* navigation */,
 				DDC0F374147017E20036F576 /* resize */,
 				DDB07F661369B5E0003FB1EF /* ScrollView */,
 				DD66FC9F13BEFDC7003521AF /* status bar */,
+				DD0CAD8E14B2182700EC6E6A /* storyboard */,
 				DDB148A5148B8AED00DB2D96 /* tabBar */,
 				DDC762721388E11E001AAB10 /* Table */,
 				DDD12B971342317100AAE2B5 /* TextField */,
 				DD54D4011379936C0056DEBD /* UIActivityIndicatorView */,
+				A629910314BE869C00F77DDD /* xib */,
+				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
 				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
 			);
 			name = UI;

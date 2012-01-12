@@ -11,6 +11,46 @@
 
 @implementation iosTableEx
 
+/*
+    cell in storyboard
+ 
+    if set cell Identifier in storyboard, 
+    then when call dequeueReusableCellWithIdentifier:,
+    cell is created from storyboard.
+    Hence, it will not be nil
+ 
+*/
+
+/*
+    table color
+    (1) set cell color method 1
+        ex:
+            cell.contentView.backgroundColor = [UIColor blueColor];
+    (2) set cell color method 2
+        this method also modify bounce area color
+        ex:
+            tableView.backgroundColor = [UIColor yellowColor];
+            
+    (3) cell.backgroundView is behind cell.selectedBackgroundView
+        if want cell with custom background image,
+        we can add image view on cell.backgroundView
+ */
+
+
+/* static cell
+   note: not to implement UITableViewDataSource method
+ 
+ 
+*/
+
+/*
+   if not set cell's imageView image in 
+        - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath,
+     when we set its image later, it can not be saw if table is not reload
+ 
+ 
+ */
+
 // grouped table default background color:
 // kCGColorSpaceModelPattern
 
