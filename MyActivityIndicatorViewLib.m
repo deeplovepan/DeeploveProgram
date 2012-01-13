@@ -11,8 +11,34 @@
 
 @implementation MyActivityIndicatorViewLib
 
-+(UIView*)showUIActivityIndicatorOnView:(UIView*)view frame:(CGRect)frame text:(NSString*)text
++(void)removeUIActivityIndicator
 {
+    UIWindow* window = [[UIApplication sharedApplication] keyWindow];
+    UIView *lockView = [window.subviews lastObject];
+    [lockView removeFromSuperview];
+}
+
++(UIView*)showUIActivityIndicatorOnView:(UIView*)view frame:(CGRect)frame text:(NSString*)text 
+                           isLockScreen:(BOOL)isLockScreen
+{
+    
+    UIScreen *screen = [UIScreen mainScreen];
+    UIWindow* mWindow = [[UIApplication sharedApplication] keyWindow];
+    UIView *lockView;
+    if(isLockScreen)
+    {
+        
+        lockView = [[UIButton alloc] initWithFrame:screen.bounds];
+    }
+    else
+    {
+        lockView = [[UIView alloc] initWithFrame:screen.bounds];
+        lockView.userInteractionEnabled = NO;
+        
+    }
+    [mWindow addSubview:lockView];
+    [lockView release];
+    
     UIView *blackView = [[UIView alloc] initWithFrame:frame];
 	blackView.backgroundColor = [UIColor colorWithWhite:0.0
                                                   alpha:0.8];
@@ -21,7 +47,7 @@
 	{
 		[blackView.layer setCornerRadius: 10];
 	}
-    [view addSubview:blackView];
+    [lockView addSubview:blackView];
     [blackView release];
     
     UIActivityIndicatorView *activityIndicatorView = [[UIActivityIndicatorView alloc]
@@ -44,6 +70,7 @@
         [blackView addSubview:textLabel];
         [textLabel release];
     }
+    
     
     [activityIndicatorView startAnimating];
     

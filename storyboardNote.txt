@@ -15,3 +15,9 @@ pass data between controller
             WebViewController *controller = (WebViewController*)[segue destinationViewController];
             controller.urlStr = @"http://www.apple.com";
         }
+
+
+
+segue identifier
+    we can set segue identifier and check segue identifier in following method
+        - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

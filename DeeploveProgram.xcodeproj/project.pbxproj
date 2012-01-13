@@ -18,6 +18,7 @@
 		A62990E514BD9F2B00F77DDD /* PullDownToRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownToRefreshViewController.m; sourceTree = "<group>"; };
 		A629914C14BEC22800F77DDD /* syncNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = syncNote.txt; sourceTree = "<group>"; };
 		A629914D14BEC25500F77DDD /* edam-sync.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "edam-sync.pdf"; sourceTree = "<group>"; };
+		A629922414C01A6100F77DDD /* hideTabBarOnPush.png */ = {isa = PBXFileReference; path = hideTabBarOnPush.png; sourceTree = "<group>"; };
 		A64D2FB014B6A4F300B81680 /* ImageRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageRecord.h; sourceTree = "<group>"; };
 		A64D2FB114B6A4F300B81680 /* ImageRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRecord.m; sourceTree = "<group>"; };
 		A64D2FB214B6A4F300B81680 /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
@@ -1789,6 +1790,7 @@
 		DDB148A5148B8AED00DB2D96 /* tabBar */ = {
 			isa = PBXGroup;
 			children = (
+				A629922414C01A6100F77DDD /* hideTabBarOnPush.png */,
 				DDB148A7148B8B3100DB2D96 /* MyTabBarControllerEx.h */,
 				DDB148A8148B8B3100DB2D96 /* MyTabBarControllerEx.m */,
 			);

@@ -5,3 +5,6 @@ evernote sync:
     
 quickconnectfamily
     http://www.quickconnectfamily.org/qcdbsync/
+    
+    
+http://stackoverflow.com/questions/5035132/how-to-sync-iphone-core-data-with-web-server-and-then-push-to-other-devices

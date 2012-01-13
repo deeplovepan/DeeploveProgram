@@ -27,10 +27,15 @@
 /*
     cell in storyboard
  
-    if set cell Identifier in storyboard, 
-    then when call dequeueReusableCellWithIdentifier:,
-    cell is created from storyboard.
-    Hence, it will not be nil
+    table view content:
+      (1) static cell
+          get cell by connect cell in storyboard to IBOutlet variable
+ 
+      (2) dynamic prototypes
+          if  set cell Identifier in storyboard, 
+          then when call dequeueReusableCellWithIdentifier:,
+          cell is created from storyboard.
+          Hence, it will not be nil
  
 */
 

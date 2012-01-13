@@ -10,6 +10,18 @@
 
 @implementation MyTabBarControllerEx
 
+/* 
+    pop current tab controller to root & switch to another tab 
+    
+    note: must set  selectedIndex before call popToRootViewControllerAnimated
+ 
+        self.tabBarController.selectedIndex = 0;
+        [self.navigationController popToRootViewControllerAnimated:NO];
+
+*/
+
+
+
 // storyboard tab bar controller
 //      tab bar sequence can be checked from Tab Bar Controller Secene
 //      the relationship from top to down define tab from left to right

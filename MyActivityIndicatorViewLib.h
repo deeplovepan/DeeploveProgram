@@ -12,6 +12,7 @@
 @interface MyActivityIndicatorViewLib : NSObject {
     
 }
-+(UIView*)showUIActivityIndicatorOnView:(UIView*)view frame:(CGRect)frame text:(NSString*)text;
-
++(UIView*)showUIActivityIndicatorOnView:(UIView*)view frame:(CGRect)frame text:(NSString*)text 
+                           isLockScreen:(BOOL)isLockScreen;
++(void)removeUIActivityIndicator;
 @end
