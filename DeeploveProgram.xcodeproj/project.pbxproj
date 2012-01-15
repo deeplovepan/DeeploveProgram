@@ -78,6 +78,7 @@
 		DD4366A714C31B3C0024FE2B /* MyAudioLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAudioLib.h; sourceTree = "<group>"; };
 		DD4366A814C31B3C0024FE2B /* MyAudioLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAudioLib.m; sourceTree = "<group>"; };
 		DD4366B614C3333D0024FE2B /* Xcode quick help.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Xcode quick help.webarchive"; sourceTree = "<group>"; };
+		DD4366BA14C336C50024FE2B /* Xcode jump bar.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Xcode jump bar.webarchive"; sourceTree = "<group>"; };
 		DD43C14B14A309DE0078450F /* groupTableCell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groupTableCell.jpg; sourceTree = "<group>"; };
 		DD48F616149F87A5000D0FFD /* MyFoursquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFoursquare.h; sourceTree = "<group>"; };
 		DD48F617149F87A5000D0FFD /* MyFoursquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFoursquare.m; sourceTree = "<group>"; };
@@ -1965,6 +1966,7 @@
 		DDBCB62D13816811004BE4CA /* Xcode */ = {
 			isa = PBXGroup;
 			children = (
+				DD4366BA14C336C50024FE2B /* Xcode jump bar.webarchive */,
 				DD4366B614C3333D0024FE2B /* Xcode quick help.webarchive */,
 				DD9D85B014C2D3B600F91A0D /* install old version iOS simulator.webarchive */,
 				DDBCB62F1381681F004BE4CA /* shortcut */,
