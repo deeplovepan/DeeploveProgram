@@ -22,7 +22,7 @@
 
 @synthesize photoArray;
 @synthesize imageDownloadsInProgress;
-
+@synthesize isNotLoadImageWhenScroll;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -116,9 +116,14 @@
     }
     else
     {
-        if (self.tableView.dragging == NO && self.tableView.decelerating == NO)
+        imageView.image = nil;
+        if(self.isNotLoadImageWhenScroll)
         {
-            [self startImageDownload:imageRecord imageIndex:index];
+            if (self.tableView.dragging == NO && self.tableView.decelerating == NO)
+            {
+                [self startImageDownload:imageRecord imageIndex:index];
+            }
+
         }
     }
 
@@ -355,15 +360,23 @@
 // Load images for all onscreen rows when scrolling is finished
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
-    if (!decelerate)
-	{
-        [self loadImagesForOnscreenRows];
+    if(self.isNotLoadImageWhenScroll)
+    {
+        if (!decelerate)
+        {
+            [self loadImagesForOnscreenRows];
+        }
+
     }
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
-    [self loadImagesForOnscreenRows];
+    if(self.isNotLoadImageWhenScroll)
+    {
+        [self loadImagesForOnscreenRows];
+
+    }
 }
 
 

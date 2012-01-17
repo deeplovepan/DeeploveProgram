@@ -18,7 +18,14 @@
 		A62990E514BD9F2B00F77DDD /* PullDownToRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownToRefreshViewController.m; sourceTree = "<group>"; };
 		A629914C14BEC22800F77DDD /* syncNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = syncNote.txt; sourceTree = "<group>"; };
 		A629914D14BEC25500F77DDD /* edam-sync.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "edam-sync.pdf"; sourceTree = "<group>"; };
-		A629922414C01A6100F77DDD /* hideTabBarOnPush.png */ = {isa = PBXFileReference; path = hideTabBarOnPush.png; sourceTree = "<group>"; };
+		A629922414C01A6100F77DDD /* hideTabBarOnPush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hideTabBarOnPush.png; sourceTree = "<group>"; };
+		A629928314C3FB8A00F77DDD /* UuidLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UuidLib.h; sourceTree = "<group>"; };
+		A629928414C3FB8A00F77DDD /* UuidLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UuidLib.m; sourceTree = "<group>"; };
+		A63454E414C429CE005AB04F /* MyViewControllerEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewControllerEx.h; sourceTree = "<group>"; };
+		A63454E514C429CE005AB04F /* MyViewControllerEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewControllerEx.m; sourceTree = "<group>"; };
+		A634554514C52E5F005AB04F /* iosReference.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = iosReference.txt; path = ../../../iosReference.txt; sourceTree = "<group>"; };
+		A63455CD14C539B3005AB04F /* restkitNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = restkitNote.txt; sourceTree = "<group>"; };
+		A63455E814C54859005AB04F /* restkit1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restkit1.png; sourceTree = "<group>"; };
 		A64D2FB014B6A4F300B81680 /* ImageRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageRecord.h; sourceTree = "<group>"; };
 		A64D2FB114B6A4F300B81680 /* ImageRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRecord.m; sourceTree = "<group>"; };
 		A64D2FB214B6A4F300B81680 /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
@@ -302,6 +309,41 @@
 				A629914C14BEC22800F77DDD /* syncNote.txt */,
 			);
 			name = sync;
+			sourceTree = "<group>";
+		};
+		A629928214C3FB5000F77DDD /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				A629928314C3FB8A00F77DDD /* UuidLib.h */,
+				A629928414C3FB8A00F77DDD /* UuidLib.m */,
+			);
+			name = UUID;
+			sourceTree = "<group>";
+		};
+		A63454E214C429B1005AB04F /* view controller */ = {
+			isa = PBXGroup;
+			children = (
+				A63454E414C429CE005AB04F /* MyViewControllerEx.h */,
+				A63454E514C429CE005AB04F /* MyViewControllerEx.m */,
+			);
+			name = "view controller";
+			sourceTree = "<group>";
+		};
+		A634554414C52E31005AB04F /* reference */ = {
+			isa = PBXGroup;
+			children = (
+				A634554514C52E5F005AB04F /* iosReference.txt */,
+			);
+			name = reference;
+			sourceTree = "<group>";
+		};
+		A63455CC14C53974005AB04F /* restkit */ = {
+			isa = PBXGroup;
+			children = (
+				A63455CD14C539B3005AB04F /* restkitNote.txt */,
+				A63455E814C54859005AB04F /* restkit1.png */,
+			);
+			name = restkit;
 			sourceTree = "<group>";
 		};
 		DD0487F5135F30A8002554C4 /* ex */ = {
@@ -868,6 +910,7 @@
 		DD319E12133B99D5007F98D2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				A63455CC14C53974005AB04F /* restkit */,
 				DDAC69251362EABA00109883 /* ex */,
 				DD319E14133B99DF007F98D2 /* lib */,
 			);
@@ -1664,12 +1707,14 @@
 				DDBFD7AB147F979F002014EE /* pdf */,
 				DD48F61C149F923B000D0FFD /* photo gallery */,
 				DD0487F9135F4F75002554C4 /* plist */,
+				A634554414C52E31005AB04F /* reference */,
 				DD279C9913B6EE6A00B68049 /* String */,
 				A629914B14BEC1F800F77DDD /* sync */,
 				DDA9D80B1358B00B00F69503 /* Thread */,
 				DDA3DC6C1334A4DB009BFD39 /* Time */,
 				DDCC17A513893496004A9E8D /* UI */,
 				DDE5551A146CF681008BF8DE /* Upload App */,
+				A629928214C3FB5000F77DDD /* UUID */,
 				DDBCB62D13816811004BE4CA /* Xcode */,
 				DD319E55133D09D1007F98D2 /* XML */,
 			);
@@ -2055,6 +2100,7 @@
 				DDC762721388E11E001AAB10 /* Table */,
 				DDD12B971342317100AAE2B5 /* TextField */,
 				DD54D4011379936C0056DEBD /* UIActivityIndicatorView */,
+				A63454E214C429B1005AB04F /* view controller */,
 				A629910314BE869C00F77DDD /* xib */,
 				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
 				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
