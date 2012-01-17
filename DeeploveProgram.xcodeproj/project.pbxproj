@@ -82,6 +82,10 @@
 		DD319E1D133BAC8D007F98D2 /* DeviceEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceEx.m; sourceTree = "<group>"; };
 		DD39704C1387ADF400D92584 /* iosNavigationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosNavigationEx.h; sourceTree = "<group>"; };
 		DD39704D1387ADF400D92584 /* iosNavigationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosNavigationEx.m; sourceTree = "<group>"; };
+		DD4366A714C31B3C0024FE2B /* MyAudioLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAudioLib.h; sourceTree = "<group>"; };
+		DD4366A814C31B3C0024FE2B /* MyAudioLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAudioLib.m; sourceTree = "<group>"; };
+		DD4366B614C3333D0024FE2B /* Xcode quick help.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Xcode quick help.webarchive"; sourceTree = "<group>"; };
+		DD4366BA14C336C50024FE2B /* Xcode jump bar.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Xcode jump bar.webarchive"; sourceTree = "<group>"; };
 		DD43C14B14A309DE0078450F /* groupTableCell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groupTableCell.jpg; sourceTree = "<group>"; };
 		DD48F616149F87A5000D0FFD /* MyFoursquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFoursquare.h; sourceTree = "<group>"; };
 		DD48F617149F87A5000D0FFD /* MyFoursquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFoursquare.m; sourceTree = "<group>"; };
@@ -149,6 +153,9 @@
 		DD87E3C1137E5CD6006A1B39 /* iosFacebookEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosFacebookEx.m; sourceTree = "<group>"; };
 		DD87E434137E9EB6006A1B39 /* MyFacebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFacebook.h; sourceTree = "<group>"; };
 		DD87E435137E9EB6006A1B39 /* MyFacebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFacebook.m; sourceTree = "<group>"; };
+		DD8B5C1D14C1C16100B7541E /* MyUiSizeLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUiSizeLib.h; sourceTree = "<group>"; };
+		DD8B5C1E14C1C16100B7541E /* MyUiSizeLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUiSizeLib.m; sourceTree = "<group>"; };
+		DD8B5C2614C1D1E000B7541E /* quickLook.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = quickLook.txt; sourceTree = "<group>"; };
 		DD90063D133F7F7F00773AC6 /* MyFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
 		DD90063E133F7F7F00773AC6 /* MyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFile.m; sourceTree = "<group>"; };
 		DD91F4761490B95D00875D3D /* PCMDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCMDecoder.h; sourceTree = "<group>"; };
@@ -179,6 +186,7 @@
 		DD9A77F2148BAEB20035C179 /* iosDefaultSize.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosDefaultSize.txt; sourceTree = "<group>"; };
 		DD9A784E148C6CD70035C179 /* copyScreen.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = copyScreen.tiff; sourceTree = "<group>"; };
 		DD9B020214714FBA00C88DC6 /* arcNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = arcNote.txt; sourceTree = "<group>"; };
+		DD9D85B014C2D3B600F91A0D /* install old version iOS simulator.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "install old version iOS simulator.webarchive"; sourceTree = "<group>"; };
 		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
 		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
 		DDA9D80E1358B03500F69503 /* ThreadEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadEx.h; sourceTree = "<group>"; };
@@ -983,6 +991,15 @@
 			name = ex;
 			sourceTree = "<group>";
 		};
+		DD4366A514C31AFA0024FE2B /* MyAudio */ = {
+			isa = PBXGroup;
+			children = (
+				DD4366A714C31B3C0024FE2B /* MyAudioLib.h */,
+				DD4366A814C31B3C0024FE2B /* MyAudioLib.m */,
+			);
+			name = MyAudio;
+			sourceTree = "<group>";
+		};
 		DD43C14114A2FBED0078450F /* ios dev member */ = {
 			isa = PBXGroup;
 			children = (
@@ -1417,6 +1434,7 @@
 		DD713624148FC90C00D000F3 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				DD4366A514C31AFA0024FE2B /* MyAudio */,
 				DD713626148FC97700D000F3 /* iosAudioNote.txt */,
 				DD91F4731490B93900875D3D /* Finch Library */,
 			);
@@ -1474,6 +1492,22 @@
 				DD87E435137E9EB6006A1B39 /* MyFacebook.m */,
 			);
 			name = lib;
+			sourceTree = "<group>";
+		};
+		DD8B5C2414C1D13E00B7541E /* mac tip */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B5C2514C1D15800B7541E /* quick look */,
+			);
+			name = "mac tip";
+			sourceTree = "<group>";
+		};
+		DD8B5C2514C1D15800B7541E /* quick look */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B5C2614C1D1E000B7541E /* quickLook.txt */,
+			);
+			name = "quick look";
 			sourceTree = "<group>";
 		};
 		DD90063A133F7F4B00773AC6 /* File */ = {
@@ -1623,6 +1657,8 @@
 				DD43C14B14A309DE0078450F /* groupTableCell.jpg */,
 				DD9A77F2148BAEB20035C179 /* iosDefaultSize.txt */,
 				DD48F66514A0326C000D0FFD /* IosDefaultUi.h */,
+				DD8B5C1D14C1C16100B7541E /* MyUiSizeLib.h */,
+				DD8B5C1E14C1C16100B7541E /* MyUiSizeLib.m */,
 			);
 			name = defaultSize;
 			sourceTree = "<group>";
@@ -1656,6 +1692,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DD8B5C2414C1D13E00B7541E /* mac tip */,
 				DD8693EF14ADAFA7006DBB97 /* gmail */,
 				DDF13D8E14AC9BF000AE0B13 /* to study */,
 				DD66FC9A13BE0204003521AF /* googleApi */,
@@ -1974,6 +2011,9 @@
 		DDBCB62D13816811004BE4CA /* Xcode */ = {
 			isa = PBXGroup;
 			children = (
+				DD4366BA14C336C50024FE2B /* Xcode jump bar.webarchive */,
+				DD4366B614C3333D0024FE2B /* Xcode quick help.webarchive */,
+				DD9D85B014C2D3B600F91A0D /* install old version iOS simulator.webarchive */,
 				DDBCB62F1381681F004BE4CA /* shortcut */,
 			);
 			name = Xcode;
