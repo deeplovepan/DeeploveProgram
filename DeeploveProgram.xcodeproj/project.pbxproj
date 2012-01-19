@@ -30,6 +30,9 @@
 		A64D2FB114B6A4F300B81680 /* ImageRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRecord.m; sourceTree = "<group>"; };
 		A64D2FB214B6A4F300B81680 /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
 		A64D2FB314B6A4F300B81680 /* ImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		A699704214C6AE23007216C7 /* BarEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarEx.h; sourceTree = "<group>"; };
+		A699704314C6AE23007216C7 /* BarEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarEx.m; sourceTree = "<group>"; };
+		A69970CB14C81C4B007216C7 /* curlNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlNote.txt; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -352,6 +355,23 @@
 				A63455E814C54859005AB04F /* restkit1.png */,
 			);
 			name = restkit;
+			sourceTree = "<group>";
+		};
+		A699704014C6AE03007216C7 /* bar */ = {
+			isa = PBXGroup;
+			children = (
+				A699704214C6AE23007216C7 /* BarEx.h */,
+				A699704314C6AE23007216C7 /* BarEx.m */,
+			);
+			name = bar;
+			sourceTree = "<group>";
+		};
+		A69970CA14C81C2C007216C7 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				A69970CB14C81C4B007216C7 /* curlNote.txt */,
+			);
+			name = curl;
 			sourceTree = "<group>";
 		};
 		DD0487F5135F30A8002554C4 /* ex */ = {
@@ -1692,6 +1712,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				A69970CA14C81C2C007216C7 /* curl */,
 				DD8B5C2414C1D13E00B7541E /* mac tip */,
 				DD8693EF14ADAFA7006DBB97 /* gmail */,
 				DDF13D8E14AC9BF000AE0B13 /* to study */,
@@ -2125,6 +2146,7 @@
 			isa = PBXGroup;
 			children = (
 				DD0CAD7614B1EE6400EC6E6A /* alignment */,
+				A699704014C6AE03007216C7 /* bar */,
 				DDD12B901342251E00AAE2B5 /* Button */,
 				DD9A77F0148BADFE0035C179 /* defaultSize */,
 				DDD12B881342237500AAE2B5 /* Image */,

@@ -1,0 +1,12 @@
+curl command
+
+get command:
+    curl http://www.test.com/1?auth_token=123
+    
+post command:
+     cur-d "username=test" http://www.test.com
+     
+delete command:
+    curl -X DELETE http://www.test.com/1
+    
+    

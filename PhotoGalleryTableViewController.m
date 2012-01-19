@@ -204,7 +204,6 @@
     }
     else
     {
-        NSLog(@"numberOfRowsInSection %d", (([self.photoArray count]-1)/PHOTO_COUNT_OF_ONE_CELL)+1);
         return (([self.photoArray count]-1)/PHOTO_COUNT_OF_ONE_CELL)+1;
     }
 }
