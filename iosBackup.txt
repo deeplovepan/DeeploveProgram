@@ -1,0 +1,5 @@
+ios backup
+
+Backups are completely managed by iTunes and stored per device, so they cannot be used to transfer information between the same app on 
+different devices. More precisely, iTunes stores a single backup for each different iOS device you sync. So if you have an iPad and an iPhone, 
+iTunes will have one backup for the iPad and one backup for the iPhone.

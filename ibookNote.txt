@@ -1,0 +1,13 @@
+ibook note
+
+piad book account:
+    ISBN for each book
+    A U.S. Tax ID
+
+free bookd account: 
+     not require anything
+     
+     
+iTunes Producer:
+    a Mac App
+    for upload book to apple

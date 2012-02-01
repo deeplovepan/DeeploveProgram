@@ -18,6 +18,14 @@
 #import "CoreDataEx.h"
 #import "Person.h"
 
+/* core data type
+ 
+    Decimal, Double, and Float data types are for storing fractional numbers. The Double data type uses 64 bits to store a value while the 
+    Float data type uses 32 bits for storing a value. The only limitation with these two data types is that they round off the values. To avoid 
+    any rounding of values, the Decimal data type is preferred. The Decimal type uses fixed point numbers for storing values, so the numerical 
+    value stored in it is not rounded off.
+*/
+
 @implementation CoreDataEx
 
 

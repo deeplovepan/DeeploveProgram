@@ -11,6 +11,11 @@
 
 @implementation iosTableEx
 
+/*  
+    for UITableViewController, 
+    when edit textfield, textfield will adjust loation above keyboard automatically
+
+*/
 
 /*  remove cell select after back to table
     

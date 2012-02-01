@@ -10,14 +10,15 @@
 
 @implementation UuidLib
 
+// ex: 0D050FD7-D6BB-4152-8F3E-C202AF45A3BC
 +(NSString*)createUuid
 {
-    uuid = CFUUIDCreate(kCFAllocatorDefault);
-    uuidRef = CFUUIDCreateString(kCFAllocatorDefault, uuid);
+    CFUUIDRef uuid = CFUUIDCreate(kCFAllocatorDefault);
+    CFStringRef uuidRef = CFUUIDCreateString(kCFAllocatorDefault, uuid);
     CFRelease(uuid);
     
-    return uuidRef;
-
+    return (__bridge NSString*)uuidRef;
+    
 }
 
 @end
