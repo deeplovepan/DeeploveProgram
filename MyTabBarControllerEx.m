@@ -58,6 +58,8 @@
     pop current tab controller to root & switch to another tab 
     
     note: must set  selectedIndex before call popToRootViewControllerAnimated
+          the view controller of target tab may have not been created
+          we should not set property for view controller 
  
         self.tabBarController.selectedIndex = 0;
         [self.navigationController popToRootViewControllerAnimated:NO];

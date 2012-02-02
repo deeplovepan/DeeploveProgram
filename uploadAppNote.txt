@@ -8,4 +8,8 @@ screenShot from simulator:
     this will copy to clipboard 
    
    
-   
+archive error:
+    This kind of archive cannot be signed
+    reason:  static library target
+    solution: set "Skip Install" in build settings of target
+    

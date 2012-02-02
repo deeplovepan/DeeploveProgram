@@ -6,3 +6,7 @@ print stack trace:
 add exception point
     find crash line for some exception bug, such as access empty arrray
 
+log:
+    1. print current selector name
+        NSLog(@"%@", NSStringFromSelector(_cmd));
+    

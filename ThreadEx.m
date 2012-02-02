@@ -11,6 +11,10 @@
 
 @implementation ThreadEx
 
+/* performSelectorInBackground
+    if call performSelectorInBackground, object will be alive until background thread done
+*/
+
 +(void)printThread
 {
     NSLog(@"main thread %@", [NSThread mainThread]);

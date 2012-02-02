@@ -12,3 +12,7 @@ company account:
            填入營利事業登記證上的地址
            
         2.  傳真時前面加002
+
+
+invite ios dev member
+    ios dev -> member center -> people -> invitations -> invite person

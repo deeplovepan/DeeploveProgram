@@ -41,6 +41,11 @@
 		A6D49E7214D78C60004698DB /* iosBackup.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosBackup.txt; sourceTree = "<group>"; };
 		A6D49E7314D79E14004698DB /* iosMapEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosMapEx.h; sourceTree = "<group>"; };
 		A6D49E7414D79E14004698DB /* iosMapEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosMapEx.m; sourceTree = "<group>"; };
+		A6E03BF114DA66E30037223C /* invite ios dev member5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member5.png"; sourceTree = "<group>"; };
+		A6E03BF214DA66E30037223C /* invite ios dev member2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member2.png"; sourceTree = "<group>"; };
+		A6E03BF314DA66E30037223C /* invite ios dev member1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member1.png"; sourceTree = "<group>"; };
+		A6E03BF414DA67420037223C /* invite ios dev member4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member4.png"; sourceTree = "<group>"; };
+		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -1067,6 +1072,11 @@
 			isa = PBXGroup;
 			children = (
 				DD8693EA14ADAA40006DBB97 /* iosDevMember.txt */,
+				A6E03BF314DA66E30037223C /* invite ios dev member1.png */,
+				A6E03BF214DA66E30037223C /* invite ios dev member2.png */,
+				A6E03BF514DA67420037223C /* invite ios dev member3.png */,
+				A6E03BF414DA67420037223C /* invite ios dev member4.png */,
+				A6E03BF114DA66E30037223C /* invite ios dev member5.png */,
 			);
 			name = "ios dev member";
 			sourceTree = "<group>";

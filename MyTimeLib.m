@@ -8,15 +8,49 @@
 
 #import "MyTimeLib.h"
 
+#define ISO_TIMEZONE_UTC_FORMAT @"Z"
+#define ISO_TIMEZONE_OFFSET_FORMAT @"+%f:%f"
+
 // date format
 /*
-    HH: show hour , unit 24 hour 
-    hh: show hour , unit 12 hour 
-    MM: show month number, ex 01, 02
-    M: show month number, ex 1, 2
+ HH: show hour , unit 24 hour 
+ hh: show hour , unit 12 hour 
+ MM: show month number, ex 01, 02
+ M: show month number, ex 1, 2
  */
 
 @implementation MyTimeLib
+
++(NSString*)getHourMinSecondStrFromSecond:(int)second
+{
+    int mins = second/60;
+    int hours = second/3600;
+    int seconds = second-hours*3600-mins*60;
+    return [NSString stringWithFormat:@"%02d:%02d:%02d", hours, mins, seconds];
+}
+
++(NSString *)getISO8601Str:(NSDate *)date {
+    static NSDateFormatter* sISO8601 = nil;
+    
+    if (!sISO8601) {
+        sISO8601 = [[NSDateFormatter alloc] init];
+        
+        NSTimeZone *timeZone = [NSTimeZone localTimeZone];
+        int offset = [timeZone secondsFromGMT];
+        
+        NSMutableString *strFormat = [NSMutableString stringWithString:@"yyyyMMdd'T'HH:mm:ss"];
+        offset /= 60; //bring down to minutes
+        if (offset == 0)
+            [strFormat appendString:ISO_TIMEZONE_UTC_FORMAT];
+        else
+            [strFormat appendFormat:ISO_TIMEZONE_OFFSET_FORMAT, offset / 60, offset % 60];
+        
+        [sISO8601 setTimeStyle:NSDateFormatterFullStyle];
+        [sISO8601 setDateFormat:strFormat];
+    }
+    return[sISO8601 stringFromDate:date];
+}
+
 
 +(NSString*)getTimeStrFromDate:(NSDate*)date
 {
@@ -36,7 +70,7 @@
     NSString *dateString = [[formatter stringFromDate: date] stringByAppendingString:@" GMT"];
     [formatter release];
     return dateString;
-
+    
 }
 
 +(NSDate*)getDateFromYear:(int)year month:(int)month day:(int)day

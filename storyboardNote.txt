@@ -26,3 +26,6 @@ segue identifier
     
 show another view controller at startup ( not initial view controller)
     in initial view controller's viewDidLoad, show another view controller
+    
+    
+dynamic cell can not use segua to connect in storyboard
