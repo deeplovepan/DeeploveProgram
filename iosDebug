@@ -6,3 +6,7 @@ print stack trace:
 add exception point
     find crash line for some exception bug, such as access empty arrray
 
+tracking EXC_BAD_ACCESS
+    Edit Scheme -> Run -> Diagnostics -> Enable Zomble Objects
+
+    

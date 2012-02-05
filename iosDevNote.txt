@@ -1,0 +1,11 @@
+ios dev note
+
+1. for app localization
+    use NSLocalizedString
+    
+2. app for iPhone & iPad
+   not use number like (320,480), (768, 1024)
+   use: 
+        UIScreen *screen = [UIScreen mainScreen];
+      -> screen.bounds.size.width, screen.bounds.size.height
+
