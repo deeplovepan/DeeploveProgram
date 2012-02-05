@@ -13,5 +13,6 @@
 
 @property (nonatomic, retain) NSArray *photoArray;
 @property (nonatomic, retain) NSMutableDictionary *imageDownloadsInProgress;
+@property (nonatomic, assign) BOOL isNotLoadImageWhenScroll;
 
 @end

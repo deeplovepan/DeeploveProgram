@@ -15,4 +15,6 @@
 +(NSString*)filePath:(NSString*)name isProjectFile:(BOOL)isProjectFile
           typeLength:(int)typeLength;
 +(void)deleteFileUnderDocDir:(NSString*)name typeLength:(int)typeLength;
++(void)createImageDir:(NSString*)dirName;
+
 @end

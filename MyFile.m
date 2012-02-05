@@ -11,6 +11,19 @@
 
 @implementation MyFile
 
++(void)createImageDir:(NSString*)dirName
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    NSString *newDirectory = [NSString stringWithFormat:@"%@/%@", [paths objectAtIndex:0], dirName];
+    
+    // Check if the directory already exists
+    if (![[NSFileManager defaultManager] fileExistsAtPath:newDirectory]) {
+        // Directory does not exist so create it
+        [[NSFileManager defaultManager] createDirectoryAtPath:newDirectory withIntermediateDirectories:YES attributes:nil error:nil];
+    }
+}
+
+
 +(void)deleteFileUnderDocDir:(NSString*)name typeLength:(int)typeLength
 {
     NSString *path = [MyFile filePath:name isProjectFile:NO typeLength:typeLength];

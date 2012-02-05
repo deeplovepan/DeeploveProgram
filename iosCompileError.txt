@@ -5,3 +5,12 @@ ios compile error
    solution:
         Navigate to your target's "Build Phases" tab
         remove .h files in the "Compile Sources" section.
+        
+2. declare variable in case:
+   use { } 
+   ex:
+        case 1:
+        {
+            int number = 3;
+            break;
+        }

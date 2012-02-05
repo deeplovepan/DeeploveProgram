@@ -11,6 +11,11 @@
 
 @implementation WebEx
 
+/*
+    accepts-encoding: gzip is add by default 
+*/
+
+
 // if json contain null value
 /*
         ex: "deadline":null

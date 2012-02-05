@@ -1,0 +1,34 @@
+restkit note
+
+use restkit on new project TestRestkit:
+
+1. create project TestRestkit
+
+2. cd /Users/peterpan/Desktop/TestRestkit
+   git submodule add git://github.com/RestKit/RestKit.git RestKit
+   
+3. Drag the RestKit.xcodeproj file from the Finder and drop it on TestRestkit.xcodeproj
+
+4. add $(SOURCE_ROOT)/RestKit/Build 
+    in Header Search Paths in Build Settings in project
+
+5. add $(SOURCE_ROOT)/RestKit/Build/$(BUILD_STYLE)-$(PLATFORM_NAME)
+    in Library Search Paths in Build Settings in project
+
+6. add -ObjC -all_load 
+    in Other Linker Flags in Build Settings in project
+    
+7. add RestKit target in Target Dependencies in Build Phases in target
+
+8. add following framework in Link Binary With Libraries in target
+   Security.framework
+   SystemConfiguration.framework
+   MobileCoreServices.framework
+   CoreData.framework
+   CFNetowrk.framework
+   libxml2.dylib
+   libRestKit.a
+   
+   
+reference:
+    https://github.com/RestKit/RestKit/wiki/Tutorial-%3A-Introduction-to-RestKit

@@ -19,4 +19,7 @@
 +(int)getHour:(NSDate*)date;
 +(int)getMin:(NSDate*)date;
 +(NSString*)getRFC1123TimeStrFromDate:(NSDate*)date;
++(NSString *)getISO8601Str:(NSDate *)date;
++(NSString*)getHourMinSecondStrFromSecond:(int)second;
+
 @end

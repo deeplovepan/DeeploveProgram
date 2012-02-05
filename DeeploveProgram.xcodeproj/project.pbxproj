@@ -19,10 +19,33 @@
 		A629914C14BEC22800F77DDD /* syncNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = syncNote.txt; sourceTree = "<group>"; };
 		A629914D14BEC25500F77DDD /* edam-sync.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "edam-sync.pdf"; sourceTree = "<group>"; };
 		A629922414C01A6100F77DDD /* hideTabBarOnPush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hideTabBarOnPush.png; sourceTree = "<group>"; };
+		A629928314C3FB8A00F77DDD /* UuidLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UuidLib.h; sourceTree = "<group>"; };
+		A629928414C3FB8A00F77DDD /* UuidLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UuidLib.m; sourceTree = "<group>"; };
+		A63454E414C429CE005AB04F /* MyViewControllerEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewControllerEx.h; sourceTree = "<group>"; };
+		A63454E514C429CE005AB04F /* MyViewControllerEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewControllerEx.m; sourceTree = "<group>"; };
+		A634554514C52E5F005AB04F /* iosReference.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = iosReference.txt; path = ../../../iosReference.txt; sourceTree = "<group>"; };
+		A63455CD14C539B3005AB04F /* restkitNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = restkitNote.txt; sourceTree = "<group>"; };
+		A63455E814C54859005AB04F /* restkit1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restkit1.png; sourceTree = "<group>"; };
 		A64D2FB014B6A4F300B81680 /* ImageRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageRecord.h; sourceTree = "<group>"; };
 		A64D2FB114B6A4F300B81680 /* ImageRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRecord.m; sourceTree = "<group>"; };
 		A64D2FB214B6A4F300B81680 /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
 		A64D2FB314B6A4F300B81680 /* ImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		A64F2AD314D648E70028B876 /* ibookNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ibookNote.txt; sourceTree = "<group>"; };
+		A64F2AD414D648FD0028B876 /* ibookNote1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibookNote1.png; sourceTree = "<group>"; };
+		A64F2AD514D64C990028B876 /* ibookNote2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibookNote2.png; sourceTree = "<group>"; };
+		A64F2AD614D64D680028B876 /* ibookNote3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibookNote3.png; sourceTree = "<group>"; };
+		A64F2C0814D6A3900028B876 /* cap.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cap.txt; sourceTree = "<group>"; };
+		A699704214C6AE23007216C7 /* BarEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarEx.h; sourceTree = "<group>"; };
+		A699704314C6AE23007216C7 /* BarEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarEx.m; sourceTree = "<group>"; };
+		A69970CB14C81C4B007216C7 /* curlNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlNote.txt; sourceTree = "<group>"; };
+		A6D49E7214D78C60004698DB /* iosBackup.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosBackup.txt; sourceTree = "<group>"; };
+		A6D49E7314D79E14004698DB /* iosMapEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosMapEx.h; sourceTree = "<group>"; };
+		A6D49E7414D79E14004698DB /* iosMapEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosMapEx.m; sourceTree = "<group>"; };
+		A6E03BF114DA66E30037223C /* invite ios dev member5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member5.png"; sourceTree = "<group>"; };
+		A6E03BF214DA66E30037223C /* invite ios dev member2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member2.png"; sourceTree = "<group>"; };
+		A6E03BF314DA66E30037223C /* invite ios dev member1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member1.png"; sourceTree = "<group>"; };
+		A6E03BF414DA67420037223C /* invite ios dev member4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member4.png"; sourceTree = "<group>"; };
+		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -315,6 +338,93 @@
 				A629914C14BEC22800F77DDD /* syncNote.txt */,
 			);
 			name = sync;
+			sourceTree = "<group>";
+		};
+		A629928214C3FB5000F77DDD /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				A629928314C3FB8A00F77DDD /* UuidLib.h */,
+				A629928414C3FB8A00F77DDD /* UuidLib.m */,
+			);
+			name = UUID;
+			sourceTree = "<group>";
+		};
+		A63454E214C429B1005AB04F /* view controller */ = {
+			isa = PBXGroup;
+			children = (
+				A63454E414C429CE005AB04F /* MyViewControllerEx.h */,
+				A63454E514C429CE005AB04F /* MyViewControllerEx.m */,
+			);
+			name = "view controller";
+			sourceTree = "<group>";
+		};
+		A634554414C52E31005AB04F /* reference */ = {
+			isa = PBXGroup;
+			children = (
+				A634554514C52E5F005AB04F /* iosReference.txt */,
+			);
+			name = reference;
+			sourceTree = "<group>";
+		};
+		A63455CC14C53974005AB04F /* restkit */ = {
+			isa = PBXGroup;
+			children = (
+				A63455CD14C539B3005AB04F /* restkitNote.txt */,
+				A63455E814C54859005AB04F /* restkit1.png */,
+			);
+			name = restkit;
+			sourceTree = "<group>";
+		};
+		A64F2AD114D648C20028B876 /* iBook */ = {
+			isa = PBXGroup;
+			children = (
+				A64F2AD314D648E70028B876 /* ibookNote.txt */,
+				A64F2AD414D648FD0028B876 /* ibookNote1.png */,
+				A64F2AD514D64C990028B876 /* ibookNote2.png */,
+				A64F2AD614D64D680028B876 /* ibookNote3.png */,
+			);
+			name = iBook;
+			sourceTree = "<group>";
+		};
+		A64F2C0614D6A31E0028B876 /* ruby */ = {
+			isa = PBXGroup;
+			children = (
+				A64F2C0714D6A3330028B876 /* cap */,
+			);
+			name = ruby;
+			sourceTree = "<group>";
+		};
+		A64F2C0714D6A3330028B876 /* cap */ = {
+			isa = PBXGroup;
+			children = (
+				A64F2C0814D6A3900028B876 /* cap.txt */,
+			);
+			name = cap;
+			sourceTree = "<group>";
+		};
+		A699704014C6AE03007216C7 /* bar */ = {
+			isa = PBXGroup;
+			children = (
+				A699704214C6AE23007216C7 /* BarEx.h */,
+				A699704314C6AE23007216C7 /* BarEx.m */,
+			);
+			name = bar;
+			sourceTree = "<group>";
+		};
+		A69970CA14C81C2C007216C7 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				A69970CB14C81C4B007216C7 /* curlNote.txt */,
+			);
+			name = curl;
+			sourceTree = "<group>";
+		};
+		A6D49E7014D78BF8004698DB /* backup */ = {
+			isa = PBXGroup;
+			children = (
+				A6D49E7214D78C60004698DB /* iosBackup.txt */,
+			);
+			name = backup;
 			sourceTree = "<group>";
 		};
 		DD0487F5135F30A8002554C4 /* ex */ = {
@@ -881,6 +991,7 @@
 		DD319E12133B99D5007F98D2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				A63455CC14C53974005AB04F /* restkit */,
 				DDAC69251362EABA00109883 /* ex */,
 				DD319E14133B99DF007F98D2 /* lib */,
 			);
@@ -966,6 +1077,11 @@
 			isa = PBXGroup;
 			children = (
 				DD8693EA14ADAA40006DBB97 /* iosDevMember.txt */,
+				A6E03BF314DA66E30037223C /* invite ios dev member1.png */,
+				A6E03BF214DA66E30037223C /* invite ios dev member2.png */,
+				A6E03BF514DA67420037223C /* invite ios dev member3.png */,
+				A6E03BF414DA67420037223C /* invite ios dev member4.png */,
+				A6E03BF114DA66E30037223C /* invite ios dev member5.png */,
 			);
 			name = "ios dev member";
 			sourceTree = "<group>";
@@ -1090,6 +1206,8 @@
 		DD66FC9813BE01E0003521AF /* ex */ = {
 			isa = PBXGroup;
 			children = (
+				A6D49E7314D79E14004698DB /* iosMapEx.h */,
+				A6D49E7414D79E14004698DB /* iosMapEx.m */,
 			);
 			name = ex;
 			sourceTree = "<group>";
@@ -1664,6 +1782,8 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				A64F2C0614D6A31E0028B876 /* ruby */,
+				A69970CA14C81C2C007216C7 /* curl */,
 				DD8B5C2414C1D13E00B7541E /* mac tip */,
 				DD8693EF14ADAFA7006DBB97 /* gmail */,
 				DDF13D8E14AC9BF000AE0B13 /* to study */,
@@ -1689,6 +1809,7 @@
 				DDDFDFB713D2C9EE00C80C55 /* animation */,
 				DD9B020014714F2800C88DC6 /* ARC */,
 				DD713624148FC90C00D000F3 /* audio */,
+				A6D49E7014D78BF8004698DB /* backup */,
 				DDC31DD2139A81A0006DBF1D /* blow */,
 				DD11799614933E860077F608 /* camera and photo */,
 				DDD6C87014A46255004DBE2C /* compileError */,
@@ -1701,6 +1822,7 @@
 				DD48F614149F8780000D0FFD /* foursquare */,
 				DDC55F51149F33A40039A38C /* gesture */,
 				A628A66C14B58A51007A9573 /* guide */,
+				A64F2AD114D648C20028B876 /* iBook */,
 				DD99F83C13CC93F00004BB72 /* in app purchase */,
 				DD967A8F14CEC75E0069C923 /* international */,
 				DD43C14114A2FBED0078450F /* ios dev member */,
@@ -1718,12 +1840,14 @@
 				DDBFD7AB147F979F002014EE /* pdf */,
 				DD48F61C149F923B000D0FFD /* photo gallery */,
 				DD0487F9135F4F75002554C4 /* plist */,
+				A634554414C52E31005AB04F /* reference */,
 				DD279C9913B6EE6A00B68049 /* String */,
 				A629914B14BEC1F800F77DDD /* sync */,
 				DDA9D80B1358B00B00F69503 /* Thread */,
 				DDA3DC6C1334A4DB009BFD39 /* Time */,
 				DDCC17A513893496004A9E8D /* UI */,
 				DDE5551A146CF681008BF8DE /* Upload App */,
+				A629928214C3FB5000F77DDD /* UUID */,
 				DDBCB62D13816811004BE4CA /* Xcode */,
 				DD319E55133D09D1007F98D2 /* XML */,
 			);
@@ -2097,6 +2221,7 @@
 			isa = PBXGroup;
 			children = (
 				DD0CAD7614B1EE6400EC6E6A /* alignment */,
+				A699704014C6AE03007216C7 /* bar */,
 				DDD12B901342251E00AAE2B5 /* Button */,
 				DD9A77F0148BADFE0035C179 /* defaultSize */,
 				DDD12B881342237500AAE2B5 /* Image */,
@@ -2112,6 +2237,7 @@
 				DDC762721388E11E001AAB10 /* Table */,
 				DDD12B971342317100AAE2B5 /* TextField */,
 				DD54D4011379936C0056DEBD /* UIActivityIndicatorView */,
+				A63454E214C429B1005AB04F /* view controller */,
 				A629910314BE869C00F77DDD /* xib */,
 				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,
 				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,

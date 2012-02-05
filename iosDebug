@@ -10,3 +10,7 @@ tracking EXC_BAD_ACCESS
     Edit Scheme -> Run -> Diagnostics -> Enable Zomble Objects
 
     
+log:
+    1. print current selector name
+        NSLog(@"%@", NSStringFromSelector(_cmd));
+    

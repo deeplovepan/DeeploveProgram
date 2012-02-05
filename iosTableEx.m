@@ -11,6 +11,11 @@
 
 @implementation iosTableEx
 
+/*  
+    for UITableViewController, 
+    when edit textfield, textfield will adjust loation above keyboard automatically
+
+*/
 
 /*  remove cell select after back to table
     
@@ -44,6 +49,7 @@
     (1) set cell color method 1
         ex:
             cell.contentView.backgroundColor = [UIColor blueColor];
+ 
     (2) set cell color method 2
         this method also modify bounce area color
         ex:
@@ -52,6 +58,11 @@
     (3) cell.backgroundView is behind cell.selectedBackgroundView
         if want cell with custom background image,
         we can add image view on cell.backgroundView
+ 
+    (4) tableview.backgroundView = imageView;
+         this method also modify bounce area color
+
+
  */
 
 
