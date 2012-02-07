@@ -1,0 +1,24 @@
+iOS international note
+
+1. use NSLocalizedString
+   ex:
+        NSLocalizedString(@"hello", @"a message");
+        "hello" is key
+        "a message" is comment
+        
+2. create Localizable.strings
+   genstrings *.m 
+   
+3. add Localizable.strings to project
+
+4. edit Localizable.strings
+   click + button to add localization
+   
+5. update Localizable.strings
+   ex:
+    genstrings -a zh-Hant.lproj/ *.m
+    
+    
+   
+   
+

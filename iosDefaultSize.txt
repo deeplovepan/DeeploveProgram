@@ -2,7 +2,7 @@ ios default size
 
     Carrier Status bar - 320x20
     UIView - 320x460
-    UINavigationBar - 320x44,  480*32
+    UINavigationBar - 320x44,  480*32, 1024*44
     UITabBar - 320x49
     UISearchBar - 320x44
     UIToolBar - 320x49, 480*49
