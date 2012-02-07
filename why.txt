@@ -1,0 +1,24 @@
+why 
+
+1. ios global variable 
+   declare app delegate member
+   
+2. how to do universal app 
+   UI location, size ?
+   
+3. check dons following code need when use ImageDownloader
+
+-(void)dealloc
+{
+    NSArray *valueArray = [imageDownloadsInProgress allValues];
+    for (int i=0; i < [valueArray count]; i++) {
+        ImageDownloader *downloader = [valueArray objectAtIndex:i];
+        [downloader cancelDownload];
+    }
+}
+
+4. JSON check null
+   compare [NSNull null]
+   
+   
+5. core data default value

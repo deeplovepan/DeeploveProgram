@@ -12,9 +12,9 @@
 
 // viewDidUnload will remove subview
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-}
+/*
+    when viewDidLoad, UI's height may not be the same as height set in Storybard
+    the height will be the same as set in storyboard when viewWillAppear
+*/
 
 @end

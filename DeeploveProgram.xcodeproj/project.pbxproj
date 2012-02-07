@@ -21,6 +21,7 @@
 		A629922414C01A6100F77DDD /* hideTabBarOnPush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hideTabBarOnPush.png; sourceTree = "<group>"; };
 		A629928314C3FB8A00F77DDD /* UuidLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UuidLib.h; sourceTree = "<group>"; };
 		A629928414C3FB8A00F77DDD /* UuidLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UuidLib.m; sourceTree = "<group>"; };
+		A63190B614DBC3C2006C775A /* testflight.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testflight.txt; sourceTree = "<group>"; };
 		A63454E414C429CE005AB04F /* MyViewControllerEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewControllerEx.h; sourceTree = "<group>"; };
 		A63454E514C429CE005AB04F /* MyViewControllerEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewControllerEx.m; sourceTree = "<group>"; };
 		A634554514C52E5F005AB04F /* iosReference.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = iosReference.txt; path = ../../../iosReference.txt; sourceTree = "<group>"; };
@@ -35,6 +36,15 @@
 		A64F2AD514D64C990028B876 /* ibookNote2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibookNote2.png; sourceTree = "<group>"; };
 		A64F2AD614D64D680028B876 /* ibookNote3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibookNote3.png; sourceTree = "<group>"; };
 		A64F2C0814D6A3900028B876 /* cap.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cap.txt; sourceTree = "<group>"; };
+		A65F12AD14DD017900CE3AF2 /* MyTouchEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTouchEx.h; sourceTree = "<group>"; };
+		A65F12AE14DD017900CE3AF2 /* MyTouchEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTouchEx.m; sourceTree = "<group>"; };
+		A692094014DFA8FF00F20905 /* why.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = why.txt; sourceTree = "<group>"; };
+		A692094314DFC01500F20905 /* cFormat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cFormat.c; sourceTree = "<group>"; };
+		A692097314E1024700F20905 /* testFlight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFlight1.png; sourceTree = "<group>"; };
+		A692097714E1029500F20905 /* testFlight2.png */ = {isa = PBXFileReference; path = testFlight2.png; sourceTree = "<group>"; };
+		A69209BA14E11BF300F20905 /* iosUniversal.png */ = {isa = PBXFileReference; path = iosUniversal.png; sourceTree = "<group>"; };
+		A69209BB14E11C0C00F20905 /* iosUniversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosUniversal.h; sourceTree = "<group>"; };
+		A69209BC14E11C0C00F20905 /* iosUniversal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosUniversal.m; sourceTree = "<group>"; };
 		A699704214C6AE23007216C7 /* BarEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarEx.h; sourceTree = "<group>"; };
 		A699704314C6AE23007216C7 /* BarEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarEx.m; sourceTree = "<group>"; };
 		A69970CB14C81C4B007216C7 /* curlNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlNote.txt; sourceTree = "<group>"; };
@@ -45,7 +55,7 @@
 		A6E03BF214DA66E30037223C /* invite ios dev member2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member2.png"; sourceTree = "<group>"; };
 		A6E03BF314DA66E30037223C /* invite ios dev member1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member1.png"; sourceTree = "<group>"; };
 		A6E03BF414DA67420037223C /* invite ios dev member4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member4.png"; sourceTree = "<group>"; };
-		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
+		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -344,6 +354,16 @@
 			name = UUID;
 			sourceTree = "<group>";
 		};
+		A63190B414DBC397006C775A /* testflight */ = {
+			isa = PBXGroup;
+			children = (
+				A692097314E1024700F20905 /* testFlight1.png */,
+				A692097714E1029500F20905 /* testFlight2.png */,
+				A63190B614DBC3C2006C775A /* testflight.txt */,
+			);
+			name = testflight;
+			sourceTree = "<group>";
+		};
 		A63454E214C429B1005AB04F /* view controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +415,49 @@
 				A64F2C0814D6A3900028B876 /* cap.txt */,
 			);
 			name = cap;
+			sourceTree = "<group>";
+		};
+		A65F12AB14DD015B00CE3AF2 /* touch */ = {
+			isa = PBXGroup;
+			children = (
+				A65F12AD14DD017900CE3AF2 /* MyTouchEx.h */,
+				A65F12AE14DD017900CE3AF2 /* MyTouchEx.m */,
+			);
+			name = touch;
+			sourceTree = "<group>";
+		};
+		A692093E14DFA8D300F20905 /* why */ = {
+			isa = PBXGroup;
+			children = (
+				A692094014DFA8FF00F20905 /* why.txt */,
+			);
+			name = why;
+			sourceTree = "<group>";
+		};
+		A692094114DFBFF300F20905 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				A692094214DFBFFE00F20905 /* format */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
+		A692094214DFBFFE00F20905 /* format */ = {
+			isa = PBXGroup;
+			children = (
+				A692094314DFC01500F20905 /* cFormat.c */,
+			);
+			name = format;
+			sourceTree = "<group>";
+		};
+		A69209B914E11BDC00F20905 /* universal */ = {
+			isa = PBXGroup;
+			children = (
+				A69209BA14E11BF300F20905 /* iosUniversal.png */,
+				A69209BB14E11C0C00F20905 /* iosUniversal.h */,
+				A69209BC14E11C0C00F20905 /* iosUniversal.m */,
+			);
+			name = universal;
 			sourceTree = "<group>";
 		};
 		A699704014C6AE03007216C7 /* bar */ = {
@@ -1767,6 +1830,8 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				A692094114DFBFF300F20905 /* c */,
+				A692093E14DFA8D300F20905 /* why */,
 				A64F2C0614D6A31E0028B876 /* ruby */,
 				A69970CA14C81C2C007216C7 /* curl */,
 				DD8B5C2414C1D13E00B7541E /* mac tip */,
@@ -1826,9 +1891,12 @@
 				A634554414C52E31005AB04F /* reference */,
 				DD279C9913B6EE6A00B68049 /* String */,
 				A629914B14BEC1F800F77DDD /* sync */,
+				A63190B414DBC397006C775A /* testflight */,
 				DDA9D80B1358B00B00F69503 /* Thread */,
 				DDA3DC6C1334A4DB009BFD39 /* Time */,
+				A65F12AB14DD015B00CE3AF2 /* touch */,
 				DDCC17A513893496004A9E8D /* UI */,
+				A69209B914E11BDC00F20905 /* universal */,
 				DDE5551A146CF681008BF8DE /* Upload App */,
 				A629928214C3FB5000F77DDD /* UUID */,
 				DDBCB62D13816811004BE4CA /* Xcode */,
