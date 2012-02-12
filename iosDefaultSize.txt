@@ -1,5 +1,8 @@
 ios default size
 
+    icon size: 
+        57*57，72*72, 114*114, 512*512
+
     Carrier Status bar - 320x20
     UIView - 320x460
     UINavigationBar - 320x44,  480*32, 1024*44

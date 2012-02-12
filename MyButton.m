@@ -9,6 +9,12 @@
 #import "MyButton.h"
 #import "MyFile.h"
 
+/*
+    setImage:forState:  scale image
+    setBackgroundImage:forState: will not scal image
+ 
+*/
+
 @implementation MyButton
 
 +(UIButton*)createButton:(NSString*)name pressedImageName:(NSString*)pressedName isProjectFile:(BOOL)isProjectFile onView:(UIView*)view

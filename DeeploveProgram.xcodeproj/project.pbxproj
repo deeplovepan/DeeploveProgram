@@ -45,7 +45,7 @@
 		A6E03BF214DA66E30037223C /* invite ios dev member2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member2.png"; sourceTree = "<group>"; };
 		A6E03BF314DA66E30037223C /* invite ios dev member1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member1.png"; sourceTree = "<group>"; };
 		A6E03BF414DA67420037223C /* invite ios dev member4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member4.png"; sourceTree = "<group>"; };
-		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
+		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -241,6 +241,8 @@
 		DDC0F376147018670036F576 /* resizeNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = resizeNote.txt; sourceTree = "<group>"; };
 		DDC31DD5139A81DE006DBF1D /* MicBlowEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicBlowEx.h; sourceTree = "<group>"; };
 		DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicBlowEx.m; sourceTree = "<group>"; };
+		DDC42B6314DEC27400E96459 /* iosLockScreenEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosLockScreenEx.h; sourceTree = "<group>"; };
+		DDC42B6414DEC27400E96459 /* iosLockScreenEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosLockScreenEx.m; sourceTree = "<group>"; };
 		DDC55F42149F27150039A38C /* MyLanguageLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLanguageLib.h; sourceTree = "<group>"; };
 		DDC55F43149F27150039A38C /* MyLanguageLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLanguageLib.m; sourceTree = "<group>"; };
 		DDC762701388DF25001AAB10 /* UILabelEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelEx.h; sourceTree = "<group>"; };
@@ -1804,7 +1806,6 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD970EBB14D1901A00E61283 /* iosDevNote.txt */,
 				DD702CD414796B990091E40D /* adhoc */,
 				DDDFDFB713D2C9EE00C80C55 /* animation */,
 				DD9B020014714F2800C88DC6 /* ARC */,
@@ -1826,8 +1827,10 @@
 				DD99F83C13CC93F00004BB72 /* in app purchase */,
 				DD967A8F14CEC75E0069C923 /* international */,
 				DD43C14114A2FBED0078450F /* ios dev member */,
+				DD970EBB14D1901A00E61283 /* iosDevNote.txt */,
 				DDBFD7C61480CC70002014EE /* KVC and KVO */,
 				DDC55F40149F26CF0039A38C /* language */,
+				DDC42B6114DEC23800E96459 /* lock screen */,
 				DD702C721477F6510091E40D /* Lock Screen Info */,
 				DD946C8C1353669000CBDA7F /* Map */,
 				DDA9D81913599F1400F69503 /* Math */,
@@ -2163,6 +2166,15 @@
 				DDC31DD6139A81DE006DBF1D /* MicBlowEx.m */,
 			);
 			name = ex;
+			sourceTree = "<group>";
+		};
+		DDC42B6114DEC23800E96459 /* lock screen */ = {
+			isa = PBXGroup;
+			children = (
+				DDC42B6314DEC27400E96459 /* iosLockScreenEx.h */,
+				DDC42B6414DEC27400E96459 /* iosLockScreenEx.m */,
+			);
+			name = "lock screen";
 			sourceTree = "<group>";
 		};
 		DDC55F40149F26CF0039A38C /* language */ = {
