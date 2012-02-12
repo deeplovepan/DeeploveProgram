@@ -61,6 +61,7 @@
  
     (4) tableview.backgroundView = imageView;
          this method also modify bounce area color
+         behind all cells and headers/footers
 
 
  */
@@ -153,6 +154,8 @@
 
 #pragma mark - Table view delegate
 // set cell height
+// this method is called before 
+//   - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 60;

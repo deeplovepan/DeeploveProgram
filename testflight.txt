@@ -1,0 +1,21 @@
+testflight
+
+1.  show build list for App
+    Builds -> History
+    
+2.  upload build
+    upload build
+
+3.  show app list
+    builds
+    
+4.  create app
+    upload build
+
+5.  remove build
+    builds -> history -> select one build -> Edit or Remove -> remove this build ( left bottom)
+
+6. multiple devices can map to one account
+
+7.  resend build invite
+    builds -> Testers -> left bottom link: http://bit.ly/yItupI

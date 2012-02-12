@@ -11,6 +11,11 @@
 
 @implementation MathEx
 
++(int)getRandomNumberFrom0toNumberDecreaseOne:(int)num
+{
+    return arc4random()%num;
+}
+
 +(int)getAbsoluteValue(float a, float b)
 {
     return fabsf(a-b);
