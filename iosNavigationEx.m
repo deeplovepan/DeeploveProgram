@@ -11,6 +11,11 @@
 
 @implementation iosNavigationEx
 
+/*
+    if nav bar is hidden, when open app again, 
+    view's y offset will change
+*/
+
 // - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated;
 /*
     if controller A push controller B in method test

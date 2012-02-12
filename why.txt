@@ -20,5 +20,9 @@ why
 4. JSON check null
    compare [NSNull null]
    
-   
 5. core data default value
+
+6. UIEdgeInsetsMake
+
+7. detect openurl is called from alive app or dead app
+

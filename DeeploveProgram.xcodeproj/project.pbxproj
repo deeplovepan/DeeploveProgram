@@ -41,8 +41,8 @@
 		A692094014DFA8FF00F20905 /* why.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = why.txt; sourceTree = "<group>"; };
 		A692094314DFC01500F20905 /* cFormat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cFormat.c; sourceTree = "<group>"; };
 		A692097314E1024700F20905 /* testFlight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFlight1.png; sourceTree = "<group>"; };
-		A692097714E1029500F20905 /* testFlight2.png */ = {isa = PBXFileReference; path = testFlight2.png; sourceTree = "<group>"; };
-		A69209BA14E11BF300F20905 /* iosUniversal.png */ = {isa = PBXFileReference; path = iosUniversal.png; sourceTree = "<group>"; };
+		A692097714E1029500F20905 /* testFlight2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFlight2.png; sourceTree = "<group>"; };
+		A69209BA14E11BF300F20905 /* iosUniversal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iosUniversal.png; sourceTree = "<group>"; };
 		A69209BB14E11C0C00F20905 /* iosUniversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosUniversal.h; sourceTree = "<group>"; };
 		A69209BC14E11C0C00F20905 /* iosUniversal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosUniversal.m; sourceTree = "<group>"; };
 		A699704214C6AE23007216C7 /* BarEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarEx.h; sourceTree = "<group>"; };
@@ -218,6 +218,9 @@
 		DD9A784E148C6CD70035C179 /* copyScreen.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = copyScreen.tiff; sourceTree = "<group>"; };
 		DD9B020214714FBA00C88DC6 /* arcNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = arcNote.txt; sourceTree = "<group>"; };
 		DD9D85B014C2D3B600F91A0D /* install old version iOS simulator.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "install old version iOS simulator.webarchive"; sourceTree = "<group>"; };
+		DD9EAC3114E80997001B2996 /* IosOpenAppEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosOpenAppEx.h; sourceTree = "<group>"; };
+		DD9EAC3214E80997001B2996 /* IosOpenAppEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosOpenAppEx.m; sourceTree = "<group>"; };
+		DD9EAC3814E82A98001B2996 /* IosDefaultImage.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = IosDefaultImage.txt; sourceTree = "<group>"; };
 		DD9FC1FB1335014B006241C6 /* LocalNotificationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotificationEx.h; sourceTree = "<group>"; };
 		DD9FC1FC1335014B006241C6 /* LocalNotificationEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationEx.m; sourceTree = "<group>"; };
 		DDA9D80E1358B03500F69503 /* ThreadEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadEx.h; sourceTree = "<group>"; };
@@ -1826,6 +1829,23 @@
 			name = ARC;
 			sourceTree = "<group>";
 		};
+		DD9EAC2F14E80981001B2996 /* openApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD9EAC3114E80997001B2996 /* IosOpenAppEx.h */,
+				DD9EAC3214E80997001B2996 /* IosOpenAppEx.m */,
+			);
+			name = openApp;
+			sourceTree = "<group>";
+		};
+		DD9EAC3714E82A30001B2996 /* default image */ = {
+			isa = PBXGroup;
+			children = (
+				DD9EAC3814E82A98001B2996 /* IosDefaultImage.txt */,
+			);
+			name = "default image";
+			sourceTree = "<group>";
+		};
 		DD9FC1F91335011F006241C6 /* ex */ = {
 			isa = PBXGroup;
 			children = (
@@ -1871,6 +1891,7 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DD9EAC2F14E80981001B2996 /* openApp */,
 				DD702CD414796B990091E40D /* adhoc */,
 				DDDFDFB713D2C9EE00C80C55 /* animation */,
 				DD9B020014714F2800C88DC6 /* ARC */,
@@ -2300,6 +2321,7 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				DD9EAC3714E82A30001B2996 /* default image */,
 				DD0CAD7614B1EE6400EC6E6A /* alignment */,
 				A699704014C6AE03007216C7 /* bar */,
 				DDD12B901342251E00AAE2B5 /* Button */,
