@@ -1924,12 +1924,9 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				A69209C714E22C1900F20905 /* prevent enter lock */,
 				DD970EBB14D1901A00E61283 /* iosDevNote.txt */,
-=======
 				DD9EAC2F14E80981001B2996 /* openApp */,
->>>>>>> 5968ca3a3c70ca87bc7197d789136159c8e92e86
 				DD702CD414796B990091E40D /* adhoc */,
 				DDDFDFB713D2C9EE00C80C55 /* animation */,
 				DD9B020014714F2800C88DC6 /* ARC */,
