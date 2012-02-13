@@ -16,4 +16,9 @@
 
 */
 
+/*
+    when there is no network, CLLocationManager can not get location update
+
+*/
+
 @end

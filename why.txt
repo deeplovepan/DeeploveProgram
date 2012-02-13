@@ -22,3 +22,7 @@ why
    
    
 5. core data default value
+
+6. setanimationtransition
+
+7. compare UIButton's setBackgroundImage & setImage

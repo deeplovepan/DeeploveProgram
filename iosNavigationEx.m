@@ -11,6 +11,19 @@
 
 @implementation iosNavigationEx
 
+/*
+    detect back button pressed
+ 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound)
+    {
+ 
+    }
+}
+
+*/
+
 // - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated;
 /*
     if controller A push controller B in method test
@@ -56,11 +69,6 @@
     [controller release];
 }
 
--(void)getPreviousViewController
-{
-    int count = [self.navigationController.viewControllers count];
-    id prevController = [self.navigationController.viewControllers objectAtIndex:count-2] ;
-}
 
 -(void)addRightButton
 {

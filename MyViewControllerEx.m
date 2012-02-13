@@ -10,8 +10,20 @@
 
 @implementation MyViewControllerEx
 
-// viewDidUnload will remove subview
+/* 
+    if we use nav controller to push controller A, then push controller B
+    now we want to show controller C, discad nav controller
+ 
+    solution:
+        set delegate.window.rootViewController as controller C
 
+*/
+
+
+/*
+    viewDidUnload will remove subview
+*/
+ 
 /*
     when viewDidLoad, UI's height may not be the same as height set in Storybard
     the height will be the same as set in storyboard when viewWillAppear

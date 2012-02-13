@@ -10,6 +10,17 @@
 
 @implementation MyKeyboard
 
+-(void)hideKeyboard:(UIView*)view
+{
+    for(UIView *subView in view.subviews)
+    {
+        if(subView.isFirstResponder)
+        {
+            [subView resignFirstResponder];
+            break;
+        }
+    }
 
+}
 
 @end

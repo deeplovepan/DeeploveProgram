@@ -1,5 +1,8 @@
 storyboard
 
+When from controller A to controller B,
+prepareForSegue in A is called before loadView in controller B
+
 embed controller in another navigation controller
     Editor -> Embed in -> Navigation Controller 
     
