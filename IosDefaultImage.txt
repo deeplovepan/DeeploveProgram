@@ -1,0 +1,5 @@
+ios default image
+
+iphone landscape default image:
+	rotate image to let image become portrait 
+

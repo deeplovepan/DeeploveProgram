@@ -16,7 +16,8 @@ iOS international note
    
 5. update Localizable.strings
    ex:
-    genstrings -a zh-Hant.lproj/ *.m
+   genstrings -o en.lproj/ *.m
+   genstrings -a zh-Hant.lproj/ *.m
     
     
    

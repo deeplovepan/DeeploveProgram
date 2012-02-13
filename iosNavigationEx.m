@@ -12,6 +12,7 @@
 @implementation iosNavigationEx
 
 /*
+<<<<<<< HEAD
     detect back button pressed
  
 - (void)viewWillDisappear:(BOOL)animated
@@ -22,6 +23,10 @@
     }
 }
 
+=======
+    if nav bar is hidden, when open app again, 
+    view's y offset will change
+>>>>>>> 5968ca3a3c70ca87bc7197d789136159c8e92e86
 */
 
 // - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated;

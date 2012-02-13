@@ -26,3 +26,8 @@ why
 6. setanimationtransition
 
 7. compare UIButton's setBackgroundImage & setImage
+
+8. UIEdgeInsetsMake
+
+9. detect openurl is called from alive app or dead app
+
