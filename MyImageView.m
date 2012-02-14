@@ -7,20 +7,17 @@
 //
 
 #import "MyImageView.h"
-#import "MyFile.h"
 
 @implementation MyImageView
 
-+(UIImageView*)createImageView:(NSString*)name isPojectFile:(BOOL)isPojectFile onView:(UIView*)view
-{
-    NSString *path = [FileUtil filePath:name isProjectFile:isPojectFile];
-    UIImage *image = [[UIImage alloc] initWithContentsOfFile:path];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-    [image release];
-    [view addSubview:imageView];
-    [imageView release];
-    
-    return imageView;
++(UIImage*)resizeWithImage:(UIImage*)image width:(float)width height:(float)height {
+	
+    CGRect rect = CGRectMake(0, 0, width, height);
+    UIGraphicsBeginImageContext(rect.size);
+	[image drawInRect:rect];
+	UIImage *imageCopy =  UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	return imageCopy;
 }
 
 

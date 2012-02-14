@@ -31,3 +31,12 @@ why
 
 9. detect openurl is called from alive app or dead app
 
+10. setting itunes backup
+
+11. 泛型
+
+12. outer join
+
+13. NSPredicate with core data
+
+14. NSURLCache 

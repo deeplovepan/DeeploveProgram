@@ -12,5 +12,6 @@
 @interface MyImageView : NSObject {
     
 }
-+(UIImageView*)createImageView:(NSString*)name isPojectFile:(BOOL)isPojectFile onView:(UIView*)view;
++(UIImage*)resizeWithImage:(UIImage*)image  width:(float)width height:(float)height;
+
 @end

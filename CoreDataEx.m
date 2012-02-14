@@ -35,6 +35,24 @@
 
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 
+// sort 
+
+-(void)sortArray
+{
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Person" inManagedObjectContext:self.managedObjectContext];
+    [fetchRequest setEntity:entity];
+    
+    // sort 
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc]
+                                        initWithKey:@"birthday" ascending:NO];
+    [fetchRequest setSortDescriptors:[NSArray arrayWithObject:sortDescriptor]];
+    
+    NSError *error = nil;
+    NSArray *array = [self.managedObjectContext executeFetchRequest:fetchRequest error:&error];
+}
+
+
 // insert one row
 -(void)createNewPerson
 {
