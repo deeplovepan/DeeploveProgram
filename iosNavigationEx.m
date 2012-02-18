@@ -12,6 +12,16 @@
 @implementation iosNavigationEx
 
 /*
+detect back button pressed
+ 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound)
+    {
+ 
+    }
+}
+
     if nav bar is hidden, when open app again, 
     view's y offset will change
 */
@@ -61,11 +71,6 @@
     [controller release];
 }
 
--(void)getPreviousViewController
-{
-    int count = [self.navigationController.viewControllers count];
-    id prevController = [self.navigationController.viewControllers objectAtIndex:count-2] ;
-}
 
 -(void)addRightButton
 {

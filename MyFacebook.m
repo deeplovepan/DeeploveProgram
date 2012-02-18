@@ -15,6 +15,13 @@
 #define EXPIRATION_DATE_KEY @"fb_expiration_date"
 
 
+/*
+ - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    return [self.myFacebook.facebook handleOpenURL:url];
+ }
+*/
+
 @implementation MyFacebook
 
 @synthesize facebook;

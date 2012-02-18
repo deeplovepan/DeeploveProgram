@@ -38,6 +38,13 @@
 		A64F2C0814D6A3900028B876 /* cap.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cap.txt; sourceTree = "<group>"; };
 		A65F12AD14DD017900CE3AF2 /* MyTouchEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTouchEx.h; sourceTree = "<group>"; };
 		A65F12AE14DD017900CE3AF2 /* MyTouchEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTouchEx.m; sourceTree = "<group>"; };
+		A666E7A014E379080008BD67 /* IosNavigationLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosNavigationLib.h; sourceTree = "<group>"; };
+		A666E7A114E379080008BD67 /* IosNavigationLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosNavigationLib.m; sourceTree = "<group>"; };
+		A666E7CE14E4BB1F0008BD67 /* readerQuestion.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readerQuestion.txt; sourceTree = "<group>"; };
+		A666E87214E8AD4B0008BD67 /* MyMailEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMailEx.h; sourceTree = "<group>"; };
+		A666E87314E8AD4B0008BD67 /* MyMailEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMailEx.m; sourceTree = "<group>"; };
+		A666E87714E8B01A0008BD67 /* IosActionSheetEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosActionSheetEx.h; sourceTree = "<group>"; };
+		A666E87814E8B01A0008BD67 /* IosActionSheetEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosActionSheetEx.m; sourceTree = "<group>"; };
 		A692094014DFA8FF00F20905 /* why.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = why.txt; sourceTree = "<group>"; };
 		A692094314DFC01500F20905 /* cFormat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cFormat.c; sourceTree = "<group>"; };
 		A692097314E1024700F20905 /* testFlight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFlight1.png; sourceTree = "<group>"; };
@@ -45,6 +52,8 @@
 		A69209BA14E11BF300F20905 /* iosUniversal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iosUniversal.png; sourceTree = "<group>"; };
 		A69209BB14E11C0C00F20905 /* iosUniversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosUniversal.h; sourceTree = "<group>"; };
 		A69209BC14E11C0C00F20905 /* iosUniversal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosUniversal.m; sourceTree = "<group>"; };
+		A69209C914E22C3000F20905 /* iosPreventEnterLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosPreventEnterLock.h; sourceTree = "<group>"; };
+		A69209CA14E22C3000F20905 /* iosPreventEnterLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosPreventEnterLock.m; sourceTree = "<group>"; };
 		A699704214C6AE23007216C7 /* BarEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarEx.h; sourceTree = "<group>"; };
 		A699704314C6AE23007216C7 /* BarEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarEx.m; sourceTree = "<group>"; };
 		A69970CB14C81C4B007216C7 /* curlNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlNote.txt; sourceTree = "<group>"; };
@@ -436,6 +445,41 @@
 			name = touch;
 			sourceTree = "<group>";
 		};
+		A666E79614E378100008BD67 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A666E7A014E379080008BD67 /* IosNavigationLib.h */,
+				A666E7A114E379080008BD67 /* IosNavigationLib.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		A666E7CD14E4BAC20008BD67 /* reader question */ = {
+			isa = PBXGroup;
+			children = (
+				A666E7CE14E4BB1F0008BD67 /* readerQuestion.txt */,
+			);
+			name = "reader question";
+			sourceTree = "<group>";
+		};
+		A666E86B14E8AC3A0008BD67 /* mail */ = {
+			isa = PBXGroup;
+			children = (
+				A666E87214E8AD4B0008BD67 /* MyMailEx.h */,
+				A666E87314E8AD4B0008BD67 /* MyMailEx.m */,
+			);
+			name = mail;
+			sourceTree = "<group>";
+		};
+		A666E87614E8B0010008BD67 /* action sheet */ = {
+			isa = PBXGroup;
+			children = (
+				A666E87714E8B01A0008BD67 /* IosActionSheetEx.h */,
+				A666E87814E8B01A0008BD67 /* IosActionSheetEx.m */,
+			);
+			name = "action sheet";
+			sourceTree = "<group>";
+		};
 		A692093E14DFA8D300F20905 /* why */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,6 +512,15 @@
 				A69209BC14E11C0C00F20905 /* iosUniversal.m */,
 			);
 			name = universal;
+			sourceTree = "<group>";
+		};
+		A69209C714E22C1900F20905 /* prevent enter lock */ = {
+			isa = PBXGroup;
+			children = (
+				A69209C914E22C3000F20905 /* iosPreventEnterLock.h */,
+				A69209CA14E22C3000F20905 /* iosPreventEnterLock.m */,
+			);
+			name = "prevent enter lock";
 			sourceTree = "<group>";
 		};
 		A699704014C6AE03007216C7 /* bar */ = {
@@ -1118,6 +1171,7 @@
 		DD3970461387ACF500D92584 /* navigation */ = {
 			isa = PBXGroup;
 			children = (
+				A666E79614E378100008BD67 /* lib */,
 				DD39704B1387ADC800D92584 /* ex */,
 			);
 			name = navigation;
@@ -1867,6 +1921,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				A666E7CD14E4BAC20008BD67 /* reader question */,
 				A692094114DFBFF300F20905 /* c */,
 				A692093E14DFA8D300F20905 /* why */,
 				A64F2C0614D6A31E0028B876 /* ruby */,
@@ -1891,7 +1946,6 @@
 		DDA3DC691334A497009BFD39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD9EAC2F14E80981001B2996 /* openApp */,
 				DD702CD414796B990091E40D /* adhoc */,
 				DDDFDFB713D2C9EE00C80C55 /* animation */,
 				DD9B020014714F2800C88DC6 /* ARC */,
@@ -1918,6 +1972,7 @@
 				DDC55F40149F26CF0039A38C /* language */,
 				DDC42B6114DEC23800E96459 /* lock screen */,
 				DD702C721477F6510091E40D /* Lock Screen Info */,
+				A666E86B14E8AC3A0008BD67 /* mail */,
 				DD946C8C1353669000CBDA7F /* Map */,
 				DDA9D81913599F1400F69503 /* Math */,
 				DD66FD85149E5536006884C3 /* memory */,
@@ -1926,9 +1981,11 @@
 				DDA3DC6A1334A4A0009BFD39 /* Notification */,
 				DD50DA5D13C9EB81005610AF /* Objective-C */,
 				DD583A761340C767001C9575 /* OhterLib */,
+				DD9EAC2F14E80981001B2996 /* openApp */,
 				DDBFD7AB147F979F002014EE /* pdf */,
 				DD48F61C149F923B000D0FFD /* photo gallery */,
 				DD0487F9135F4F75002554C4 /* plist */,
+				A69209C714E22C1900F20905 /* prevent enter lock */,
 				A634554414C52E31005AB04F /* reference */,
 				DD279C9913B6EE6A00B68049 /* String */,
 				A629914B14BEC1F800F77DDD /* sync */,
@@ -1942,6 +1999,7 @@
 				A629928214C3FB5000F77DDD /* UUID */,
 				DDBCB62D13816811004BE4CA /* Xcode */,
 				DD319E55133D09D1007F98D2 /* XML */,
+				DD970EBB14D1901A00E61283 /* iosDevNote.txt */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -2321,6 +2379,7 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A666E87614E8B0010008BD67 /* action sheet */,
 				DD9EAC3714E82A30001B2996 /* default image */,
 				DD0CAD7614B1EE6400EC6E6A /* alignment */,
 				A699704014C6AE03007216C7 /* bar */,

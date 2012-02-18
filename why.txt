@@ -20,9 +20,23 @@ why
 4. JSON check null
    compare [NSNull null]
    
+   
 5. core data default value
 
-6. UIEdgeInsetsMake
+6. setanimationtransition
 
-7. detect openurl is called from alive app or dead app
+7. compare UIButton's setBackgroundImage & setImage
 
+8. UIEdgeInsetsMake
+
+9. detect openurl is called from alive app or dead app
+
+10. setting itunes backup
+
+11. 泛型
+
+12. outer join
+
+13. NSPredicate with core data
+
+14. NSURLCache 
