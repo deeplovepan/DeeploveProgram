@@ -1,2 +1,10 @@
 reference:
 http://cloud.github.com/downloads/Machx/Xcode-Keyboard-Shortcuts/Xcode_Shortcuts.pdf
+
+jump to specific file:
+    Command + Shift + O:
+        open Open Quickly Window, then type file name in this window
+        
+switch between .h & .m
+    Command + control + up arrow
+    
