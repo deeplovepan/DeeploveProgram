@@ -11,6 +11,18 @@
 
 @implementation DeviceEx
 
+// check device is iPhone or iPad
+// iPhone
+if( [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+{
+    
+}
+// iPad
+else
+{
+    
+}
+
 +(void)getDeviceId
 {
     UIDevice *device = [UIDevice currentDevice];
