@@ -40,3 +40,5 @@ why
 13. NSPredicate with core data
 
 14. NSURLCache 
+
+15. core data: when to save
