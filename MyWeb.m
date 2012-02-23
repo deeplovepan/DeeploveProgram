@@ -11,6 +11,14 @@
 
 @implementation MyWeb
 
+/*
+  
+  NSString *newUrl = [url stringByAddingPercentEscapesUsingEncoding:
+       NSUTF8StringEncoding];
+
+   CFStringRef newUrlStrRef = CFURLCreateStringByReplacingPercentEscapes(kCFAllocatorDefault,  (CFStringRef)urlString, CFSTR(""));
+*/
+
 +(void)loadLocalHtmlFile:(NSString*)fileName webView:(UIWebView*)webView 
 {
     NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:@"html"];
