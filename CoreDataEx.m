@@ -87,5 +87,19 @@
 
 }
 
+// delete 
+-(void)delObject:(id)delObj
+{
+    [managedObjectContext deleteObject:delObj];
+    
+    // Save the context.
+    NSError *error = nil;
+    if (![managedObjectContext save:&error])
+    {
+
+    }
+}
+
+
 
 @end

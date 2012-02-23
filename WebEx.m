@@ -12,6 +12,82 @@
 @implementation WebEx
 
 /*
+ [NSURLConnection sendAsynchronousRequest:req queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+    
+ 
+ }
+ 
+ if object is used in completionHandler, it retain count will be increased
+ 
+ ex:
+ 
+ // TestAsyncNoArcViewController.m
+ 
+ -(void)remove:(UIImageView*)imageView
+ {
+     NSLog(@"remove %d", imageView.tag);
+     [imageView removeFromSuperview];
+ }
+
+ -(void)test
+ {
+     NSString *urlStr = @"http://locomote-staging.passionbean.com/system/images/855/original/iphone%20flanerie%20085.jpg?1327030741";
+     NSURL *url = [NSURL URLWithString:urlStr];
+     NSURLRequest *req = [NSURLRequest requestWithURL:url];    
+     
+     UIImageView *addImageView = [[TestImageView alloc] initWithFrame:CGRectMake(05, 0,
+     200, 200)];
+     addImageView.tag = 1;
+     [self.view addSubview:addImageView];
+     [addImageView release];
+     
+     UIImageView *addImageView2 = [[TestImageView alloc] initWithFrame:CGRectMake(05, 0,
+     200, 200)];
+     addImageView2.tag = 2;
+     [self.view addSubview:addImageView2];
+     [addImageView2 release];
+     
+     
+     NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+     NSLog(@"sendAsynchronousRequest");
+     [NSURLConnection sendAsynchronousRequest:req queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+     if ([data length] >0 && error == nil)
+     {
+     NSLog(@"addImageView.contentMode %d", addImageView.contentMode);
+     }
+     }];
+     [queue release];
+     [self performSelector:@selector(remove:) withObject:addImageView afterDelay:0.1];
+     [self performSelector:@selector(remove:) withObject:addImageView2 afterDelay:0.1];
+
+ }
+ 
+ - (void)viewDidLoad
+ {
+    [super viewDidLoad];
+    [self test];
+ }
+ 
+ // TestImageView.m
+ -(void)dealloc
+ {
+     NSLog(@"dealloc %d", self.tag);
+     [super dealloc];
+ }
+
+ ->
+ 
+ 2012-02-15 15:21:14.509 TestAsyncNoArc[3203:707] sendAsynchronousRequest
+ 2012-02-15 15:21:14.615 TestAsyncNoArc[3203:707] remove 1
+ 2012-02-15 15:21:14.617 TestAsyncNoArc[3203:707] remove 2
+ 2012-02-15 15:21:14.620 TestAsyncNoArc[3203:707] dealloc 2
+ 2012-02-15 15:21:21.095 TestAsyncNoArc[3203:1a03] addImageView.contentMode 0
+ 2012-02-15 15:21:21.099 TestAsyncNoArc[3203:1a03] dealloc 1
+
+ 
+*/
+
+/*
     cache:
  
         1. use NSURLRequestReloadIgnoringLocalCacheData:

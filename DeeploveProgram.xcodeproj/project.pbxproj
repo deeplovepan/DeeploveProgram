@@ -65,6 +65,8 @@
 		A6E03BF314DA66E30037223C /* invite ios dev member1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member1.png"; sourceTree = "<group>"; };
 		A6E03BF414DA67420037223C /* invite ios dev member4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member4.png"; sourceTree = "<group>"; };
 		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
+		A6F207A114F22F09001A0663 /* MyTimeEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTimeEx.h; sourceTree = "<group>"; };
+		A6F207A214F22F09001A0663 /* MyTimeEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTimeEx.m; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -546,6 +548,15 @@
 				A6D49E7214D78C60004698DB /* iosBackup.txt */,
 			);
 			name = backup;
+			sourceTree = "<group>";
+		};
+		A6F2079F14F22EE3001A0663 /* ex */ = {
+			isa = PBXGroup;
+			children = (
+				A6F207A114F22F09001A0663 /* MyTimeEx.h */,
+				A6F207A214F22F09001A0663 /* MyTimeEx.m */,
+			);
+			name = ex;
 			sourceTree = "<group>";
 		};
 		DD0487F5135F30A8002554C4 /* ex */ = {
@@ -2026,6 +2037,7 @@
 		DDA3DC6C1334A4DB009BFD39 /* Time */ = {
 			isa = PBXGroup;
 			children = (
+				A6F2079F14F22EE3001A0663 /* ex */,
 				DD9FC1FA13350128006241C6 /* lib */,
 			);
 			name = Time;
