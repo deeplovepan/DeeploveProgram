@@ -57,6 +57,8 @@
 		A699704214C6AE23007216C7 /* BarEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarEx.h; sourceTree = "<group>"; };
 		A699704314C6AE23007216C7 /* BarEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarEx.m; sourceTree = "<group>"; };
 		A69970CB14C81C4B007216C7 /* curlNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlNote.txt; sourceTree = "<group>"; };
+		A6D3072014F3A8D3005B1B43 /* MyMapAnnotation.h */ = {isa = PBXFileReference; path = MyMapAnnotation.h; sourceTree = "<group>"; };
+		A6D3072114F3A8D3005B1B43 /* MyMapAnnotation.m */ = {isa = PBXFileReference; path = MyMapAnnotation.m; sourceTree = "<group>"; };
 		A6D49E7214D78C60004698DB /* iosBackup.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosBackup.txt; sourceTree = "<group>"; };
 		A6D49E7314D79E14004698DB /* iosMapEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosMapEx.h; sourceTree = "<group>"; };
 		A6D49E7414D79E14004698DB /* iosMapEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosMapEx.m; sourceTree = "<group>"; };
@@ -220,8 +222,6 @@
 		DD967AA214CED1190069C923 /* iosLocalization2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iosLocalization2.png; sourceTree = "<group>"; };
 		DD970EBB14D1901A00E61283 /* iosDevNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosDevNote.txt; sourceTree = "<group>"; };
 		DD970EE014D298ED00E61283 /* enableZombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enableZombie.png; sourceTree = "<group>"; };
-		DD9957A2136F1426000F7962 /* MyMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
-		DD9957A3136F1426000F7962 /* MyMapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
 		DD99F83F13CC943A0004BB72 /* MyInAppPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInAppPurchase.h; sourceTree = "<group>"; };
 		DD99F84013CC943A0004BB72 /* MyInAppPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInAppPurchase.m; sourceTree = "<group>"; };
 		DD99F84213CC9E7E0004BB72 /* iosInAppPurchase.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosInAppPurchase.txt; sourceTree = "<group>"; };
@@ -1830,8 +1830,8 @@
 		DD946C94135366BE00CBDA7F /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				DD9957A2136F1426000F7962 /* MyMapAnnotation.h */,
-				DD9957A3136F1426000F7962 /* MyMapAnnotation.m */,
+				A6D3072014F3A8D3005B1B43 /* MyMapAnnotation.h */,
+				A6D3072114F3A8D3005B1B43 /* MyMapAnnotation.m */,
 				DD946C95135366D600CBDA7F /* MyMap.h */,
 				DD946C96135366D600CBDA7F /* MyMap.m */,
 			);

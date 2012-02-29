@@ -1,13 +1,12 @@
 //
-//  MyMapAnnotation.m
-//  MyLib
+//  MyAnnotation.m
+//  MapLocation
 //
-//  Created by deeplove on 2010/9/11.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by  on 11/10/24.
+//  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
 //
 
 #import "MyMapAnnotation.h"
-
 
 @implementation MyMapAnnotation
 
@@ -15,18 +14,16 @@
 @synthesize title;
 @synthesize subtitle;
 
-
-
--(id)initWithCoordinate:(CLLocationCoordinate2D) c{
-	coordinate=c;
-	return self;
-}
-
--(void)dealloc
+-(id)initWithCoordinate:(CLLocationCoordinate2D)argCoordinate title:(NSString*)argTitle subtitle:(NSString*)argSubtitle
 {
-	[title release];
-	[subtitle release];
-	[super dealloc];
+    self = [super init];
+    if(self)
+    {
+        coordinate = argCoordinate;
+        title = argTitle;
+        subtitle = argSubtitle;
+    }
+    return self;
 }
 
 @end

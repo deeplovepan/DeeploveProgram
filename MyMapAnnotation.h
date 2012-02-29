@@ -1,21 +1,16 @@
 //
-//  MyMapAnnotation.h
-//  MyLib
+//  MyAnnotation.h
+//  MapLocation
 //
-//  Created by deeplove on 2010/9/11.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by  on 11/10/24.
+//  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <MapKit/MKAnnotation.h>
+#import <MapKit/MapKit.h>
 
+@interface MyMapAnnotation : NSObject <MKAnnotation>
 
-@interface MyMapAnnotation : NSObject<MKAnnotation> {
-	CLLocationCoordinate2D coordinate;
-	NSString *title;
-	NSString *subtitle;
-}
-@property (nonatomic, retain) NSString *title;
-@property (nonatomic, retain) NSString *subtitle;
+-(id)initWithCoordinate:(CLLocationCoordinate2D)argCoordinate title:(NSString*)argTitle subtitle:(NSString*)argSubtitle;
 
 @end
