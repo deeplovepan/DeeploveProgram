@@ -1,0 +1,209 @@
+git
+command
+
+reference: http://plog.longwin.com.tw/my_note-unix/2009/05/19/git-learn-initial-command-2009
+
+gitk:
+GUI for git
+
+name:
+usually master is name for local Repository
+origin is name for remote Repository
+
+init ssh key:
+reference:
+http://help.github.com/mac-set-up-git/
+
+init git project:
+if there is a project dir "test" in local host
+(1) cd test
+(2) git init
+	now .git is created 
+	
+init git project on github:
+(1) create project url on github website
+    git@github.com:deeplovepan/test.git
+(2) mkdir test
+(3) cd test
+(4) git init
+(5) git remote add origin git@github.com:deeplovepan/test.git
+(6) git push origin master
+----------------------------------------------------------------
+
+
+record file change:
+(1)git commit
+remove # to add change log
+(2)git commit -a 
+commit all 
+----------------------------------------------------------------
+get specific commit file:
+ex:
+git checkout c726e36d79e260b1910f2dcef6473ece18a1d929 test.h
+c726e36d79e260b1910f2dcef6473ece18a1d929 is commit ID
+
+show file history:
+ex:
+(1) git log test.c
+->
+commit 30df7885dada39cdf69aaff676c3e24a1dd7846f
+Author: deeplovepan <deeplovepan@gmail.com>
+Date:   Wed Aug 11 10:24:00 2010 +0800
+(2) git log
+show all commit records
+
+(3) git show 30df7885dada39cdf69aaff676c3e24a1dd7846f
+	or
+	git show 30df7
+show detail about the commit
+
+(4) git show v0.1
+    show detail about the tag
+	
+(5) git show 900cf:test.txt 
+    show file on specific commit
+	
+(6) git show v0.1:test.txt
+    show file on specific tag
+
+merge:
+    git merge test --no-ff
+    
+get back to merge conflicts after modify conflicts incorrectly?
+    git checkout -m test.txt
+
+tag:
+git tag v0.1 30df7
+30df7 is leading characters of commit
+
+git tag
+show all tags
+
+git tag v0.2
+add tag for current time
+
+git push --tags
+add tags to server
+
+remove tag:
+git tag -d testV1.1
+git push origin :refs/tags/testV1.1
+
+show files status:
+(1)git status
+   
+(2)git status test.c
+
+show difference:
+(1)git diff test.c
+(2)git diff v0.1 v0.3
+(3)git diff v0.01:story.txt v0.03:story.txt
+
+branch:
+(1) create branch branch1
+    git branch branch1
+    git checkout branch1
+    git push -u origin branch1
+(2)switch branch
+    git checkout branch1
+(3)git branch
+   show local branches list
+(4)git branch -r
+   show remote branch list
+(5)git branch branch1 -D
+   delete branch1
+(6)create branch on remote
+   git push origin branch1 
+   ( local is in branch1 now)
+(7) delete local branch
+    git branch -d branch1   
+(8) delete remote branch
+    git push origin :branch1
+(9) delete remote branch on local
+    git branch -rd origin/test
+(10) create local branch and switch to it
+    git checkout -b test 
+ 
+delete file:
+ex:
+1. rm test.c
+2. git commit test.c
+
+compare difference between local and remote
+1. git fetch
+2. git diff master origin/master
+
+update remote branch list
+    git fetch
+
+show remote info:
+git remote -v
+
+reference:
+http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html
+https://sites.google.com/site/aisorcerer/linux-1/gitroutinebusiness
+https://sites.google.com/site/aisorcerer/linux-1/setupthegitservice
+
+get project from remote server
+ex:
+git clone http://github.com/jdg/oauthconsumer.git
+--------------------------------------------------------------
+
+add file:
+1. git add . 
+   add to index only files created or modified and not those deleted 
+2. git add -u
+   add to index only files modified or deleted and not those created 
+3. git add -A 
+   do both operation at once, add to index all files 
+4. git add *.c 
+--------------------------------------------------------------
+git checkout:
+(1) git checkout filename 
+(2) git checkout HEAD . 
+	(= git checkout -f)
+
+git gui on mac os x:
+GitX
+
+problem:
+(1) git push problem:
+To prevent you from losing history, non-fast-forward updates were rejected
+
+solution:
+1. git pull
+2. git push
+
+(2) git pull problem
+You asked me to pull without telling me which branch you
+want to merge with
+
+solution:
+edit .git/config
+->
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
+ 
+(3) commit your changes or stash them before you can merge
+solution:
+git reset --hard 
+this will remove changes on the local side
+
+--------------------------------------------------------------
+
+check project's branches list:
+ex:
+    https://github.com/test/VitaDock/branches 
+    (test is project name)
+    
+git branch name:
+    ex:
+        feature/test1
+
+
+show tree graph
+git log --graph --oneline --all
+
+
+

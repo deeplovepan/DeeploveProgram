@@ -238,6 +238,7 @@
 		DDA9D80F1358B03500F69503 /* ThreadEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadEx.m; sourceTree = "<group>"; };
 		DDA9D81B13599F3D00F69503 /* MathEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathEx.h; sourceTree = "<group>"; };
 		DDA9D81C13599F3D00F69503 /* MathEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathEx.m; sourceTree = "<group>"; };
+		DDAB8A9C14F7FE79003F4193 /* git */ = {isa = PBXFileReference; lastKnownFileType = text; path = git; sourceTree = "<group>"; };
 		DDAC69271362EAD200109883 /* WebEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebEx.h; sourceTree = "<group>"; };
 		DDAC69281362EAD200109883 /* WebEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebEx.m; sourceTree = "<group>"; };
 		DDACA69F13AA47C4009A7BC6 /* FBCustomLoginDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCustomLoginDialog.h; sourceTree = "<group>"; };
@@ -1932,6 +1933,7 @@
 		DDA3DC601334A490009BFD39 = {
 			isa = PBXGroup;
 			children = (
+				DDAB8A9A14F7FE70003F4193 /* git */,
 				A666E7CD14E4BAC20008BD67 /* reader question */,
 				A692094114DFBFF300F20905 /* c */,
 				A692093E14DFA8D300F20905 /* why */,
@@ -2082,6 +2084,14 @@
 			children = (
 			);
 			name = NSNotificationCenter;
+			sourceTree = "<group>";
+		};
+		DDAB8A9A14F7FE70003F4193 /* git */ = {
+			isa = PBXGroup;
+			children = (
+				DDAB8A9C14F7FE79003F4193 /* git */,
+			);
+			name = git;
 			sourceTree = "<group>";
 		};
 		DDAC69251362EABA00109883 /* ex */ = {

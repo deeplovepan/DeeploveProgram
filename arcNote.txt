@@ -3,3 +3,17 @@ ARC
 set file not to use ARC
 1. Go to your project settings, under Build Phases > Compile Sources
 2. Select the files you want ARC disabled and add ` compiler flags. You can set flags for multiple files in one shot by selecting the files then hitting "Enter" key.
+
+instruments can detect retain cycle
+
+__bridge_transfer:  
+    from CF to NSString
+    “Hey ARC, this CFStringRef object is now an NSString object and we want you to dispose of it, so that we don’t have to call CFRelease() on it ourselves.”
+    ex:
+        NSString *newUUID = (__bridge_transfer NSString*)CFUUIDCreateString(nil, uuidObj);
+        
+        
+__bridge_retained:
+    from NSString to CF
+     use __bridge_retained to give the object to Core Foundation so that ARC is no longer responsible for releasing it.
+     
