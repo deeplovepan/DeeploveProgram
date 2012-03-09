@@ -21,4 +21,25 @@
 
 */
 
+
+/*
+    use different pin color
+ 
+ - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
+ {
+    MKPinAnnotationView *annView=[[MKPinAnnotationView alloc] 
+        initWithAnnotation:annotation reuseIdentifier:@"pin"];
+ 
+    // for show title 
+    annView.canShowCallout = YES;
+    MyMapAnnotation *mapAnnotation = annotation;
+    annView.pinColor = mapAnnotation.color;
+    return annView;
+ 
+ }
+
+ 
+ 
+*/
+
 @end

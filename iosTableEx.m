@@ -11,6 +11,49 @@
 
 @implementation iosTableEx
 
+
+/*
+     two method to set cell background 
+    
+     (1) 
+ 
+ - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+    [cell setBackgroundColor:[[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"test.png"]]];
+ 
+ }
+
+     (2)
+ 
+ - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TestCell"];
+ 
+ 
+    if (cell == nil) {
+ 
+         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
+ 
+         UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
+         cell.backgroundView = backgroundView;
+         UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test.png"]];
+         imageView.frame = backgroundView.frame;
+         [cell.backgroundView addSubview:imageView];
+     }
+ 
+}
+
+
+
+
+NSDate *object = [_objects objectAtIndex:indexPath.row];
+cell.textLabel.text = [object description];
+return cell;
+}
+
+*/
+
+
 /*  
     for UITableViewController, 
     when edit textfield, textfield will adjust loation above keyboard automatically

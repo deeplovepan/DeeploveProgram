@@ -1,32 +1,31 @@
 //
-//  MyMapAnnotation.m
-//  MyLib
+//  MyAnnotation.m
+//  MapLocation
 //
-//  Created by deeplove on 2010/9/11.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by  on 11/10/24.
+//  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
 //
 
 #import "MyMapAnnotation.h"
-
 
 @implementation MyMapAnnotation
 
 @synthesize coordinate;
 @synthesize title;
 @synthesize subtitle;
+@synthesize color;
 
-
-
--(id)initWithCoordinate:(CLLocationCoordinate2D) c{
-	coordinate=c;
-	return self;
-}
-
--(void)dealloc
+-(id)initWithCoordinate:(CLLocationCoordinate2D)argCoordinate title:(NSString*)argTitle subtitle:(NSString*)argSubtitle color:(int)argColor
 {
-	[title release];
-	[subtitle release];
-	[super dealloc];
+    self = [super init];
+    if(self)
+    {
+        coordinate = argCoordinate;
+        title = argTitle;
+        subtitle = argSubtitle;
+        color = argColor;
+    }
+    return self;
 }
 
 @end

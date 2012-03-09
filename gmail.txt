@@ -3,3 +3,8 @@ gmail
 problem: forward enmail to multiple email
 solution: 建立篩選器
 
+
+add dot
+
+ex:
+   my.webexperience@gmail.com = mywebexperience@gmail.com

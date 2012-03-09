@@ -57,8 +57,11 @@
 /*
     cancel all local notification
  
+-(void)cancelAllLocalNotification
+{
     UIApplication *app = [UIApplication sharedApplication];
     [app cancelAllLocalNotifications];
+}
 */
 
 @end
