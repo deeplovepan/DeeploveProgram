@@ -54,4 +54,11 @@
     }
 }
 
+/*
+    cancel all local notification
+ 
+    UIApplication *app = [UIApplication sharedApplication];
+    [app cancelAllLocalNotifications];
+*/
+
 @end
