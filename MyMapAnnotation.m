@@ -13,8 +13,9 @@
 @synthesize coordinate;
 @synthesize title;
 @synthesize subtitle;
+@synthesize color;
 
--(id)initWithCoordinate:(CLLocationCoordinate2D)argCoordinate title:(NSString*)argTitle subtitle:(NSString*)argSubtitle
+-(id)initWithCoordinate:(CLLocationCoordinate2D)argCoordinate title:(NSString*)argTitle subtitle:(NSString*)argSubtitle color:(int)argColor
 {
     self = [super init];
     if(self)
@@ -22,6 +23,7 @@
         coordinate = argCoordinate;
         title = argTitle;
         subtitle = argSubtitle;
+        color = argColor;
     }
     return self;
 }

@@ -23,6 +23,8 @@ ios default size
  
     UISwitch size: fixed 79 * 27
     
+    UIPickerView height: 
+    
 if there is a status bar, navBar and tabBar
 view controller's view 
     viewDidLoad : (0 20; 320 460)

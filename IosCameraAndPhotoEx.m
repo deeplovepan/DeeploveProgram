@@ -19,4 +19,16 @@
 //        UIImagePickerControllerSourceTypeSavedPhotosAlbum means only
 //        camera roll album
 
+
+/*
+    show image picker
+ 
+ UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+ imagePicker.sourceType =  UIImagePickerControllerSourceTypeCamera;
+ imagePicker.delegate = self;
+ imagePicker.allowsEditing = YES;
+ [self presentModalViewController:imagePicker animated:YES];
+
+*/
+
 @end

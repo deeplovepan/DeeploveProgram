@@ -34,3 +34,6 @@ show another view controller at startup ( not initial view controller)
 dynamic cell can not use segua to connect in storyboard
 
 awakeFromNib is called before viewDidLoad
+
+if UI element is created from storyboard or xib,
+it is init by initWithCoder

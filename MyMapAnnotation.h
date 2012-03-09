@@ -11,6 +11,8 @@
 
 @interface MyMapAnnotation : NSObject <MKAnnotation>
 
--(id)initWithCoordinate:(CLLocationCoordinate2D)argCoordinate title:(NSString*)argTitle subtitle:(NSString*)argSubtitle;
+@property (assign, nonatomic) int color;
+
+-(id)initWithCoordinate:(CLLocationCoordinate2D)argCoordinate title:(NSString*)argTitle subtitle:(NSString*)argSubtitle color:(int)argColor;
 
 @end
