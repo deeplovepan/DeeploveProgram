@@ -10,6 +10,11 @@
 #import "MyFile.h"
 
 /*
+     default title is center
+    
+*/
+
+/*
     setImage:forState:  scale image
     setBackgroundImage:forState: will not scal image
  

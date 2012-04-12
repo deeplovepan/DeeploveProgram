@@ -57,6 +57,8 @@
 		A699704214C6AE23007216C7 /* BarEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarEx.h; sourceTree = "<group>"; };
 		A699704314C6AE23007216C7 /* BarEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarEx.m; sourceTree = "<group>"; };
 		A69970CB14C81C4B007216C7 /* curlNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = curlNote.txt; sourceTree = "<group>"; };
+		A6B4B1D915197F41001F1AEC /* MyViewEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewEx.h; sourceTree = "<group>"; };
+		A6B4B1DA15197F41001F1AEC /* MyViewEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewEx.m; sourceTree = "<group>"; };
 		A6D3072014F3A8D3005B1B43 /* MyMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
 		A6D3072114F3A8D3005B1B43 /* MyMapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
 		A6D49E7214D78C60004698DB /* iosBackup.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iosBackup.txt; sourceTree = "<group>"; };
@@ -67,6 +69,8 @@
 		A6E03BF314DA66E30037223C /* invite ios dev member1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member1.png"; sourceTree = "<group>"; };
 		A6E03BF414DA67420037223C /* invite ios dev member4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member4.png"; sourceTree = "<group>"; };
 		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
+		A6E8DF5B1536C10500CD1FE0 /* MyBarButtonItemEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBarButtonItemEx.h; sourceTree = "<group>"; };
+		A6E8DF5C1536C10500CD1FE0 /* MyBarButtonItemEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBarButtonItemEx.m; sourceTree = "<group>"; };
 		A6EFECE514FF377C00DAB8AA /* MyPickerLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPickerLib.h; sourceTree = "<group>"; };
 		A6EFECE614FF377C00DAB8AA /* MyPickerLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPickerLib.m; sourceTree = "<group>"; };
 		A6F207A114F22F09001A0663 /* MyTimeEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTimeEx.h; sourceTree = "<group>"; };
@@ -545,12 +549,30 @@
 			name = curl;
 			sourceTree = "<group>";
 		};
+		A6B4B1D715197F1C001F1AEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6B4B1D915197F41001F1AEC /* MyViewEx.h */,
+				A6B4B1DA15197F41001F1AEC /* MyViewEx.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		A6D49E7014D78BF8004698DB /* backup */ = {
 			isa = PBXGroup;
 			children = (
 				A6D49E7214D78C60004698DB /* iosBackup.txt */,
 			);
 			name = backup;
+			sourceTree = "<group>";
+		};
+		A6E8DF5A1536C0D100CD1FE0 /* barButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8DF5B1536C10500CD1FE0 /* MyBarButtonItemEx.h */,
+				A6E8DF5C1536C10500CD1FE0 /* MyBarButtonItemEx.m */,
+			);
+			name = barButtonItem;
 			sourceTree = "<group>";
 		};
 		A6EFECE314FF375800DAB8AA /* picker */ = {
@@ -2415,6 +2437,7 @@
 				A666E87614E8B0010008BD67 /* action sheet */,
 				DD0CAD7614B1EE6400EC6E6A /* alignment */,
 				A699704014C6AE03007216C7 /* bar */,
+				A6E8DF5A1536C0D100CD1FE0 /* barButtonItem */,
 				DDD12B901342251E00AAE2B5 /* Button */,
 				DD9EAC3714E82A30001B2996 /* default image */,
 				DD9A77F0148BADFE0035C179 /* defaultSize */,
@@ -2432,6 +2455,7 @@
 				DDC762721388E11E001AAB10 /* Table */,
 				DDD12B971342317100AAE2B5 /* TextField */,
 				DD54D4011379936C0056DEBD /* UIActivityIndicatorView */,
+				A6B4B1D715197F1C001F1AEC /* View */,
 				A63454E214C429B1005AB04F /* view controller */,
 				A629910314BE869C00F77DDD /* xib */,
 				DDD9D0071495F02A00AEC594 /* ZoomInImageView */,

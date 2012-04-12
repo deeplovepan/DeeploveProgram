@@ -42,3 +42,6 @@ why
 14. NSURLCache 
 
 15. core data: when to save
+
+16. push
+    when in lock mode, push does not ask if we want to view app

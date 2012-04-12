@@ -13,6 +13,12 @@
 
 
 /*
+ 
+    heightForRowAtIndexPath is called for each cell when table load
+ 
+*/
+
+/*
      two method to set cell background 
     
      (1) 
