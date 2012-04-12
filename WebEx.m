@@ -12,6 +12,13 @@
 @implementation WebEx
 
 /*
+    if object A use async to download ,
+    and object A's delegate is B
+    if B's dealloc is called,
+    remember to set A's delegate to nil
+*/
+
+/*
  [NSURLConnection sendAsynchronousRequest:req queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
     
  
@@ -86,6 +93,14 @@
 
  
 */
+
+/* 
+    if use NSURLConnection to send async,
+    and object A is NSURLConnection's delegate
+    object A's dealloc will not be called until connection finish
+ 
+*/
+
 
 /*
     cache:
