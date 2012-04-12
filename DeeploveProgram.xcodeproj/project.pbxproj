@@ -71,6 +71,8 @@
 		A6E03BF514DA67420037223C /* invite ios dev member3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite ios dev member3.png"; sourceTree = "<group>"; };
 		A6E8DF5B1536C10500CD1FE0 /* MyBarButtonItemEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBarButtonItemEx.h; sourceTree = "<group>"; };
 		A6E8DF5C1536C10500CD1FE0 /* MyBarButtonItemEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBarButtonItemEx.m; sourceTree = "<group>"; };
+		A6E8DF5E1536C2D400CD1FE0 /* OnePhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnePhoto.h; sourceTree = "<group>"; };
+		A6E8DF5F1536C2D400CD1FE0 /* OnePhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePhoto.m; sourceTree = "<group>"; };
 		A6EFECE514FF377C00DAB8AA /* MyPickerLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPickerLib.h; sourceTree = "<group>"; };
 		A6EFECE614FF377C00DAB8AA /* MyPickerLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPickerLib.m; sourceTree = "<group>"; };
 		A6F207A114F22F09001A0663 /* MyTimeEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTimeEx.h; sourceTree = "<group>"; };
@@ -573,6 +575,15 @@
 				A6E8DF5C1536C10500CD1FE0 /* MyBarButtonItemEx.m */,
 			);
 			name = barButtonItem;
+			sourceTree = "<group>";
+		};
+		A6E8DF5D1536C2B100CD1FE0 /* One Photo */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8DF5E1536C2D400CD1FE0 /* OnePhoto.h */,
+				A6E8DF5F1536C2D400CD1FE0 /* OnePhoto.m */,
+			);
+			name = "One Photo";
 			sourceTree = "<group>";
 		};
 		A6EFECE314FF375800DAB8AA /* picker */ = {
@@ -2434,6 +2445,7 @@
 		DDCC17A513893496004A9E8D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A6E8DF5D1536C2B100CD1FE0 /* One Photo */,
 				A666E87614E8B0010008BD67 /* action sheet */,
 				DD0CAD7614B1EE6400EC6E6A /* alignment */,
 				A699704014C6AE03007216C7 /* bar */,
