@@ -13,9 +13,6 @@
 		A628A62614B546ED007A9573 /* MyUiUtilityEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUiUtilityEx.m; sourceTree = "<group>"; };
 		A628A62714B56EB3007A9573 /* font_autoshrink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_autoshrink.png; sourceTree = "<group>"; };
 		A628A66D14B58A8C007A9573 /* iOS_guide.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOS_guide.txt; sourceTree = "<group>"; };
-		A62990E114BD9BE700F77DDD /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
-		A62990E414BD9F2B00F77DDD /* PullDownToRefreshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullDownToRefreshViewController.h; sourceTree = "<group>"; };
-		A62990E514BD9F2B00F77DDD /* PullDownToRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownToRefreshViewController.m; sourceTree = "<group>"; };
 		A629914C14BEC22800F77DDD /* syncNote.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = syncNote.txt; sourceTree = "<group>"; };
 		A629914D14BEC25500F77DDD /* edam-sync.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "edam-sync.pdf"; sourceTree = "<group>"; };
 		A629922414C01A6100F77DDD /* hideTabBarOnPush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hideTabBarOnPush.png; sourceTree = "<group>"; };
@@ -36,6 +33,9 @@
 		A64F2AD514D64C990028B876 /* ibookNote2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibookNote2.png; sourceTree = "<group>"; };
 		A64F2AD614D64D680028B876 /* ibookNote3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibookNote3.png; sourceTree = "<group>"; };
 		A64F2C0814D6A3900028B876 /* cap.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cap.txt; sourceTree = "<group>"; };
+		A65727A9154544970053531A /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		A65727AA154544970053531A /* PullDownToRefreshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullDownToRefreshViewController.h; sourceTree = "<group>"; };
+		A65727AB154544970053531A /* PullDownToRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownToRefreshViewController.m; sourceTree = "<group>"; };
 		A65F12AD14DD017900CE3AF2 /* MyTouchEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTouchEx.h; sourceTree = "<group>"; };
 		A65F12AE14DD017900CE3AF2 /* MyTouchEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTouchEx.m; sourceTree = "<group>"; };
 		A666E7A014E379080008BD67 /* IosNavigationLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosNavigationLib.h; sourceTree = "<group>"; };
@@ -45,6 +45,9 @@
 		A666E87314E8AD4B0008BD67 /* MyMailEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMailEx.m; sourceTree = "<group>"; };
 		A666E87714E8B01A0008BD67 /* IosActionSheetEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosActionSheetEx.h; sourceTree = "<group>"; };
 		A666E87814E8B01A0008BD67 /* IosActionSheetEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosActionSheetEx.m; sourceTree = "<group>"; };
+		A6879EAC15455A36001B8209 /* MyWeb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWeb.h; sourceTree = "<group>"; };
+		A6879EAD15455A36001B8209 /* MyWeb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeb.m; sourceTree = "<group>"; };
+		A6879EAE15455A3F001B8209 /* Debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
 		A692094014DFA8FF00F20905 /* why.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = why.txt; sourceTree = "<group>"; };
 		A692094314DFC01500F20905 /* cFormat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cFormat.c; sourceTree = "<group>"; };
 		A692097314E1024700F20905 /* testFlight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testFlight1.png; sourceTree = "<group>"; };
@@ -123,8 +126,6 @@
 		DD25A23E1380D5AC0003CD84 /* htmlTooltipEx.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlTooltipEx.html; sourceTree = "<group>"; };
 		DD279C9C13B6EE8F00B68049 /* iOsStringEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOsStringEx.h; sourceTree = "<group>"; };
 		DD279C9D13B6EE8F00B68049 /* iOsStringEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOsStringEx.m; sourceTree = "<group>"; };
-		DD319E15133B9A08007F98D2 /* MyWeb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWeb.h; sourceTree = "<group>"; };
-		DD319E16133B9A08007F98D2 /* MyWeb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeb.m; sourceTree = "<group>"; };
 		DD319E1C133BAC8D007F98D2 /* DeviceEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceEx.h; sourceTree = "<group>"; };
 		DD319E1D133BAC8D007F98D2 /* DeviceEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceEx.m; sourceTree = "<group>"; };
 		DD39704C1387ADF400D92584 /* iosNavigationEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosNavigationEx.h; sourceTree = "<group>"; };
@@ -352,9 +353,9 @@
 		A62990DF14BD9BD200F77DDD /* pull down to refresh table */ = {
 			isa = PBXGroup;
 			children = (
-				A62990E114BD9BE700F77DDD /* arrow.png */,
-				A62990E414BD9F2B00F77DDD /* PullDownToRefreshViewController.h */,
-				A62990E514BD9F2B00F77DDD /* PullDownToRefreshViewController.m */,
+				A65727A9154544970053531A /* arrow.png */,
+				A65727AA154544970053531A /* PullDownToRefreshViewController.h */,
+				A65727AB154544970053531A /* PullDownToRefreshViewController.m */,
 			);
 			name = "pull down to refresh table";
 			sourceTree = "<group>";
@@ -1178,12 +1179,12 @@
 		DD319E14133B99DF007F98D2 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				A6879EAC15455A36001B8209 /* MyWeb.h */,
+				A6879EAD15455A36001B8209 /* MyWeb.m */,
 				A64D2FB014B6A4F300B81680 /* ImageRecord.h */,
 				A64D2FB114B6A4F300B81680 /* ImageRecord.m */,
 				A64D2FB214B6A4F300B81680 /* ImageDownloader.h */,
 				A64D2FB314B6A4F300B81680 /* ImageDownloader.m */,
-				DD319E15133B9A08007F98D2 /* MyWeb.h */,
-				DD319E16133B9A08007F98D2 /* MyWeb.m */,
 				DD4ABCDA133DE35900D855A7 /* MyAsnycDownload.h */,
 				DD4ABCDB133DE35900D855A7 /* MyAsnycDownload.m */,
 			);
@@ -2678,6 +2679,7 @@
 		DDDCEB6E13FF993D003FD5BC /* debug */ = {
 			isa = PBXGroup;
 			children = (
+				A6879EAE15455A3F001B8209 /* Debug.h */,
 				DD11A29B14BA122E00C5FCE9 /* breakpoint1.tiff */,
 				DD11A29C14BA122E00C5FCE9 /* breakpoint2.tiff */,
 				DDDCEB7113FF99E1003FD5BC /* iosDebug */,

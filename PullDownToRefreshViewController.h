@@ -1,5 +1,5 @@
 //
-//  PushDownToRefreshViewController.h
+//  PullDownToRefreshViewController.h
 //  Locomote
 //
 //  Created by Peter Pan on 1/11/12.
@@ -22,11 +22,15 @@
     UIImageView *refreshArrow;
     UIView *refreshHeaderView;
     UIActivityIndicatorView *refreshSpinner;
+    BOOL isNoMoreData;
 
 }
 
-@property (weak, nonatomic) IBOutlet UITableView *pushDownToRefreshTableView;
+@property (strong, nonatomic) UITableView *pullDownToRefreshTableView;
 
-- (void)stopLoading;
+
+
+-(void)stopLoading;
+-(void)doneLoading;
 
 @end

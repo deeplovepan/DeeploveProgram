@@ -1,5 +1,5 @@
 //
-//  PushDownToRefreshViewController.m
+//  PullDownToRefreshViewController.m
 //  Locomote
 //
 //  Created by Peter Pan on 1/11/12.
@@ -13,7 +13,7 @@
 
 @implementation PullDownToRefreshViewController
 
-@synthesize pushDownToRefreshTableView;
+@synthesize pullDownToRefreshTableView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -61,7 +61,7 @@
     [refreshHeaderView addSubview:refreshLabel];
     [refreshHeaderView addSubview:refreshArrow];
     [refreshHeaderView addSubview:refreshSpinner];
-    [pushDownToRefreshTableView addSubview:refreshHeaderView];
+    [pullDownToRefreshTableView addSubview:refreshHeaderView];
 }
 
 
@@ -79,8 +79,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    isRefresh = YES;
+    self.pullDownToRefreshTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 
+                                                                                    self.view.frame.size.height) style:UITableViewStylePlain];
+    self.pullDownToRefreshTableView.autoresizingMask =  UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+    self.pullDownToRefreshTableView.delegate = self;
+    self.pullDownToRefreshTableView.dataSource = self;
+    [self.view addSubview:self.pullDownToRefreshTableView];
+
+    
     [self setupStrings];
+    
     [self addPullToRefreshHeader];
+    
 }
 
 
@@ -105,12 +117,13 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+        
     if (isRefresh) {
         // Update the content inset, good for section headers
         if (scrollView.contentOffset.y > 0)
-            pushDownToRefreshTableView.contentInset = UIEdgeInsetsZero;
+            pullDownToRefreshTableView.contentInset = UIEdgeInsetsZero;
         else if (scrollView.contentOffset.y >= -REFRESH_HEADER_HEIGHT)
-            pushDownToRefreshTableView.contentInset = UIEdgeInsetsMake(-scrollView.contentOffset.y, 0, 0, 0);
+            pullDownToRefreshTableView.contentInset = UIEdgeInsetsMake(-scrollView.contentOffset.y, 0, 0, 0);
     } else if (isDragging && scrollView.contentOffset.y < 0) {
         // Update the arrow direction and label
         [UIView beginAnimations:nil context:NULL];
@@ -139,7 +152,7 @@
     // Show the header
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration:0.3];
-    pushDownToRefreshTableView.contentInset = UIEdgeInsetsMake(REFRESH_HEADER_HEIGHT, 0, 0, 0);
+    pullDownToRefreshTableView.contentInset = UIEdgeInsetsMake(REFRESH_HEADER_HEIGHT, 0, 0, 0);
     refreshLabel.text = textLoading;
     refreshArrow.hidden = YES;
     [refreshSpinner startAnimating];
@@ -159,6 +172,16 @@
     }
 }
 
+-(void)doneLoading
+{
+    self.pullDownToRefreshTableView.tableFooterView = nil;
+    if(isRefresh)
+    {
+        [self stopLoading];
+        
+    }
+
+}
 
 - (void)stopLoading {
     isRefresh = NO;
@@ -168,10 +191,10 @@
     [UIView setAnimationDelegate:self];
     [UIView setAnimationDuration:0.3];
     [UIView setAnimationDidStopSelector:@selector(stopLoadingComplete:finished:context:)];
-    pushDownToRefreshTableView.contentInset = UIEdgeInsetsZero;
-    UIEdgeInsets tableContentInset = pushDownToRefreshTableView.contentInset;
+    pullDownToRefreshTableView.contentInset = UIEdgeInsetsZero;
+    UIEdgeInsets tableContentInset = pullDownToRefreshTableView.contentInset;
     tableContentInset.top = 0.0;
-    pushDownToRefreshTableView.contentInset = tableContentInset;
+    pullDownToRefreshTableView.contentInset = tableContentInset;
     [refreshArrow layer].transform = CATransform3DMakeRotation(M_PI * 2, 0, 0, 1);
     [UIView commitAnimations];
 }
@@ -182,7 +205,6 @@
     refreshArrow.hidden = NO;
     [refreshSpinner stopAnimating];
 }
-
 
 
 @end
