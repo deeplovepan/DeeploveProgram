@@ -80,6 +80,7 @@
 		A6EFECE614FF377C00DAB8AA /* MyPickerLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPickerLib.m; sourceTree = "<group>"; };
 		A6F207A114F22F09001A0663 /* MyTimeEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTimeEx.h; sourceTree = "<group>"; };
 		A6F207A214F22F09001A0663 /* MyTimeEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTimeEx.m; sourceTree = "<group>"; };
+		A6F4E59C1562A115003340A5 /* iosSize.png */ = {isa = PBXFileReference; path = iosSize.png; sourceTree = "<group>"; };
 		DD0487F7135F3116002554C4 /* TextFieldEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEx.h; sourceTree = "<group>"; };
 		DD0487F8135F3116002554C4 /* TextFieldEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEx.m; sourceTree = "<group>"; };
 		DD0487FB135F4F9C002554C4 /* plistEx */ = {isa = PBXFileReference; lastKnownFileType = text; path = plistEx; sourceTree = "<group>"; };
@@ -1923,6 +1924,7 @@
 		DD9A77F0148BADFE0035C179 /* defaultSize */ = {
 			isa = PBXGroup;
 			children = (
+				A6F4E59C1562A115003340A5 /* iosSize.png */,
 				DD43C14B14A309DE0078450F /* groupTableCell.jpg */,
 				DD9A77F2148BAEB20035C179 /* iosDefaultSize.txt */,
 				DD48F66514A0326C000D0FFD /* IosDefaultUi.h */,

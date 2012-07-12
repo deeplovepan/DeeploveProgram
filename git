@@ -205,5 +205,6 @@ git branch name:
 show tree graph
 git log --graph --oneline --all
 
-
+merge specific commit
+git cherry-pick 8ee261dbffe27b78890e813b7909010055bf2f8e
 
