@@ -124,6 +124,9 @@ branch:
 (10) create local branch and switch to it
     git checkout -b test 
  
+
+git push --force
+
 delete file:
 ex:
 1. rm test.c
@@ -190,6 +193,9 @@ solution:
 git reset --hard 
 this will remove changes on the local side
 
+(4) back to specific commit ID
+git reset --hard <tag/branch/commit id>
+
 --------------------------------------------------------------
 
 check project's branches list:
@@ -206,5 +212,6 @@ show tree graph
 git log --graph --oneline --all
 
 merge specific commit
-git cherry-pick 8ee261dbffe27b78890e813b7909010055bf2f8e
+git cherry-pick 8ee261dbffe27b78890e813b7909010055bf2f8e -x
+-x will record commit id
 
